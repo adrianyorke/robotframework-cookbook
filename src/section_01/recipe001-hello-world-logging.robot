@@ -5,7 +5,7 @@ Documentation     You want to output a text message or variable to the log gener
 ${recipe}         Recipe 001 Hello World Logging
 ${level}          Beginner
 ${category}       Internal Library: BuiltIn
-${name}           Adrian
+${name}           Alan Turing
 
 *** Test Cases ***
 Sending Ouput To Log and Console

@@ -10,7 +10,7 @@ We also welcome Issues where you may post ideas for new recipes or report bugs f
 
 If you are not comfortable with Git workflow then just post your submission on [#cookbook](https://app.slack.com/client/T07PJQ9S7/CU5RQ87K3/thread/C3C28F9DF-1582792104.080900) channel and I will help you publish your recipe.
 
-# Outline of Sections
+# Table of Contents
 1. Standard Library - BuiltIn\
    1.1 [Recipe 001 - Hello World Logging](src/section_01/recipe001_hello_world_logging.robot)
 2. Standard Library - Collections

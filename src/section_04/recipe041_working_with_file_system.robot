@@ -7,7 +7,7 @@ Library          OperatingSystem
 *** Variables ***
 ${recipe}         Recipe 041 Working With File System
 ${level}          Beginner
-${category}       Internal Library: BuiltIn
+${category}       Internal Library: OperatingSystem
 
 *** Test Cases ***
 Listing Directory Contents

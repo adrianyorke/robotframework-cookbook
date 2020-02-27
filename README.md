@@ -8,6 +8,8 @@ Initially, there is no CI so please confirm any submissions are working and use 
 
 We also welcome Issues where you may post ideas for new recipes or report bugs for exisiting recipes.
 
+If you are not comfortable with Git workflow then just post your submission on [#cookbook](https://app.slack.com/client/T07PJQ9S7/CU5RQ87K3/thread/C3C28F9DF-1582792104.080900) channel and I will help you publish your recipe.
+
 # Outline of Sections
 1. Standard Library - BuiltIn
 2. Standard Library - Collections

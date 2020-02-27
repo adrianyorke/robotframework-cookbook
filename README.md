@@ -21,6 +21,6 @@ If you are not comfortable with Git workflow then just post your submission on [
 6. Standard Library - Remote
 7. Standard Library - String
 8. Standard Library - XML
-9. External Libraries - REST API
+9. External Libraries - REST API\
    9.1 [Recipe 091 - Working With Requests Library](src/section_09/recipe091_working_with_requests_library.robot)
 10. External Libraries - Databases

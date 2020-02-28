@@ -1,5 +1,7 @@
 *** Settings ***
-Documentation    PROBLEM: You want to send a simple HTTP request using Requests library.
+Documentation    PROBLEM:
+...              You want to send a simple HTTP request using Requests library.
+...              DISCUSSION:
 ...              This recipe demonstrates using keywords from Collections standard library.
 ...              This recipe also demonstrates installing and using an external library.
 ...              This recipe has the following dependencies:

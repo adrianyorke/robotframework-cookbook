@@ -4,7 +4,7 @@ Documentation    PROBLEM:
 ...              DISCUSSION:
 ...              This recipe demonstrates using keywords from Collections standard library.
 ...              This recipe also demonstrates installing and using an external library.
-...              This recipe has the following dependencies:
+...              This recipe has the following external dependencies:
 ...              $ pip install -U requests
 ...              $ pip install -U robotframework-requests
 Library          Collections

@@ -2,7 +2,7 @@
 Documentation    PROBLEM:
 ...              You want to interact with a relational database using database library.
 ...              DISCUSSION:
-...              Uses SQLite which is
+...              Uses SQLite as it is available in all Python and Robot Framework installations.
 ...              Demonstrates adding tags to test cases which can be used to include/exclude certain types of tests.
 ...              Also demonstrates installing and using an external library.
 ...              This recipe has the following external dependencies:

@@ -24,4 +24,5 @@ If you are not comfortable with Git workflow then just post your submission on [
 9. External Libraries - REST API\
    9.1 [Recipe 091 - Working With Requests Library](src/section_09/recipe091_working_with_requests_library.robot)
 10. External Libraries - Databases\
-   10.1 [Recipe 101 - Working With Databases](src/section_10/recipe101_working_with_databases.robot)
+   10.1 [Recipe 101 - Working With Databases](src/section_10/recipe101_working_with_databases.robot)\
+   10.2 [Recipe 102 - Breaking Database View](src/section_10/recipe102_breaking_database_view.robot)

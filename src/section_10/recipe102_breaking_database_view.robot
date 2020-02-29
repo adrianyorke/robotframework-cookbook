@@ -16,7 +16,7 @@ Library          String
 Library          DatabaseLibrary
 
 *** Variables ***
-${recipe}        Recipe 101 Validate All Database Views
+${recipe}        Recipe 102 Breaking Database View
 ${level}         Advanced
 ${category}      External Library: DatabaseLibrary
 ${DBName}        my_db_test

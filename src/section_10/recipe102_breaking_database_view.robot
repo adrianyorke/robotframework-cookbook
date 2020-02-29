@@ -1,16 +1,16 @@
 *** Settings ***
 Documentation    PROBLEM:
 ...              You want to demonstrate how database views can be broken by deleting a base table
-...              that is referenced by the view.
+...              that is referenced by the view SELECT statement.
 ...              DISCUSSION:
-...              This recipe demonstrates creating a table and view, then breaking the view.
-...              We confirm the view is broken by attempted to SELECT data from it.
+...              This recipe demonstrates creating a datase table and view, then breaking the view.
+...              We confirm the view is broken by attempting to SELECT data from it.
 ...              This recipe also demonstrates "Run Keyword And Ignore Error" and
 ...              "Run Keyword And Expect Error" keywords.
 ...              This recipe has the following external dependencies:
 ...              $ pip install -U robotframework-databaselibrary
 ...              SEE ALSO:
-...              In the next recipe, we will create a script that checks all database views are working.
+...              In the next recipe, we will create a script that checks all views are still working.
 Library          OperatingSystem
 Library          String
 Library          DatabaseLibrary
@@ -48,13 +48,13 @@ Insert Data Into Table - user
     Log    ${output}
     Should Be Equal As Strings    ${output}    None
 
-Create User View - Filter First Name is Eben
+Create User View - Filter First Name = Eben
     [Tags]    smoke
-    ${sql} =    Catenate    CREATE VIEW vw_User AS SELECT id, first_name, last_name FROM user WHERE first_name = 'Eben';
+    ${sql} =    Set Variable    CREATE VIEW vw_User AS SELECT id, first_name, last_name FROM user WHERE first_name = 'Eben';
     ${output} =    Execute SQL String    sqlString=${sql}
 
 Drop Table - user
-    ${sql} =    Catenate    DROP TABLE user;
+    ${sql} =    Set Variable    DROP TABLE user;
     ${output} =    Execute SQL String    sqlString=${sql}
 
 Verify Query - User View - expected to fail

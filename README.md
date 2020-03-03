@@ -14,7 +14,7 @@ If you are not comfortable with Git workflow then just post your submission on [
 1. Standard Library - BuiltIn
    * [Recipe 001 - Hello World Logging](src/section_01/recipe001_hello_world_logging.robot)
 1. Standard Library - Collections
-   * [Recipe 021 - Handling Lists](src/section_02/recipe021/recipe021_handling_lists.robot)
+   * [Recipe 021 - Handling Lists](src/section_02/recipe021_handling_lists.robot)
 1. Standard Library - DateTime
 1. Standard Library - OperatingSystem
    * [Recipe 041 - Working With File System](src/section_04/recipe041_working_with_file_system.robot)
@@ -27,4 +27,3 @@ If you are not comfortable with Git workflow then just post your submission on [
 1. External Libraries - Databases
    * [Recipe 101 - Working With Databases](src/section_10/recipe101_working_with_databases.robot)
    * [Recipe 102 - Breaking Database View](src/section_10/recipe102_breaking_database_view.robot)
-

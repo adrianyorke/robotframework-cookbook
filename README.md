@@ -12,17 +12,19 @@ If you are not comfortable with Git workflow then just post your submission on [
 
 # Table of Contents
 1. Standard Library - BuiltIn\
-   1.1 [Recipe 001 - Hello World Logging](src/section_01/recipe001_hello_world_logging.robot)
-2. Standard Library - Collections
-3. Standard Library - DateTime
+   * [Recipe 001 - Hello World Logging](src/section_01/recipe001_hello_world_logging.robot)
+2. Standard Library - Collections\
+   * [Recipe 021 - Handling Lists](src/section_02/recipe021/recipe021_handling_lists.robot)
+3. Standard Library - DateTime\
 4. Standard Library - OperatingSystem\
-   4.1 [Recipe 041 - Working With File System](src/section_04/recipe041_working_with_file_system.robot)
-5. Standard Library - Process
-6. Standard Library - Remote
-7. Standard Library - String
-8. Standard Library - XML
+   * [Recipe 041 - Working With File System](src/section_04/recipe041_working_with_file_system.robot)
+5. Standard Library - Process\
+6. Standard Library - Remote\
+7. Standard Library - String\
+8. Standard Library - XML\
 9. External Libraries - REST API\
-   9.1 [Recipe 091 - Working With Requests Library](src/section_09/recipe091_working_with_requests_library.robot)
+   * [Recipe 091 - Working With Requests Library](src/section_09/recipe091_working_with_requests_library.robot)
 10. External Libraries - Databases\
-   10.1 [Recipe 101 - Working With Databases](src/section_10/recipe101_working_with_databases.robot)\
-   10.2 [Recipe 102 - Breaking Database View](src/section_10/recipe102_breaking_database_view.robot)
+   * [Recipe 101 - Working With Databases](src/section_10/recipe101_working_with_databases.robot)\
+   * [Recipe 102 - Breaking Database View](src/section_10/recipe102_breaking_database_view.robot)
+

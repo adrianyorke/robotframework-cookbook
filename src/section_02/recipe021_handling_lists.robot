@@ -14,7 +14,6 @@ Documentation    PROBLEM:
 ...              checking membership or equality.
 ...              Recipe 041 demonstrates using list & dictionaries using only BuiltIn library keywords.
 Library          Collections
-Library          String
 
 *** Variables ***
 ${recipe}         Recipe 021 Handling Lists

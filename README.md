@@ -3,6 +3,14 @@ A curated list of delicious Robot Framework recipes that will help you develop n
 
 If you need help writing Robot Framework scripts or wish to update older scripts to use newer syntax then you have come to the right place.  Here we will compile and maintain recipes of working Robot Framework scripts that can be used in your domain.
 
+# Other Useful Resources
+* [Robot Framework Organization](https://robotframework.org/)
+* [Robot Framework Quick Start Guide](https://github.com/robotframework/QuickStartGuide/blob/master/QuickStart.rst)
+* [Robot Framework User Guide](https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html)
+* [Robot Framework documentation](https://robotframework.org/robotframework/)
+* [GitHub (Documentation, Source Code & Issue Tracker)](https://github.com/robotframework/robotframework)
+* [Awesome Robot Framework](https://github.com/fkromer/awesome-robotframework)
+
 # Notes for Contributors
 Initially, there is no CI so please confirm any submissions are working and use `robot.tidy` to standardise the format of the scripts.
 

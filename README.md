@@ -5,6 +5,7 @@ If you need help writing Robot Framework scripts or wish to update older scripts
 
 # Other useful resources
 * [Robot Framework Organization](https://robotframework.org/)
+* [Beginners Guide to Robot Framework](https://github.com/robotframework/BeginnersGuide)
 * [Robot Framework Quick Start Guide](https://github.com/robotframework/QuickStartGuide/blob/master/QuickStart.rst)
 * [Robot Framework User Guide](https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html)
 * [Robot Framework documentation](https://robotframework.org/robotframework/)

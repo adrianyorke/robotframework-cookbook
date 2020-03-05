@@ -36,3 +36,5 @@ If you are not comfortable with Git workflow then just post your submission on [
 1. External Libraries - Databases
    * [Recipe 101 - Working With Databases](src/section_10/recipe101_working_with_databases.robot)
    * [Recipe 102 - Breaking Database View](src/section_10/recipe102_breaking_database_view.robot)
+1. External Libraries: SSH
+   * [Recipe 111 - Working With SSH](src/section_11/recipe111_working_with_ssh_library.robot)

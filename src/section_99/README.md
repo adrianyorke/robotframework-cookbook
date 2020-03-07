@@ -3,8 +3,7 @@
 ## Introduction
 Special thanks to Hélio Guilherme for contributing this case study material.
 
-This is a worked example based upon a testing session we ran in EWT19
-(http://weekendtesting.com/archives/1131). This repository shows how to
+This is a worked example based upon a testing session we ran in EWT19. This repository shows how to
 refactor and develop keyword based tests with Robot Framework.
 
 ## Mission Background
@@ -24,7 +23,7 @@ for your automated tests.
 As an oracle for your automated, use the rates mentioned on the official
 website: https://www.grr.org/parking-rates
 
-## Solutions for different test methods:
+## Sample solutions for different testing approaches:
 * [Behavior-Driven Development (BDD)](ParkCalc/BDD)
 * [Data Driven](ParkCalc/data-driven)
 * [Keyword Driven](ParkCalc/keyword-driven)

@@ -1,4 +1,4 @@
-# Case Study: Creating Regression Test Suites For Gerald Ford International Airport (GFIA) Parking Lot Calculation Tool
+# Case Study: Regression Testing Gerald Ford International Airport (GFIA) Parking Lot Calculation Tool
 
 ## 1. Introduction
 Special thanks to Hélio Guilherme for contributing this case study material.

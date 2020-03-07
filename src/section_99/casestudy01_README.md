@@ -6,6 +6,12 @@ Special thanks to Hélio Guilherme for contributing this case study material.
 This is a worked example based upon a testing session we ran in EWT19. This repository shows how to
 refactor and develop keyword-based tests with Robot Framework.
 
+The resource files in this project all default to firefox browser.  If you prefer to use Chrome then edit the variables section and [download the relevant chromedriver](https://chromedriver.chromium.org/downloads):
+```
+*** Variables ***
+${BROWSER}        chrome
+```
+
 ## 2. Mission Background
 Here is the initial mission we provided:
 

@@ -1,16 +1,16 @@
-# Case Study: Gerald Ford International Airport (GFIA) Parking Calculator
+# Case Study: Creating Regression Test Suites For Gerald Ford International Airport (GFIA) Parking Lot Calculation Tool
 
-## Introduction
+## 1. Introduction
 Special thanks to Hélio Guilherme for contributing this case study material.
 
 This is a worked example based upon a testing session we ran in EWT19. This repository shows how to
-refactor and develop keyword based tests with Robot Framework.
+refactor and develop keyword-based tests with Robot Framework.
 
-## Mission Background
+## 2. Mission Background
 Here is the initial mission we provided:
 
 ### Product / System Under Test (SUT)
-* ParkCalc (http://robotframework.transformidea.com/app/parkcalc/)
+* [Parking Lot Calculation Tool (ParkCalc)](http://robotframework.transformidea.com/app/parkcalc/)
 
 ### Mission
 The airport parking lot calculation tool raised the attention of some managers.
@@ -20,15 +20,15 @@ the new application as well. Assume that the same interface will be kept. Use Ro
 for your automated tests.
 
 ### Parking Rates
-As an oracle for your automated, use the rates mentioned on the official
-website: https://www.grr.org/parking-rates
+As an oracle for your automated, use the rates mentioned on the [official
+website](https://www.grr.org/parking-rates)
 
-## Sample solutions for different testing approaches:
+## 3. Sample solutions for different testing approaches:
 * [Behavior-Driven Development (BDD)](ParkCalc/BDD)
 * [Data Driven](ParkCalc/data-driven)
 * [Keyword Driven](ParkCalc/keyword-driven)
 
-## Additional Notes:
+## 4. Additional Notes:
 * Revision of Tests done by Hélio Guilherme on September 2019
 * The tests were changed to use SeleniumLibrary at version 4.0.
 * The ParkCalc website changed to alternate location (code provided by Adam Goucher), and includes a fix to run under PHP 7.

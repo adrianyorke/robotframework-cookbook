@@ -38,3 +38,5 @@ If you are not comfortable with Git workflow then just post your submission on [
    * [Recipe 102 - Breaking Database View](src/section_10/recipe102_breaking_database_view.robot)
 1. External Libraries: SSH
    * [Recipe 111 - Working With SSH](src/section_11/recipe111_working_with_ssh_library.robot)
+1. Case Studies
+   * [Creating Regression Test Suites For Gerald Ford International Airport (GFIA) Parking Lot Calculation Tool](https://github.com/adrianyorke/robotframework-cookbook/blob/master/src/section_99/README.md)

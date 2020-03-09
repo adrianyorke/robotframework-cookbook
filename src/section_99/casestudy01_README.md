@@ -33,7 +33,7 @@ As an oracle for your automated, use the rates mentioned on the [official
 website](https://www.grr.org/parking-rates)
 
 ## 3. Sample solutions for different testing approaches:
-* [Behavior-Driven Development (BDD)](ParkCalc/BDD)
+* [Behavior-Driven Development (BDD)](ParkCalc/BDD) (Given-When-Then format)
 * [Data Driven](ParkCalc/data-driven)
 * [Keyword Driven](ParkCalc/keyword-driven)
 

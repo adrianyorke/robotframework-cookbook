@@ -24,7 +24,7 @@ We also welcome Issues where you may post ideas for new recipes or report bugs f
 For larger submissions simply clone this repository, create a feature branch and submit a pull request to merge your branch.  If you are not comfortable with Git workflow then simply post your submission on [#cookbook](https://app.slack.com/client/T07PJQ9S7/CU5RQ87K3/thread/C3C28F9DF-1582792104.080900) channel and I will help you publish your recipe or case study.
 
 # Table of contents
-1. Standard Library - BuiltIn
+1. Standard Library - [BuiltIn](https://robotframework.org/robotframework/latest/libraries/BuiltIn.html)
    * [Recipe 001 - Hello World Logging](src/section_01/recipe001_hello_world_logging.robot)
 1. Standard Library - Collections
    * [Recipe 021 - Handling Lists](src/section_02/recipe021_handling_lists.robot)
@@ -33,13 +33,13 @@ For larger submissions simply clone this repository, create a feature branch and
    * [Recipe 041 - Working With File System](src/section_04/recipe041_working_with_file_system.robot)
 1. Standard Library - Process
 1. Standard Library - Remote
-1. Standard Library - String
+1. Standard Library - [String](https://robotframework.org/robotframework/latest/libraries/String.html)
 1. Standard Library - XML
 1. External Libraries - REST API
    * [Recipe 091 - Working With Requests Library](src/section_09/recipe091_working_with_requests_library.robot)
 1. External Libraries - Databases
    * [Recipe 101 - Working With Databases](src/section_10/recipe101_working_with_databases.robot)
-   * [Recipe 102 - Breaking Database View](src/section_10/recipe102_breaking_database_view.robot)
+   * [Recipe 102 - Hacking Database View](src/section_10/recipe102_breaking_database_view.robot)
 1. External Libraries: SSH
    * [Recipe 111 - Working With SSH](src/section_11/recipe111_working_with_ssh_library.robot)
 1. Case Studies

@@ -31,7 +31,7 @@ For larger submissions simply clone this repository, create a feature branch and
 1. Standard Library - DateTime
 1. Standard Library - OperatingSystem
    * [Recipe 041 - Working With File System](src/section_04/recipe041_working_with_file_system.robot)
-1. Standard Library - Process
+1. Standard Library - [Process](https://robotframework.org/robotframework/latest/libraries/Process.html)
 1. Standard Library - Remote
 1. Standard Library - [String](https://robotframework.org/robotframework/latest/libraries/String.html)
 1. Standard Library - XML

@@ -7,23 +7,21 @@ Documentation    PROBLEM:
 ...              List variables are created using Create List keyword from the BuiltIn Library.
 ...              This recipe also demonstrates how to extend Robot Framework using Evaluate keyword to implement
 ...              small snippets of embedded Python code.
-...              Beginners especially get confused with the use of $ and @ variable prefixes so it is intended
-...              that this recipe demonstrates several examples that will help with learning.
 ...              SEE ALSO:
-...              BuiltIn library also has keywords for creating lists and dictionaries, checking length or count and
-...              checking membership or equality.
-...              Recipe 041 demonstrates using list & dictionaries using only BuiltIn library keywords.
+...              BuiltIn library also has keywords for creating lists and dictionaries, checking
+...              length or count and checking membership or equality.
+...              Recipe 041 also demonstrates using list & dictionaries using only BuiltIn library keywords.
 Library          Collections
 
 *** Variables ***
-${recipe}         Recipe 021 Handling Lists
+${recipe}         Recipe 022 Handling Lists
 ${level}          Intermediate
 ${category}       Internal Library: Collections
 
 *** Test Cases ***
 Testing List of Numbers
     # Scalar variables start with $ prefix
-    # List variables start with @ prefix
+    # Expanded list variables start with @ prefix
     ${randlist}=    Evaluate    random.sample(range(1, 20), 5)    modules=random
     ${itemcount} =    Get Length    ${randlist}
     ${numbers} =    Create List    @{randlist}

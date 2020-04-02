@@ -1,7 +1,7 @@
 *** Settings ***
 Documentation    PROBLEM:
 ...              You want to handle a dictionary within a Robot Framework script without needing to develop
-...              a custom library or lower level programming using Java or Python.
+...              a custom library using Java or Python.
 ...              DISCUSSION:
 ...              This recipe demonstrates using keywords from BuiltIn and the Collections libraries.
 ...              Dictionary variables are created using keywords from the BuiltIn Library.

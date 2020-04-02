@@ -32,6 +32,6 @@ Dictionary Testing
     ${val} =    Pop From Dictionary    ${dict}    nickname
     # use $ variable prefix to access dictionary as a single, scalar value
     Log    ${dict}
-    # use & varialbe prefix to expand the dictionary into key-value pairs
+    # use & variable prefix to expand the dictionary into key-value pairs
     Log Many    &{dict}
     Log Dictionary    ${dict}

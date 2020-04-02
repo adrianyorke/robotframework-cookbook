@@ -7,7 +7,7 @@ Documentation    PROBLEM:
 ...              Dictionary variables are created using keywords from the BuiltIn Library.
 ...              SEE ALSO:
 ...              BuiltIn library also has keywords for creating dictionaries, checking length or count and
-...              checking memership.
+...              checking membership.
 ...              Recipe 041 demonstrates using list & dictionaries using only BuiltIn library keywords.
 Library          Collections
 

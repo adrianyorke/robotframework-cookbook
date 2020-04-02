@@ -20,18 +20,18 @@ ${category}       Internal Library: Collections
 Dictionary Testing
     &{dict1} =    Create Dictionary    team=Wolverhampton Wanderers
     &{dict2} =    Create Dictionary    stadium=Molineux    nickname=Wolves
-	# merge dictionaries, if keys appear multiple times final value will be used.
+    # merge dictionaries, if keys appear multiple times final value will be used.
     &{dict} =     Create Dictionary    &{dict1}    &{dict2}    
-	Should Be True    ${dict} == {'team': 'Wolverhampton Wanderers', 'stadium': 'Molineux', 'nickname': 'Wolves'}
-	# demonstrate dot access
-	Should Be Equal    ${dict.stadium}     Molineux
-	Should Be Equal    ${dict.nickname}    Wolves
+    Should Be True    ${dict} == {'team': 'Wolverhampton Wanderers', 'stadium': 'Molineux', 'nickname': 'Wolves'}
+    # demonstrate dot access
+    Should Be Equal    ${dict.stadium}     Molineux
+    Should Be Equal    ${dict.nickname}    Wolves
     Should Not Be Equal    ${dict.nickname}    The Red Devils
-	Dictionary Should Contain Key    ${dict}    nickname
-	Dictionary Should Contain Value    ${dict}    Wolves
-	${val} =    Pop From Dictionary    ${dict}    nickname
-	# use $ variable prefix to access dictionary as a single, scalar value
-	Log    ${dict}
-	# use & varialbe prefix to expand the dictionary into key-value pairs
-	Log Many    &{dict}
-	Log Dictionary    ${dict}
+    Dictionary Should Contain Key    ${dict}    nickname
+    Dictionary Should Contain Value    ${dict}    Wolves
+    ${val} =    Pop From Dictionary    ${dict}    nickname
+    # use $ variable prefix to access dictionary as a single, scalar value
+    Log    ${dict}
+    # use & varialbe prefix to expand the dictionary into key-value pairs
+    Log Many    &{dict}
+    Log Dictionary    ${dict}

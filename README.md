@@ -29,6 +29,7 @@ For larger submissions simply clone this repository, create a feature branch and
 1. Standard Library - [Collections](https://robotframework.org/robotframework/latest/libraries/Collections.html)
    * [Recipe 021 - Explaining Variable Prefixes](src/section_02/recipe021_explaining_variable_prefixes.robot)
    * [Recipe 022 - Handling Lists](src/section_02/recipe022_handling_lists.robot)
+   * [Recipe 023 - Handling Dictionaries](src/section_02/recipe023_handling_dictionaries.robot)
 1. Standard Library - DateTime
 1. Standard Library - OperatingSystem
    * [Recipe 041 - Working With File System](src/section_04/recipe041_working_with_file_system.robot)

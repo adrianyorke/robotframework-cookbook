@@ -19,9 +19,9 @@ ${category}       Internal Library: Collections
 *** Test Cases ***
 Dictionary Testing
     &{dict1} =    Create Dictionary    team=Wolverhampton Wanderers
-    &{dict2} =    Create Dictionary    stadium=Molineux    nickname=Wolves
+    &{dict2} =    Create Dictionary    stadium=Molineux
     # merge dictionaries, if keys appear multiple times final value will be used.
-    &{dict} =     Create Dictionary    &{dict1}    &{dict2}    
+    &{dict} =     Create Dictionary    &{dict1}    &{dict2}    nickname=Wolves
     Should Be True    ${dict} == {'team': 'Wolverhampton Wanderers', 'stadium': 'Molineux', 'nickname': 'Wolves'}
     # demonstrate dot access
     Should Be Equal    ${dict.stadium}     Molineux

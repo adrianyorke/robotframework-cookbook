@@ -39,6 +39,7 @@ For larger submissions simply clone this repository, create a feature branch and
 1. Standard Library - XML
 1. External Libraries - REST API
    * [Recipe 091 - Working With Requests Library](src/section_09/recipe091_working_with_requests_library.robot)
+   * [Recipe 092 - Working With RESTinstance Library](src/section_09/recipe092_working_with_rest_library.robot)
 1. External Libraries - Databases
    * [Recipe 101 - Working With Databases](src/section_10/recipe101_working_with_databases.robot)
    * [Recipe 102 - Hacking Database View](src/section_10/recipe102_breaking_database_view.robot)

@@ -25,8 +25,8 @@ ${category}       Internal Library: Collections
 
 *** Test Cases ***
 Lists Lists Lists
-   ${list}=    Create List    a    b    c
-   @{also_list}=     Set Variable   a   b   c
+   ${list} =    Create List    a    b    c
+   @{also_list} =     Set Variable   a   b   c
    Eat One List      ${also_list}
    Eat Many Values   @{list}
    Eat Many Values   d   e   @{also_list}

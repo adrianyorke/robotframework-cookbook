@@ -48,5 +48,5 @@ For larger submissions simply clone this repository, create a feature branch and
 1. External Libraries: [Parallel executor for Robot Framework test cases (pabot)](https://github.com/mkorpela/pabot)
    * [Recipe 121 - Running Tests in Parallel](src/section_12/recipe121_running_tests_in_parallel.robot)
 1. Case Studies
-   * [Case Study 01 - Regression Testing Gerald Ford International Airport (GFIA) Parking Lot Calculation Tool](https://github.com/adrianyorke/robotframework-cookbook/blob/master/src/section_99/casestudy01_README.md)
-   * [Case Study 02 - Transcoding video library to a contemporary format suitable for all play back devices, e.g. mp4 or mkv](https://github.com/adrianyorke/robotframework-cookbook/blob/master/src/section_99/casestudy02_README.md)
+   * [Case Study 01 - Regression Testing Gerald Ford International Airport (GFIA) Parking Lot Calculation Tool](src/section_99/casestudy_01/README.md)
+   * [Case Study 02 - Transcoding video library to a contemporary format suitable for all play back devices, e.g. mp4 or mkv](src/section_99/casestudy_02/README.md)

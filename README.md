@@ -31,6 +31,7 @@ For larger submissions simply clone this repository, create a feature branch and
    * [Recipe 022 - Handling Lists](src/section_02/recipe022_handling_lists.robot)
    * [Recipe 023 - Handling Dictionaries](src/section_02/recipe023_handling_dictionaries.robot)
 1. Standard Library - DateTime
+   * [Recipe 031 - Handling Dates](src/section_03/recipe031_handling_dates.robot)
 1. Standard Library - OperatingSystem
    * [Recipe 041 - Working With File System](src/section_04/recipe041_working_with_file_system.robot)
 1. Standard Library - [Process](https://robotframework.org/robotframework/latest/libraries/Process.html)

@@ -7,7 +7,7 @@ Documentation     PROBLEM:
 ...               - using keywords from the DateTime library,
 ...               - changing the default result_format and using timedelta
 ...               instead of number or time string formats,
-...               - using inline Python evaluation.
+...               - using extended variable syntax.
 Library           DateTime
 
 *** Variables ***
@@ -28,4 +28,4 @@ How Many Days And Years Passed Since Unicode 1.0 Was Released
     ${days_passed_since_release}=    Subtract Date From Date
     ...    ${current_date}    ${unicode_release_date}    result_format=timedelta
     Log    ${days_passed_since_release.days} days passed!
-    Log    ${{$days_passed_since_release.days / 365}} years passed!
+    Log    ${days_passed_since_release.days / 365} years passed!

@@ -26,6 +26,10 @@ Test Teardown    Close All Browsers
 
 
 *** Variables ***
+${recipe}        Recipe 131 Selenium Setup
+${level}         Intermediate
+${category}      External Library: SeleniumLibrary
+
 ${URL}            https://the-internet.herokuapp.com/dynamic_loading/1
 ${HIDDEN_DIV}     xpath://div[@id="finish"]
 ${HIDDEN_TEXT}    Hello World!

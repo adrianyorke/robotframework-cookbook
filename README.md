@@ -39,14 +39,14 @@ For larger submissions simply clone this repository, create a feature branch and
 1. Standard Library - [Process](https://robotframework.org/robotframework/latest/libraries/Process.html)
 1. Standard Library - Remote
 1. Standard Library - [String](https://robotframework.org/robotframework/latest/libraries/String.html)
-1. Standard Library - XML
+1. Standard Library - [XML](https://robotframework.org/robotframework/latest/libraries/XML.html)
 1. External Library - REST API
    * [Recipe 091 - Working With Requests Library](src/section_09/recipe091_working_with_requests_library.robot)<br>
    * [Recipe 092 - Working With RESTinstance Library](src/section_09/recipe092_working_with_rest_library.robot)<br>
 1. External Library - Databases
    * [Recipe 101 - Working With Databases](src/section_10/recipe101_working_with_databases.robot)<br>
    * [Recipe 102 - Hacking Database View](src/section_10/recipe102_hacking_database_view.robot)<br>
-1. External Library - SSH
+1. External Library - [SSH](https://github.com/robotframework/SSHLibrary)
    * [Recipe 111 - Working With SSH](src/section_11/recipe111_working_with_ssh_library.robot)<br>
 1. External Library - [Parallel executor for Robot Framework test cases (pabot)](https://github.com/mkorpela/pabot)<br>
    * [Recipe 121 - Running Tests in Parallel](src/section_12/recipe121_running_tests_in_parallel.robot)<br>

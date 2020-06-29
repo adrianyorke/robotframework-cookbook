@@ -30,6 +30,6 @@ Testing Basic FOR Loop (New Syntax)
 Testing WHILE Loop
     [Documentation]    Simulated WHILE loop construct, loops over large range appropriate within context.
     FOR    ${i}    IN RANGE    999999
-	    Exit For Loop If    ${i} == 10
+        Exit For Loop If    ${i} == 10
         No Operation
     END

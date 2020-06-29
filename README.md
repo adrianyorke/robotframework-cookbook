@@ -25,30 +25,31 @@ We also welcome Issues where you may post ideas for new recipes or report bugs f
 For larger submissions simply clone this repository, create a feature branch and submit a pull request to merge your branch.  If you are not comfortable with Git workflow then simply post your submission on [#cookbook](https://app.slack.com/client/T07PJQ9S7/CU5RQ87K3) channel and I will help you publish your recipe or case study.
 
 # Table of contents
-1. Standard Library - [BuiltIn](https://robotframework.org/robotframework/latest/libraries/BuiltIn.html)
-   * [Recipe 011 - Hello World Logging](src/section_01/recipe011_hello_world_logging.robot)
+1. Standard Library - [BuiltIn](https://robotframework.org/robotframework/latest/libraries/BuiltIn.html)<br>
+   * [Recipe 011 - Hello World Logging](src/section_01/recipe011_hello_world_logging.robot)<br>
+   * [Recipe 012 - Looping](src/section_01/recipe012_looping.robot)<br>
 1. Standard Library - [Collections](https://robotframework.org/robotframework/latest/libraries/Collections.html)
-   * [Recipe 021 - Explaining Variable Prefixes](src/section_02/recipe021_explaining_variable_prefixes.robot)
-   * [Recipe 022 - Handling Lists](src/section_02/recipe022_handling_lists.robot)
-   * [Recipe 023 - Handling Dictionaries](src/section_02/recipe023_handling_dictionaries.robot)
+   * [Recipe 021 - Explaining Variable Prefixes](src/section_02/recipe021_explaining_variable_prefixes.robot)<br>
+   * [Recipe 022 - Handling Lists](src/section_02/recipe022_handling_lists.robot)<br>
+   * [Recipe 023 - Handling Dictionaries](src/section_02/recipe023_handling_dictionaries.robot)<br>
 1. Standard Library - [DateTime](https://robotframework.org/robotframework/latest/libraries/DateTime.html)
-   * [Recipe 031 - Handling Dates](src/section_03/recipe031_handling_dates.robot)
+   * [Recipe 031 - Handling Dates](src/section_03/recipe031_handling_dates.robot)<br>
 1. Standard Library - OperatingSystem
-   * [Recipe 041 - Working With File System](src/section_04/recipe041_working_with_file_system.robot)
+   * [Recipe 041 - Working With File System](src/section_04/recipe041_working_with_file_system.robot)<br>
 1. Standard Library - [Process](https://robotframework.org/robotframework/latest/libraries/Process.html)
 1. Standard Library - Remote
 1. Standard Library - [String](https://robotframework.org/robotframework/latest/libraries/String.html)
 1. Standard Library - XML
 1. External Libraries - REST API
-   * [Recipe 091 - Working With Requests Library](src/section_09/recipe091_working_with_requests_library.robot)
-   * [Recipe 092 - Working With RESTinstance Library](src/section_09/recipe092_working_with_rest_library.robot)
+   * [Recipe 091 - Working With Requests Library](src/section_09/recipe091_working_with_requests_library.robot)<br>
+   * [Recipe 092 - Working With RESTinstance Library](src/section_09/recipe092_working_with_rest_library.robot)<br>
 1. External Libraries - Databases
-   * [Recipe 101 - Working With Databases](src/section_10/recipe101_working_with_databases.robot)
-   * [Recipe 102 - Hacking Database View](src/section_10/recipe102_hacking_database_view.robot)
+   * [Recipe 101 - Working With Databases](src/section_10/recipe101_working_with_databases.robot)<br>
+   * [Recipe 102 - Hacking Database View](src/section_10/recipe102_hacking_database_view.robot)<br>
 1. External Libraries: SSH
-   * [Recipe 111 - Working With SSH](src/section_11/recipe111_working_with_ssh_library.robot)
-1. External Libraries: [Parallel executor for Robot Framework test cases (pabot)](https://github.com/mkorpela/pabot)
-   * [Recipe 121 - Running Tests in Parallel](src/section_12/recipe121_running_tests_in_parallel.robot)
+   * [Recipe 111 - Working With SSH](src/section_11/recipe111_working_with_ssh_library.robot)<br>
+1. External Libraries: [Parallel executor for Robot Framework test cases (pabot)](https://github.com/mkorpela/pabot)<br>
+   * [Recipe 121 - Running Tests in Parallel](src/section_12/recipe121_running_tests_in_parallel.robot)<br>
 1. Case Studies
-   * [Case Study 01 - Regression Testing Gerald Ford International Airport (GFIA) Parking Lot Calculation Tool](src/section_99/casestudy_01/README.md)
-   * [Case Study 02 - Transcoding video library to a contemporary format suitable for all play back devices, e.g. mp4 or mkv](src/section_99/casestudy_02/README.md)
+   * [Case Study 01 - Regression Testing Gerald Ford International Airport (GFIA) Parking Lot Calculation Tool](src/section_99/casestudy_01/README.md)<br>
+   * [Case Study 02 - Transcoding video library to a contemporary format suitable for all play back devices, e.g. mp4 or mkv](src/section_99/casestudy_02/README.md)<br>

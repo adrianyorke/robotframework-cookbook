@@ -26,7 +26,7 @@ For larger submissions simply clone this repository, create a feature branch and
 
 # Table of contents
 1. Standard Library - [BuiltIn](https://robotframework.org/robotframework/latest/libraries/BuiltIn.html)
-   * [Recipe 001 - Hello World Logging](src/section_01/recipe001_hello_world_logging.robot)
+   * [Recipe 011 - Hello World Logging](src/section_01/recipe011_hello_world_logging.robot)
 1. Standard Library - [Collections](https://robotframework.org/robotframework/latest/libraries/Collections.html)
    * [Recipe 021 - Explaining Variable Prefixes](src/section_02/recipe021_explaining_variable_prefixes.robot)
    * [Recipe 022 - Handling Lists](src/section_02/recipe022_handling_lists.robot)

@@ -44,7 +44,7 @@ For larger submissions simply clone this repository, create a feature branch and
    * [Recipe 092 - Working With RESTinstance Library](src/section_09/recipe092_working_with_rest_library.robot)
 1. External Libraries - Databases
    * [Recipe 101 - Working With Databases](src/section_10/recipe101_working_with_databases.robot)
-   * [Recipe 102 - Hacking Database View](src/section_10/recipe102_breaking_database_view.robot)
+   * [Recipe 102 - Hacking Database View](src/section_10/recipe102_hacking_database_view.robot)
 1. External Libraries: SSH
    * [Recipe 111 - Working With SSH](src/section_11/recipe111_working_with_ssh_library.robot)
 1. External Libraries: [Parallel executor for Robot Framework test cases (pabot)](https://github.com/mkorpela/pabot)

@@ -22,7 +22,7 @@ Initially, there is no CI running so please confirm any submissions are working 
 
 We also welcome Issues where you may post ideas for new recipes or report bugs for exisiting recipes.
 
-For larger submissions simply clone this repository, create a feature branch and submit a pull request to merge your branch.  If you are not comfortable with Git workflow then simply post your submission on [#cookbook](https://app.slack.com/client/T07PJQ9S7/CU5RQ87K3) channel and I will help you publish your recipe or case study.
+For larger submissions simply clone this repository, create a feature branch (or work directly on master) and submit a pull request to merge your branch.  If you are not comfortable with Git workflow then simply post your submission on [#cookbook](https://app.slack.com/client/T07PJQ9S7/CU5RQ87K3) channel and I will help you publish your recipe or case study.
 
 # Table of contents
 1. Standard Library - [BuiltIn](https://robotframework.org/robotframework/latest/libraries/BuiltIn.html)<br>

@@ -52,6 +52,8 @@ For larger submissions simply clone this repository, create a feature branch (or
    * [Recipe 121 - Running Tests in Parallel](src/section_12/recipe121_running_tests_in_parallel.robot)<br>
 1. External Library - [SeleniumLibrary](https://github.com/robotframework/seleniumlibrary) and [SeleniumTestability](https://github.com/rasjani/robotframework-seleniumtestability)
    * [Recipe 131 - SeleniumLibrary & SeleniumTestability setup](src/section_13/recipe131_selenium_setup.robot)<br>
+1. External Library - [AWSLibrary](https://github.com/teaglebuilt/robotframework-aws)
+   * [Recipe 141 - AWS Simple Storage System (S3)](src/section_14/recipe141_aws_simple_storage_system.robot)<br>
 1. Case Studies
    * [Case Study 01 - Regression Testing Gerald Ford International Airport (GFIA) Parking Lot Calculation Tool](src/section_99/casestudy_01/README.md)<br>
    * [Case Study 02 - Transcoding video library to a contemporary format suitable for all play back devices, e.g. mp4 or mkv](src/section_99/casestudy_02/README.md)<br>

@@ -23,5 +23,5 @@ ${KEY}               "YOUR_FILE_PATH_GOES_HERE"
 *** Test Cases ***
 Check Key Exists In Bucket
     Log Variables
-	Create Session With Keys    ${REGION}    %{AWS_ACCESS_KEY_ID}    %{AWS_SECRET_ACCESS_KEY}
+    Create Session With Keys    ${REGION}    %{AWS_ACCESS_KEY_ID}    %{AWS_SECRET_ACCESS_KEY}
     Key Should Exist            ${BUCKET}    ${KEY}

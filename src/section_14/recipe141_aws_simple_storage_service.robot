@@ -17,8 +17,8 @@ Library           AWSLibrary
 
 *** Variables ***
 ${REGION}            us-east-1
-${BUCKET}            "YOUR_BUCKET_NAME_GOES_HERE"
-${KEY}               "YOUR_FILE_PATH_GOES_HERE"
+${BUCKET}            YOUR_BUCKET_NAME_GOES_HERE
+${KEY}               YOUR_FILE_PATH_GOES_HERE
 
 *** Test Cases ***
 Check Key Exists In Bucket

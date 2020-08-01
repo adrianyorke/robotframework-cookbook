@@ -3,7 +3,7 @@ A curated list of delicious Robot Framework recipes that will help you develop n
 
 If you need help writing Robot Framework scripts or wish to update older scripts to use newer syntax then you have come to the right place.  Here we will compile and maintain recipes of working Robot Framework scripts that can be used in your domain.
 
-In the first part of the cookbook there are many simple recipes showing how to use builtin keywords and additional keywords from both internal and external Robot Framework libraries.  Towards the back of the cookbook there will be complete case studies demonstrating whole projects and test automation solutions.
+In the first part of the cookbook there are many simple recipes showing how to use builtin keywords and additional keywords from both internal and external Robot Framework libraries.  Towards the back of the cookbook there are complete case studies demonstrating whole projects and test automation solutions.
 
 # Other useful resources
 * [Robot Framework Organization](https://robotframework.org/)

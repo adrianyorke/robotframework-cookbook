@@ -39,7 +39,7 @@ Eat One List
    [Arguments]    ${li}
    Log Many    @{li}
    Log         ${li}
-   
+
 Eat Many Values
    [Arguments]   @{li}
    Log Many    @{li}

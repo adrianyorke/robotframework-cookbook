@@ -20,7 +20,11 @@ Contributions from the wider community are most welcome!  Contributions can be e
 
 Initially, there is no CI running so please confirm any submissions are working and use `robot.tidy` to standardise the format of the scripts.
 
-We also welcome Issues where you may post ideas for new recipes or report bugs for exisiting recipes.
+We also recommend using the [Robot Framework Robocop](https://github.com/MarketSquare/robotframework-robocop) static analysis tool to check your scripts are clean before submission.
+Robocop can be installed using pip:
+> $ pip install robotframework-robocop
+
+[Issues](https://github.com/adrianyorke/robotframework-cookbook/issues) are welcome and you can use them to post ideas for new recipes or report bugs and other observations for exisiting recipes.
 
 For larger submissions simply clone this repository, create a feature branch (or work directly on master) and submit a pull request to merge your branch.  If you are not comfortable with Git workflow then simply post your submission on [#cookbook](https://app.slack.com/client/T07PJQ9S7/CU5RQ87K3) channel and I will help you publish your recipe or case study.
 

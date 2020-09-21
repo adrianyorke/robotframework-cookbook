@@ -1,0 +1,35 @@
+# This workflow will run Robot Framework examples and perform static code analysis on robot code
+
+name: Robot tests
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+    strategy:
+      matrix:
+        os: ['ubuntu-latest', 'windows-latest']
+        python-version: [ 3.6, 3.7, 3.8]
+    runs-on: ${{ matrix.os }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v2
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -U -r tests/requirements.txt
+      - name: Run Robocop
+        run:
+          robocop -r rules_by_id  --include 55* --ignore section_99\* --ext_rules path_to_above_script.py robotframework-cookbook\src
+      - name: Run Robot tests
+        run: |
+          python -m robot --exclude parallel src
+          pabot --command python -m robot --end-command --include pabot src

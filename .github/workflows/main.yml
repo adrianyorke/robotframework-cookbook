@@ -28,7 +28,7 @@ jobs:
           pip install -U -r tests/requirements.txt
       - name: Run Robocop
         run:
-          robocop -r rules_by_id  --include 55* --ignore section_99\* --ext_rules path_to_above_script.py robotframework-cookbook\src
+          robocop -r rules_by_id  --include 55* --ignore section_99\* --ext_rules robocop_rules.py src
       - name: Run Robot tests
         run: |
           python -m robot --exclude parallel src

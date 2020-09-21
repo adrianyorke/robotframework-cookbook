@@ -1,0 +1,11 @@
+robotframework-robocop
+requests
+robotframework-requests
+RESTinstance
+robotframework-databaselibrary
+robotframework-sshlibrary
+robotframework-pabot
+robotframework-seleniumlibrary
+robotframework-seleniumtestability
+webdrivermanager
+robotframework-aws

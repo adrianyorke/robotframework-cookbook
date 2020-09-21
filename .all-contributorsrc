@@ -16,6 +16,16 @@
         "maintenance",
         "review"
       ]
+    },
+    {
+      "login": "tompurl",
+      "name": "Tom Purl",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/588713?v=4",
+      "profile": "http://www.tompurl.com",
+      "contributions": [
+        "code",
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,

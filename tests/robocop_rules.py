@@ -4,7 +4,7 @@ from robocop.checkers import VisitorChecker
 from robocop.rules import RuleSeverity
 
 
-class CaseStudiesChecker(VisitorChecker):
+class RecipeChecker(VisitorChecker):
     rules = {
         '5501': (
             "missing-mandatory-section",

@@ -42,3 +42,4 @@ jobs:
           path: |
             recipe_tests
             recipe_tests_pabot
+        if: always()

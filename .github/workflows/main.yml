@@ -29,7 +29,9 @@ jobs:
       - name: Run Robocop
         run:
           robocop -r rules_by_id  --include 55* --ignore section_99\* --ext_rules tests/robocop_rules.py src
+        if: always()
       - name: Run Robot tests
         run: |
           python -m robot --exclude parallel src
           pabot --command python -m robot --end-command --include pabot src
+        if: always()

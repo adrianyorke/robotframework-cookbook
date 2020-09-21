@@ -32,6 +32,13 @@ jobs:
         if: always()
       - name: Run Robot tests
         run: |
-          python -m robot --exclude parallel src
-          pabot --command python -m robot --end-command --include pabot src
+          python -m robot --exclude pabot --outputdir recipe_tests src
+          pabot --command python -m robot --end-command --include pabot --outputdir recipe_tests_pabot src
         if: always()
+      - name: Save test results
+        uses: actions/upload-artifact@v2
+        with:
+          name: robot-tests-logs
+          path: |
+            recipe_tests
+            recipe_tests_pabot

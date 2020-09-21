@@ -1,0 +1,57 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "adrianyorke",
+      "name": "Adrian Yorke",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/30093433?v=4",
+      "profile": "https://github.com/adrianyorke",
+      "contributions": [
+        "code",
+        "doc",
+        "maintenance",
+        "review"
+      ]
+    },
+    {
+      "login": "tompurl",
+      "name": "Tom Purl",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/588713?v=4",
+      "profile": "http://www.tompurl.com",
+      "contributions": [
+        "code",
+        "doc"
+      ]
+    },
+    {
+      "login": "szabolcstoth",
+      "name": "Szabolcs Tóth",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1639751?v=4",
+      "profile": "http://szabolcstoth.eu",
+      "contributions": [
+        "code",
+        "doc"
+      ]
+    },
+    {
+      "login": "rasjani",
+      "name": "Jani Mikkonen",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/27887?v=4",
+      "profile": "https://rasjani.github.io",
+      "contributions": [
+        "code",
+        "doc"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "robotframework-cookbook",
+  "projectOwner": "adrianyorke",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}

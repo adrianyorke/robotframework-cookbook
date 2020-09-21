@@ -36,6 +36,16 @@
         "code",
         "doc"
       ]
+    },
+    {
+      "login": "rasjani",
+      "name": "Jani Mikkonen",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/27887?v=4",
+      "profile": "https://rasjani.github.io",
+      "contributions": [
+        "code",
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,

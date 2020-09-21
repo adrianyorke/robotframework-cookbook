@@ -1,6 +1,6 @@
 # This workflow will run Robot Framework examples and perform static code analysis on robot code
 
-name: Robot tests
+name: Continuous integration
 on:
   push:
     branches: [ master ]

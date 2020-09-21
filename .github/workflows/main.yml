@@ -28,7 +28,7 @@ jobs:
           pip install -U -r tests/requirements.txt
       - name: Run Robocop
         run:
-          robocop -r rules_by_id  --configure return_status:quality_gate:W=-1 --include 55* --ignore section_99\* --ext_rules tests/robocop_rules.py src
+          robocop -r rules_by_id  --configure return_status:quality_gate:W=-1 --exclude missing-doc-* --ignore section_99\* --ext_rules tests/robocop_rules.py src
         if: always()
       - name: Run Robot tests
         run: |

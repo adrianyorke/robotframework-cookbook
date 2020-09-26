@@ -1,3 +1,8 @@
 # PyCharm
 .idea/
 venv/
+
+# Robot Framework Test Output
+**/log.html
+**/output.xml
+**/report.html

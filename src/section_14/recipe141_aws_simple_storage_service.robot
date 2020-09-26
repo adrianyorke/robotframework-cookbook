@@ -14,6 +14,7 @@ Documentation     PROBLEM:
 ...               AWS_SECRET_ACCESS_KEY
 Suite Teardown    Delete All Sessions
 Library           AWSLibrary
+Force Tags        no-ci-testing
 
 *** Variables ***
 ${REGION}            us-east-1

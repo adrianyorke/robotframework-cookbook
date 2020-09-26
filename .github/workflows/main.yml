@@ -36,7 +36,7 @@ jobs:
         if: always()
       - name: Run Robot parallel tests
         run:
-          pabot --command python -m robot --end-command --include pabot --exclude casestudy --noncritical pabot --outputdir recipe_tests_pabot src
+          pabot --testlevelsplit --command python -m robot --end-command --include pabot --exclude casestudy --noncritical pabot --outputdir recipe_tests_pabot src
         if: always()
       - name: Save test results
         uses: actions/upload-artifact@v2

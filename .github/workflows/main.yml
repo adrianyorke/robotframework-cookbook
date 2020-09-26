@@ -31,9 +31,12 @@ jobs:
           robocop -r rules_by_id  --configure return_status:quality_gate:W=-1 --exclude missing-doc-* --ignore section_99\* --ext_rules tests/robocop_rules.py src
         if: always()
       - name: Run Robot tests
-        run: |
+        run:
           python -m robot --exclude pabot --exclude casestudy --outputdir recipe_tests src
-          pabot --command python -m robot --end-command --include pabot --exclude casestudy --outputdir recipe_tests_pabot src
+        if: always()
+      - name: Run Robot parallel tests
+        run:
+          pabot --command python -m robot --end-command --include pabot --exclude casestudy --noncritical pabot --outputdir recipe_tests_pabot src
         if: always()
       - name: Save test results
         uses: actions/upload-artifact@v2

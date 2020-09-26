@@ -16,7 +16,7 @@ Library          String
 Library          DatabaseLibrary
 
 *** Variables ***
-${recipe}        Recipe 102 Breaking Database View
+${recipe}        Recipe 10.2 Breaking Database View
 ${level}         Advanced
 ${category}      External Library: DatabaseLibrary
 ${DBName}        my_db_test
@@ -24,7 +24,7 @@ ${DBName}        my_db_test
 *** Test Cases ***
 Remove old DB if exists
     [Tags]    smoke
-    ${TEMPDIR} =    Replace String    ${TEMPDIR}    \\    /
+    ${TEMPDIR} =    Replace String    ${TEMPDIR}    \\    \\\\
     ${Status}    ${value} =    Run Keyword And Ignore Error    File Should Not Exist    ${TEMPDIR}/${DBName}.db
     Run Keyword If    "${Status}" == "FAIL"    Run Keyword And Ignore Error    Remove File    ${TEMPDIR}/${DBName}.db
     File Should Not Exist    ${TEMPDIR}/${DBName}.db
@@ -32,7 +32,7 @@ Remove old DB if exists
 
 Connect To Database
     [Tags]    smoke
-    ${TEMPDIR} =    Replace String    ${TEMPDIR}    \\    /
+    ${TEMPDIR} =    Replace String    ${TEMPDIR}    \\    \\\\
     Connect To Database Using Custom Params    sqlite3    database="${TEMPDIR}/${DBName}.db", isolation_level=None
 
 Create User Table

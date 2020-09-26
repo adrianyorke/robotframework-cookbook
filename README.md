@@ -1,6 +1,6 @@
 # robotframework-cookbook
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 [![Continuous integration](https://img.shields.io/github/workflow/status/adrianyorke/robotframework-cookbook/Continuous%20integration/master)](https://github.com/adrianyorke/robotframework-cookbook/actions?query=workflow%3A%22Continuous+integration%22)
 
@@ -80,6 +80,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="http://www.tompurl.com"><img src="https://avatars1.githubusercontent.com/u/588713?v=4" width="100px;" alt=""/><br /><sub><b>Tom Purl</b></sub></a><br /><a href="https://github.com/adrianyorke/robotframework-cookbook/commits?author=tompurl" title="Code">💻</a> <a href="https://github.com/adrianyorke/robotframework-cookbook/commits?author=tompurl" title="Documentation">📖</a></td>
     <td align="center"><a href="http://szabolcstoth.eu"><img src="https://avatars3.githubusercontent.com/u/1639751?v=4" width="100px;" alt=""/><br /><sub><b>Szabolcs Tóth</b></sub></a><br /><a href="https://github.com/adrianyorke/robotframework-cookbook/commits?author=szabolcstoth" title="Code">💻</a> <a href="https://github.com/adrianyorke/robotframework-cookbook/commits?author=szabolcstoth" title="Documentation">📖</a></td>
     <td align="center"><a href="https://rasjani.github.io"><img src="https://avatars3.githubusercontent.com/u/27887?v=4" width="100px;" alt=""/><br /><sub><b>Jani Mikkonen</b></sub></a><br /><a href="https://github.com/adrianyorke/robotframework-cookbook/commits?author=rasjani" title="Code">💻</a> <a href="https://github.com/adrianyorke/robotframework-cookbook/commits?author=rasjani" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/bhirsz"><img src="https://avatars3.githubusercontent.com/u/8532066?v=4" width="100px;" alt=""/><br /><sub><b>Bartłomiej Hirsz</b></sub></a><br /><a href="https://github.com/adrianyorke/robotframework-cookbook/commits?author=bhirsz" title="Code">💻</a> <a href="https://github.com/adrianyorke/robotframework-cookbook/commits?author=bhirsz" title="Documentation">📖</a> <a href="#maintenance-bhirsz" title="Maintenance">🚧</a> <a href="https://github.com/adrianyorke/robotframework-cookbook/pulls?q=is%3Apr+reviewed-by%3Abhirsz" title="Reviewed Pull Requests">👀</a></td>
   </tr>
 </table>
 

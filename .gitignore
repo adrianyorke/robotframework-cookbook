@@ -2,6 +2,11 @@
 .idea/
 venv/
 
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
 # Robot Framework Test Output
 **/log.html
 **/output.xml

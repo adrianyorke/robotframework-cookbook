@@ -26,6 +26,7 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -U -r tests/requirements.txt
+          webdrivermanager firefox chrome
       - name: Run Robocop
         run:
           robocop -r rules_by_id  --configure return_status:quality_gate:W=-1 --exclude missing-doc-* --ignore section_99\* --ext_rules tests/robocop_rules.py src

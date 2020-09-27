@@ -4,6 +4,7 @@
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 [![Actions Status](https://github.com/adrianyorke/robotframework-cookbook/workflows/Continuous%20integration/badge.svg)](https://github.com/adrianyorke/robotframework-cookbook/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
 A curated list of delicious Robot Framework recipes that will help you develop new test automation scripts faster, especially for beginner or intermediate level engineers.
 

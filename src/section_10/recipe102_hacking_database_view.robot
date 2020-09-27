@@ -19,13 +19,14 @@ Library          DatabaseLibrary
 ${recipe}        Recipe 10.2 Breaking Database View
 ${level}         Advanced
 ${category}      External Library: DatabaseLibrary
-${DBName}        my_db_test
+${DBName}        my_db_test_102
 
 *** Test Cases ***
 Remove old DB if exists
     [Tags]    smoke
     ${TEMPDIR} =    Replace String    ${TEMPDIR}    \\    \\\\
     ${Status}    ${value} =    Run Keyword And Ignore Error    File Should Not Exist    ${TEMPDIR}/${DBName}.db
+	Log    ${Status}
     Run Keyword If    "${Status}" == "FAIL"    Run Keyword And Ignore Error    Remove File    ${TEMPDIR}/${DBName}.db
     File Should Not Exist    ${TEMPDIR}/${DBName}.db
     Comment    Sleep    1s

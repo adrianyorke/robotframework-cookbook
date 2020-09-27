@@ -12,10 +12,10 @@ Library          String
 Library          DatabaseLibrary
 
 *** Variables ***
-${recipe}        Recipe 101 Working With Databases
+${recipe}        Recipe 10.1 Working With Databases
 ${level}         Advanced
 ${category}      External Library: DatabaseLibrary
-${DBName}        my_db_test
+${DBName}        my_db_test_101
 
 *** Test Cases ***
 Remove old DB if exists

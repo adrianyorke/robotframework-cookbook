@@ -26,7 +26,7 @@ Test Teardown     Close All Browsers
 Force Tags        no-ci-testing
 
 *** Variables ***
-${recipe}         Recipe 131 Selenium Setup
+${recipe}         Recipe 13.1 Selenium Setup
 ${level}          Intermediate
 ${category}       External Library: SeleniumLibrary
 

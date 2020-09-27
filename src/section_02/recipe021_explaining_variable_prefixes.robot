@@ -19,7 +19,7 @@ Documentation    PROBLEM:
 Library          Collections
 
 *** Variables ***
-${recipe}         Recipe 021 Explaining Variable Prefixes
+${recipe}         Recipe 2.1 Explaining Variable Prefixes
 ${level}          Beginner
 ${category}       Internal Library: Collections
 

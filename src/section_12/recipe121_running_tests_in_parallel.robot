@@ -19,7 +19,7 @@ Documentation    PROBLEM:
 Force Tags       pabot
 
 *** Variables ***
-${recipe}         Recipe 121 Running Tests in Parallel
+${recipe}         Recipe 12.1 Running Tests in Parallel
 ${level}          Intermediate
 ${category}       External Library: pabot
 ${DELAY}          10

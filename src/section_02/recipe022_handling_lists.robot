@@ -14,7 +14,7 @@ Documentation    PROBLEM:
 Library          Collections
 
 *** Variables ***
-${recipe}         Recipe 022 Handling Lists
+${recipe}         Recipe 2.2 Handling Lists
 ${level}          Intermediate
 ${category}       Internal Library: Collections
 

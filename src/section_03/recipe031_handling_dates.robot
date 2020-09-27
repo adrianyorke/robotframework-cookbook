@@ -11,7 +11,7 @@ Documentation     PROBLEM:
 Library           DateTime
 
 *** Variables ***
-${recipe}         Recipe 031 Handling Dates
+${recipe}         Recipe 3.1 Handling Dates
 ${level}          Beginner
 ${category}       Internal Library: DateTime
 ${unicode_release_date}    1991-10-01

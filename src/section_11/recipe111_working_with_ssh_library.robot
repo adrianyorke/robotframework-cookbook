@@ -19,7 +19,7 @@ Suite Teardown   Close All Connections
 Force Tags       no-ci-testing
 
 *** Variables ***
-${recipe}         Recipe 111 Working With SSH Library
+${recipe}         Recipe 11.1 Working With SSH Library
 ${level}          Advanced
 ${category}       External Library: SSH
 ${HOST}           YOUR_HOST

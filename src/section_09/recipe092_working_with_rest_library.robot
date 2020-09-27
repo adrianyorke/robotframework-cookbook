@@ -9,7 +9,7 @@ Library          Collections
 Library          REST    https://api.github.com
 
 *** Variables ***
-${recipe}         Recipe 092 Working With REST Library
+${recipe}         Recipe 9.2 Working With REST Library
 ${level}          Intermediate
 ${category}       External Library: REST
 

@@ -7,7 +7,7 @@ Documentation    PROBLEM:
 Library          OperatingSystem
 
 *** Variables ***
-${recipe}         Recipe 041 Working With File System
+${recipe}         Recipe 4.1 Working With File System
 ${level}          Beginner
 ${category}       Internal Library: OperatingSystem
 

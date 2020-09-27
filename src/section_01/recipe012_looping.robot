@@ -11,7 +11,7 @@ Documentation    PROBLEM:
 ...              NOTE: the old FOR syntax should no longer be used but you may still find it in old posts.
 
 *** Variables ***
-${recipe}         Recipe 012 Looping
+${recipe}         Recipe 1.2 Looping
 ${level}          Beginner
 ${category}       Internal Library: BuiltIn
 

@@ -12,7 +12,7 @@ Documentation    PROBLEM:
 Library          Collections
 
 *** Variables ***
-${recipe}         Recipe 023 Handling Dictionaries
+${recipe}         Recipe 2.3 Handling Dictionaries
 ${level}          Intermediate
 ${category}       Internal Library: Collections
 

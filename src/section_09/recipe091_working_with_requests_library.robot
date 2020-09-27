@@ -11,7 +11,7 @@ Library          Collections
 Library          RequestsLibrary
 
 *** Variables ***
-${recipe}         Recipe 091 Working With Requests Library
+${recipe}         Recipe 9.1 Working With Requests Library
 ${level}          Intermediate
 ${category}       External Library: RequestsLibrary
 

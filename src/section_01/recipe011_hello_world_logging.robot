@@ -7,7 +7,7 @@ Documentation    PROBLEM:
 ...              This recipe only using keywords from BuiltIn standard library so there is no Library import.
 
 *** Variables ***
-${recipe}         Recipe 001 Hello World Logging
+${recipe}         Recipe 1.1 Hello World Logging
 ${level}          Beginner
 ${category}       Internal Library: BuiltIn
 ${name}           Alan Turing

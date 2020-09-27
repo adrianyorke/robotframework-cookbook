@@ -1,34 +1,34 @@
 *** Settings ***
-Documentation    PROBLEM:
-...              You want to setup local environment where to test websites against multiple locally running browsers.
-...              DISCUSSION:
-...              This recipe demonstrates using keywords from SeleniumLibrary and SeleniumTestability plugin, how to setup
-...              your webdrivers and use advanced features of SeleniumTestability.
+Documentation     PROBLEM:
+...               You want to setup local environment where to test websites against multiple locally running browsers.
+...               DISCUSSION:
+...               This recipe demonstrates using keywords from SeleniumLibrary and SeleniumTestability plugin, how to setup
+...               your webdrivers and use advanced features of SeleniumTestability.
 ...
-...              This recipe has the following external dependencies:
-...              $ pip install --upgrade robotframework-seleniumlibrary robotframework-seleniumtestability webdrivermanager
+...               This recipe has the following external dependencies:
+...               $ pip install --upgrade robotframework-seleniumlibrary robotframework-seleniumtestability webdrivermanager
 ...
-...              Running SeleniumLibrary requires working integration with webdriver executable. After running previous
-...              `pip` command, you can install webdrivers with:
+...               Running SeleniumLibrary requires working integration with webdriver executable. After running previous
+...               `pip` command, you can install webdrivers with:
 ...
-...              $ webdrivermanager firefox chrome
+...               $ webdrivermanager firefox chrome
 ...
-...              SEE ALSO:
-...              SeleniumLibrary documentation: https://robotframework.org/SeleniumLibrary/SeleniumLibrary.html
-...              SeleniumTestability keyword documentation: https://rasjani.github.io/robotframework-seleniumtestability/index.html?tag=plugin#Keywords
-...              WebDriverManager documentation: https://github.com/rasjani/webdrivermanager
+...               SEE ALSO:
+...               SeleniumLibrary documentation: https://robotframework.org/SeleniumLibrary/SeleniumLibrary.html
+...               SeleniumTestability keyword documentation: https://rasjani.github.io/robotframework-seleniumtestability/index.html?tag=plugin#Keywords
+...               WebDriverManager documentation: https://github.com/rasjani/webdrivermanager
 ...
-Library          SeleniumLibrary    plugins=SeleniumTestability;True;1 Minute;True
-Library          Collections
-Test Template    Click And Wait
-Suite Setup      Configure SeleniumTestability
-Test Teardown    Close All Browsers
-
+Library           SeleniumLibrary    plugins=SeleniumTestability;True;1 Minute;True
+Library           Collections
+Test Template     Click And Wait
+Suite Setup       Configure SeleniumTestability
+Test Teardown     Close All Browsers
+Force Tags        no-ci-testing
 
 *** Variables ***
-${recipe}        Recipe 131 Selenium Setup
-${level}         Intermediate
-${category}      External Library: SeleniumLibrary
+${recipe}         Recipe 131 Selenium Setup
+${level}          Intermediate
+${category}       External Library: SeleniumLibrary
 
 ${URL}            https://the-internet.herokuapp.com/dynamic_loading/1
 ${HIDDEN_DIV}     xpath://div[@id="finish"]

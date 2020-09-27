@@ -16,6 +16,7 @@ Documentation    PROBLEM:
 Library          SSHLibrary
 Suite Setup      Open Connection And Log In
 Suite Teardown   Close All Connections
+Force Tags       no-ci-testing
 
 *** Variables ***
 ${recipe}         Recipe 111 Working With SSH Library

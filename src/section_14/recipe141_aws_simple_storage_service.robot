@@ -14,11 +14,15 @@ Documentation     PROBLEM:
 ...               AWS_SECRET_ACCESS_KEY
 Suite Teardown    Delete All Sessions
 Library           AWSLibrary
+Force Tags        no-ci-testing
 
 *** Variables ***
-${REGION}            us-east-1
-${BUCKET}            YOUR_BUCKET_NAME_GOES_HERE
-${KEY}               YOUR_FILE_PATH_GOES_HERE
+${recipe}         Recipe 14.1 AWS Simple Storage Service
+${level}          Intermediate
+${category}       External Library: AWSLibrary
+${REGION}         us-east-1
+${BUCKET}         YOUR_BUCKET_NAME_GOES_HERE
+${KEY}            YOUR_FILE_PATH_GOES_HERE
 
 *** Test Cases ***
 Check Key Exists In Bucket

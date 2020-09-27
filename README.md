@@ -36,34 +36,36 @@ For larger submissions simply clone this repository, create a feature branch (or
 
 # Table of contents
 1. Standard Library - [BuiltIn](https://robotframework.org/robotframework/latest/libraries/BuiltIn.html)<br>
-   * [Recipe 011 - Hello World Logging](src/section_01/recipe011_hello_world_logging.robot)<br>
-   * [Recipe 012 - Looping](src/section_01/recipe012_looping.robot)<br>
+   * [Recipe 1.1 - Hello World Logging](src/section_01/recipe011_hello_world_logging.robot)<br>
+   * [Recipe 1.2 - Looping](src/section_01/recipe012_looping.robot)<br>
 1. Standard Library - [Collections](https://robotframework.org/robotframework/latest/libraries/Collections.html)
-   * [Recipe 021 - Explaining Variable Prefixes](src/section_02/recipe021_explaining_variable_prefixes.robot)<br>
-   * [Recipe 022 - Handling Lists](src/section_02/recipe022_handling_lists.robot)<br>
-   * [Recipe 023 - Handling Dictionaries](src/section_02/recipe023_handling_dictionaries.robot)<br>
+   * [Recipe 2.1 - Explaining Variable Prefixes](src/section_02/recipe021_explaining_variable_prefixes.robot)<br>
+   * [Recipe 2.2 - Handling Lists](src/section_02/recipe022_handling_lists.robot)<br>
+   * [Recipe 2.3 - Handling Dictionaries](src/section_02/recipe023_handling_dictionaries.robot)<br>
 1. Standard Library - [DateTime](https://robotframework.org/robotframework/latest/libraries/DateTime.html)
-   * [Recipe 031 - Handling Dates](src/section_03/recipe031_handling_dates.robot)<br>
+   * [Recipe 3.1 - Handling Dates](src/section_03/recipe031_handling_dates.robot)<br>
 1. Standard Library - OperatingSystem
-   * [Recipe 041 - Working With File System](src/section_04/recipe041_working_with_file_system.robot)<br>
+   * [Recipe 4.1 - Working With File System](src/section_04/recipe041_working_with_file_system.robot)<br>
 1. Standard Library - [Process](https://robotframework.org/robotframework/latest/libraries/Process.html)
 1. Standard Library - Remote
 1. Standard Library - [String](https://robotframework.org/robotframework/latest/libraries/String.html)
 1. Standard Library - [XML](https://robotframework.org/robotframework/latest/libraries/XML.html)
 1. External Library - REST API
-   * [Recipe 091 - Working With Requests Library](src/section_09/recipe091_working_with_requests_library.robot)<br>
-   * [Recipe 092 - Working With RESTinstance Library](src/section_09/recipe092_working_with_rest_library.robot)<br>
+   * [Recipe 9.1 - Working With Requests Library](src/section_09/recipe091_working_with_requests_library.robot)<br>
+   * [Recipe 9.2 - Working With RESTinstance Library](src/section_09/recipe092_working_with_rest_library.robot)<br>
 1. External Library - Databases
-   * [Recipe 101 - Working With Databases](src/section_10/recipe101_working_with_databases.robot)<br>
-   * [Recipe 102 - Hacking Database View](src/section_10/recipe102_hacking_database_view.robot)<br>
+   * [Recipe 10.1 - Working With Databases](src/section_10/recipe101_working_with_databases.robot)<br>
+   * [Recipe 10.2 - Hacking Database View](src/section_10/recipe102_hacking_database_view.robot)<br>
 1. External Library - [SSH](https://github.com/robotframework/SSHLibrary)
-   * [Recipe 111 - Working With SSH](src/section_11/recipe111_working_with_ssh_library.robot)<br>
+   * [Recipe 11.1 - Working With SSH](src/section_11/recipe111_working_with_ssh_library.robot)<br>
 1. External Library - [Parallel executor for Robot Framework test cases (pabot)](https://github.com/mkorpela/pabot)<br>
-   * [Recipe 121 - Running Tests in Parallel](src/section_12/recipe121_running_tests_in_parallel.robot)<br>
+   * [Recipe 12.1 - Running Tests in Parallel](src/section_12/recipe121_running_tests_in_parallel.robot)<br>
 1. External Library - [SeleniumLibrary](https://github.com/robotframework/seleniumlibrary) and [SeleniumTestability](https://github.com/rasjani/robotframework-seleniumtestability)
-   * [Recipe 131 - SeleniumLibrary & SeleniumTestability setup](src/section_13/recipe131_selenium_setup.robot)<br>
+   * [Recipe 13.1 - SeleniumLibrary & SeleniumTestability setup](src/section_13/recipe131_selenium_setup.robot)<br>
 1. External Library - [AWSLibrary - for interacting with Amazon Web Services (AWS) Cloud Computing Services](https://github.com/teaglebuilt/robotframework-aws)
-   * [Recipe 141 - AWS Simple Storage Service (S3)](src/section_14/recipe141_aws_simple_storage_service.robot)<br>
+   * [Recipe 14.1 - AWS Simple Storage Service (S3)](src/section_14/recipe141_aws_simple_storage_service.robot)<br>
+1. External Library - [Robot Framework Browser library powered by Playwright.](https://github.com/MarketSquare/robotframework-browser)
+   * COMING SOON!! Great new recipes are in the making.<br>
 1. Case Studies
    * [Case Study 01 - Regression Testing Gerald Ford International Airport (GFIA) Parking Lot Calculation Tool](src/section_99/casestudy_01/README.md)<br>
    * [Case Study 02 - Transcoding video library to a contemporary format suitable for all play back devices, e.g. mp4 or mkv](src/section_99/casestudy_02/README.md)<br>

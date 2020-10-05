@@ -37,4 +37,4 @@ Check Other String Keywords
     ${name}    Replace String    Nigel Hagrid    Nigel    Rubeus
     Should Be Equal    ${name}    Rubeus Hagrid
     Should Be String       ${name}
-    @{Characters} =    Split String To Characters    ${name}
+    @{Characters}    Split String To Characters    ${name}

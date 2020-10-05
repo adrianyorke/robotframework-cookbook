@@ -1,10 +1,9 @@
 *** Settings ***
 Documentation     PROBLEM:
-...               You want to process strings within a Robot Framework test case
-...               without using lower level Python code or develop a custom library.
+...               You want to manipulate strings within a Robot Framework test case
+...               without using low-level Python code or developing a custom library.
 ...               DISCUSSION:
-...               This recipe demonstrates:
-...               - using keywords from the String library
+...               This recipe demonstrates using keywords from String standard library.
 Library           String
 
 
@@ -15,18 +14,27 @@ ${category}       Internal Library: String
 
 
 *** Test Cases ***
-Check Common String Manipulations
-    [Documentation]    Check string manipulations working correctly.
-    ${str1}    Convert To Lower Case    Harry Potter
-    ${str2}    Convert To Title Case    hermione granger
-    ${str3}    Convert To Upper Case    ron weasley
-    ${str4}    Replace String    Nigel Hagrid    Nigel    Rubeus  
-    Should Be Equal    ${str1}    harry potter
-    Should Be Equal    ${str2}    Hermione Granger
-    Should Be Equal    ${str3}    RON WEASLEY
-    Should Be Equal    ${str4}    Rubeus Hagrid
-    Should Be Lowercase    ${str1}
-	Should Be Titlecase    ${str2}
-	Should Be Uppercase    ${str3}
-	Should Be String       ${str4}
-    @{Characters} =    Split String To Characters    ${str1}
+Check Lower Case Keywords
+    [Documentation]    Testing lower case string keywords.
+    ${name}    Convert To Lower Case    Harry Potter
+    Should Be Equal    ${name}    harry potter
+    Should Be Lowercase    ${name}
+
+Check Title Case Keywords
+    [Documentation]    Testing title case string keywords.
+    ${name}    Convert To Title Case    hermione granger
+    Should Be Equal    ${name}    Hermione Granger
+    Should Be Titlecase    ${name}
+
+Check Upper Case Keywords
+    [Documentation]    Testing upper case string keywords.
+    ${name}    Convert To Upper Case    ron weasley
+    Should Be Equal    ${name}    RON WEASLEY
+    Should Be Uppercase    ${name}
+
+Check Other String Keywords
+    [Documentation]    Testing other string keywords.
+    ${name}    Replace String    Nigel Hagrid    Nigel    Rubeus
+    Should Be Equal    ${name}    Rubeus Hagrid
+    Should Be String       ${name}
+    @{Characters} =    Split String To Characters    ${name}

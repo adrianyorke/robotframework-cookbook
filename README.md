@@ -50,6 +50,7 @@ For larger submissions simply clone this repository, create a feature branch (or
 1. Standard Library - [Process](https://robotframework.org/robotframework/latest/libraries/Process.html)
 1. Standard Library - Remote
 1. Standard Library - [String](https://robotframework.org/robotframework/latest/libraries/String.html)
+   * [Recipe 7.1 - String Manipulation Examples](src/section_07/recipe071_string_manipulation_examples.robot)<br>
 1. Standard Library - [XML](https://robotframework.org/robotframework/latest/libraries/XML.html)
 1. External Library - REST API
    * [Recipe 9.1 - Working With Requests Library](src/section_09/recipe091_working_with_requests_library.robot)<br>

@@ -7,9 +7,12 @@ Documentation     PROBLEM:
 ...               - using keywords from the String library
 Library           String
 
+
 *** Variables ***
 ${recipe}         Recipe 7.1 String Manipulation Examples
+${level}          Beginner
 ${category}       Internal Library: String
+
 
 *** Test Cases ***
 Check Title Case Convertions

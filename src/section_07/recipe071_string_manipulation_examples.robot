@@ -15,12 +15,12 @@ ${category}       Internal Library: String
 
 
 *** Test Cases ***
-Check Title Case Convertions
-    [Documentation]    Output variables & text messages to the log, console or both.
-    ${str1} =    Convert To Title Case    harry potter
-    ${str2} =    Convert To Title Case    hermione granger
-    ${str3} =    Convert To Title Case    ron weasley
-    ${str4} =    Convert To Title Case    rubeus hagrid
+Check Title Case Conversions
+    [Documentation]    Check strings convert to Title Case correctly.
+    ${str1}    Convert To Title Case    harry potter
+    ${str2}    Convert To Title Case    hermione granger
+    ${str3}    Convert To Title Case    ron weasley
+    ${str4}    Convert To Title Case    rubeus hagrid
     Should Be Equal    ${str1}    Harry Potter
     Should Be Equal    ${str2}    Hermione Granger
     Should Be Equal    ${str3}    Ron Weasley

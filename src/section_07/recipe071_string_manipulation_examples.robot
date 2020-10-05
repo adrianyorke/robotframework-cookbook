@@ -15,13 +15,13 @@ ${category}       Internal Library: String
 
 
 *** Test Cases ***
-Check Title Case Conversions
-    [Documentation]    Check strings convert to Title Case correctly.
-    ${str1}    Convert To Title Case    harry potter
+Check Common String Manipulations
+    [Documentation]    Check string manipulations working correctly.
+    ${str1}    Convert To Lower Case    Harry Potter
     ${str2}    Convert To Title Case    hermione granger
-    ${str3}    Convert To Title Case    ron weasley
-    ${str4}    Convert To Title Case    rubeus hagrid
-    Should Be Equal    ${str1}    Harry Potter
+    ${str3}    Convert To Upper Case    ron weasley
+    ${str4}    Replace String    Nigel Hagrid    Nigel    Rubeus  
+    Should Be Equal    ${str1}    harry potter
     Should Be Equal    ${str2}    Hermione Granger
-    Should Be Equal    ${str3}    Ron Weasley
+    Should Be Equal    ${str3}    RON WEASLEY
     Should Be Equal    ${str4}    Rubeus Hagrid

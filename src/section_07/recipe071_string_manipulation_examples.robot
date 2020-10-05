@@ -25,3 +25,8 @@ Check Common String Manipulations
     Should Be Equal    ${str2}    Hermione Granger
     Should Be Equal    ${str3}    RON WEASLEY
     Should Be Equal    ${str4}    Rubeus Hagrid
+    Should Be Lowercase    ${str1}
+	Should Be Titlecase    ${str2}
+	Should Be Uppercase    ${str3}
+	Should Be String       ${str4}
+    @{Characters} =    Split String To Characters    ${str1}

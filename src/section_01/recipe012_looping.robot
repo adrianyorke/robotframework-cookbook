@@ -9,7 +9,7 @@ Documentation    PROBLEM:
 ...              No Operation keyword is used to "do nothing" although you may disagee.
 ...              This recipe only using keywords from BuiltIn standard library so there is no Library import.
 ...              NOTE: the old FOR syntax should no longer be used but you may still find it in old posts.
-Force Tags       py3.6  py3.7  py3.8
+Force Tags       py3.6    py3.7    py3.8
 
 *** Variables ***
 ${recipe}         Recipe 1.2 Looping

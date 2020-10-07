@@ -7,6 +7,7 @@ Documentation    PROBLEM:
 ...              $ pip install -U RESTinstance
 Library          Collections
 Library          REST    https://api.github.com
+Force Tags       py3.6    py3.7    py3.8
 
 *** Variables ***
 ${recipe}         Recipe 9.2 Working With REST Library

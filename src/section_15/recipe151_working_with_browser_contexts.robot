@@ -11,6 +11,11 @@ Library            Browser
 Suite Setup        New Browser        chromium    headless=false
 Suite Teardown     Close Browser
 
+*** Variables ***
+${recipe}         Recipe 15.1 Working With Browser Contexts
+${level}          Intermediate
+${category}       External Library: Browser
+
 
 *** Test Cases ***
 Context with no Geolocation Permission
@@ -24,7 +29,6 @@ Context with Geolocation set to Helsinki
     New Page           https://www.openstreetmap.org/
     Click              span.icon.geolocate
     Take Screenshot
-
 
 Context with Geolocation set to Sedney
     New Context        geolocation={'latitude': -33.8675, 'longitude': 151.207}    permissions=['geolocation']

@@ -11,6 +11,7 @@ Library            Browser
 Suite Setup        New Browser        chromium    headless=false
 Suite Teardown     Close Browser
 
+
 *** Variables ***
 ${recipe}         Recipe 15.1 Working With Browser Contexts
 ${level}          Intermediate

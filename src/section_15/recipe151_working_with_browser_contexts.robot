@@ -30,4 +30,3 @@ Context with Geolocation set to Sedney
     New Page           https://www.openstreetmap.org/
     Click              span.icon.geolocate
     Take Screenshot
-

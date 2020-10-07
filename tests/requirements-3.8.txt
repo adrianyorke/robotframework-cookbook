@@ -9,3 +9,4 @@ robotframework-seleniumlibrary
 robotframework-seleniumtestability
 webdrivermanager
 robotframework-aws
+robotframework-browser

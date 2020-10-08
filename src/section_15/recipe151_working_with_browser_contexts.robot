@@ -10,6 +10,7 @@ Documentation    PROBLEM:
 Library            Browser
 Suite Setup        New Browser        chromium    headless=false
 Suite Teardown     Close Browser
+Force Tags         no-ci-testing
 
 
 *** Variables ***

@@ -13,7 +13,8 @@ jobs:
       fail-fast: false
       matrix:
         os: ['ubuntu-latest', 'windows-latest']
-        python-version: [ 3.6, 3.7, 3.8]
+        python-version: [3.6, 3.7, 3.8]
+        node-version: [12.x]
     runs-on: ${{ matrix.os }}
 
     steps:
@@ -23,22 +24,31 @@ jobs:
         uses: actions/setup-python@v2
         with:
           python-version: ${{ matrix.python-version }}
+      - name: Set up Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+        if: matrix.python-version != 3.6
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -U -r tests/requirements.txt
+          pip install -U -r tests/requirements-${{ matrix.python-version }}.txt
           webdrivermanager firefox chrome
+      - name: Init Browser
+        run:
+          rfbrowser init
+        if: matrix.python-version != 3.6
       - name: Run Robocop
         run:
           robocop -r rules_by_id  --configure return_status:quality_gate:W=-1 --exclude missing-doc-* --ignore section_99\* --ext_rules tests/robocop_rules.py src
         if: always()
       - name: Run Robot tests
         run:
-          python -m robot --exclude pabot --exclude casestudy --exclude no-ci-testing --outputdir recipe_tests src
+          python -m robot --exclude pabot --include py${{ matrix.python-version }} --exclude casestudy --exclude no-ci-testing --outputdir recipe_tests src
         if: always()
       - name: Run Robot parallel tests
         run:
-          pabot --testlevelsplit --command python -m robot --end-command --include pabot --exclude casestudy --exclude no-ci-testing --noncritical pabot --outputdir recipe_tests_pabot src
+          pabot --testlevelsplit --command python -m robot --end-command --include pabotANDpy${{ matrix.python-version }} --exclude casestudy --exclude no-ci-testing --noncritical pabot --outputdir recipe_tests_pabot src
         if: always()
       - name: Save test results
         uses: actions/upload-artifact@v2

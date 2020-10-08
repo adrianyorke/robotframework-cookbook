@@ -16,7 +16,7 @@ Documentation    PROBLEM:
 ...              $ pabot --testlevelsplit recipe121_running_tests_in_parallel.robot
 ...              This recipe has the following external dependencies:
 ...              $ pip install -U robotframework-pabot
-Force Tags       pabot
+Force Tags       pabot    py3.6    py3.7    py3.8
 
 *** Variables ***
 ${recipe}         Recipe 12.1 Running Tests in Parallel

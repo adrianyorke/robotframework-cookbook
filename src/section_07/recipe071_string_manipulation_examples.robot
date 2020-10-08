@@ -5,6 +5,7 @@ Documentation     PROBLEM:
 ...               DISCUSSION:
 ...               This recipe demonstrates using keywords from String standard library.
 Library           String
+Force Tags        py3.6    py3.7    py3.8
 
 
 *** Variables ***

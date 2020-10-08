@@ -13,7 +13,7 @@ jobs:
       fail-fast: false
       matrix:
         os: ['ubuntu-latest', 'windows-latest']
-        python-version: [ 3.6, 3.7, 3.8]
+        python-version: [3.6, 3.7, 3.8]
         node-version: [12.x]
     runs-on: ${{ matrix.os }}
 

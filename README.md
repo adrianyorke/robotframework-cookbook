@@ -56,6 +56,7 @@ For larger submissions simply clone this repository, create a feature branch (or
 1. External Library - REST API
    * [Recipe 9.1 - Working With Requests Library](src/section_09/recipe091_working_with_requests_library.robot)<br>
    * [Recipe 9.2 - Working With RESTinstance Library](src/section_09/recipe092_working_with_rest_library.robot)<br>
+   * [Recipe 9.3 - Working With Browser Library](src/section_09/recipe093_working_with_browser_library.robot)
 1. External Library - Databases
    * [Recipe 10.1 - Working With Databases](src/section_10/recipe101_working_with_databases.robot)<br>
    * [Recipe 10.2 - Hacking Database View](src/section_10/recipe102_hacking_database_view.robot)<br>

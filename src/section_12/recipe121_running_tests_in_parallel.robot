@@ -22,7 +22,7 @@ Force Tags       pabot    py3.6    py3.7    py3.8
 ${recipe}         Recipe 12.1 Running Tests in Parallel
 ${level}          Intermediate
 ${category}       External Library: pabot
-${DELAY}          10
+${DELAY}          5
 
 *** Test Cases ***
 Test Case 1

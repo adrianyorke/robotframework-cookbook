@@ -69,7 +69,7 @@ For larger submissions simply clone this repository, create a feature branch (or
 1. External Library - [AWSLibrary - for interacting with Amazon Web Services (AWS) Cloud Computing Services](https://github.com/teaglebuilt/robotframework-aws)
    * [Recipe 14.1 - AWS Simple Storage Service (S3)](src/section_14/recipe141_aws_simple_storage_service.robot)<br>
 1. External Library - [Robot Framework Browser library powered by Playwright.](https://github.com/MarketSquare/robotframework-browser)
-   * COMING SOON!! Great new recipes are in the making.<br>
+   * [Recipe 15.1 - Working With Browser Contexts](src/section_15/recipe151_working_with_browser_contexts.robot)<br>
 1. Case Studies
    * [Case Study 01 - Regression Testing Gerald Ford International Airport (GFIA) Parking Lot Calculation Tool](src/section_99/casestudy_01/README.md)<br>
    * [Case Study 02 - Transcoding video library to a contemporary format suitable for all play back devices, e.g. mp4 or mkv](src/section_99/casestudy_02/README.md)<br>

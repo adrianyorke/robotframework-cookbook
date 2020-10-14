@@ -7,10 +7,8 @@ Documentation    PROBLEM:
 ...              SEE ALSO:
 ...              Beside the geolocation it is also possible to specify more options for each context.
 ...              For example the timezone, different permissions, Java Script is disabled, ...
-Library            Browser
-Suite Setup        New Browser        chromium    headless=false
-Suite Teardown     Close Browser
-Force Tags         py3.7    py3.8
+Library          Browser
+Force Tags       py3.7    py3.8
 
 
 *** Variables ***
@@ -19,21 +17,24 @@ ${level}          Intermediate
 ${category}       External Library: Browser
 
 
-*** Test Cases ***
+*** Tasks ***
 Context with no Geolocation Permission
     New Context
     New Page           https://www.openstreetmap.org/
     Click              span.icon.geolocate
+    Wait Until Network Is Idle
     Take Screenshot
 
 Context with Geolocation set to Helsinki
     New Context        geolocation={'latitude': 60.1698, 'longitude': 24.9386}    permissions=['geolocation']
     New Page           https://www.openstreetmap.org/
     Click              span.icon.geolocate
+    Wait Until Network Is Idle
     Take Screenshot
 
-Context with Geolocation set to Sedney
+Context with Geolocation set to Sydney
     New Context        geolocation={'latitude': -33.8675, 'longitude': 151.207}    permissions=['geolocation']
     New Page           https://www.openstreetmap.org/
     Click              span.icon.geolocate
+    Wait Until Network Is Idle
     Take Screenshot

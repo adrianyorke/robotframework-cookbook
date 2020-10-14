@@ -30,7 +30,7 @@ Please use `robot.tidy` to standardise the format of the scripts.
 
 We also recommend using the [Robot Framework Robocop](https://github.com/MarketSquare/robotframework-robocop) static analysis tool to check your scripts are clean before submission.
 Robocop can be installed using pip:
-> $ pip install robotframework-robocop
+> $ pip install -U robotframework-robocop
 
 [Issues](https://github.com/adrianyorke/robotframework-cookbook/issues) are welcome and you can use them to post ideas for new recipes or report bugs and other observations for exisiting recipes.
 

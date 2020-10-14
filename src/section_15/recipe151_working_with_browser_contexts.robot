@@ -17,7 +17,7 @@ ${level}          Intermediate
 ${category}       External Library: Browser
 
 
-*** Tasks ***
+*** Test Cases ***
 Context with no Geolocation Permission
     New Context
     New Page           https://www.openstreetmap.org/

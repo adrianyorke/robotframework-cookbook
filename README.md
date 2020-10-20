@@ -1,4 +1,5 @@
-# robotframework-cookbook
+# <img src="/img/logo_black_transparent.png" width="100"/><br>robotframework-cookbook
+
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-8-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
@@ -7,7 +8,6 @@
 [![code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/adrianyorke)
 
-![Cookbook Logo](/img/logo_black_transparent.png)
 
 A curated list of delicious Robot Framework recipes that will help you develop new test automation scripts faster, especially for beginner or intermediate level engineers.
 

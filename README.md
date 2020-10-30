@@ -1,4 +1,4 @@
-# <img src="/img/logo_black_transparent.png" width="100"/><br>robotframework-cookbook
+# <img src="/img/logo_b+w_transparent.png" width="100"/><br>robotframework-cookbook
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-8-orange.svg?style=flat-square)](#contributors-)

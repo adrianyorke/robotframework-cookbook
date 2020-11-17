@@ -17,10 +17,11 @@ ${level}          Beginner
 ${category}       Internal Library: BuiltIn
 
 *** Test Cases ***
-Testing Old FOR Syntax
-    [Documentation]    DO NOT USE IN NEW SCRIPTS! Old scripts should be refactored.
-    :FOR    ${weekday}    IN    monday    tuesday    wednesday    thursday    friday
-    \    Log    ${weekday}    console=yes
+Testing FOR IN Syntax
+    [Documentation]    Basic For in syntax, loops over given weekdays.
+    FOR    ${weekday}    IN    monday    tuesday    wednesday    thursday    friday
+        Log    ${weekday}    console=yes
+    END
 
 Testing Basic FOR Loop (New Syntax)
     [Documentation]    Basic For loop construct, loops over values from 0 to 9.

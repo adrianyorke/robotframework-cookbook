@@ -1,3 +1,8 @@
+# RED
+/libspecs/
+.project
+red.xml
+
 # PyCharm
 .idea/
 venv/

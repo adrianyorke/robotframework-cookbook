@@ -5,7 +5,7 @@ Documentation                PROBLEM:
 ...                          DISCUSSION:
 ...                          This recipe demonstrates using keywords from SSH external library
 ...                          combined with standard library OperatingSystem. In this recipie we are
-...                          loging in with ssh public key to demonstate that option for logins.
+...                          logging in with ssh public key to demonstrate that option for logins.
 ...                          We are also expanding on 1.11's demonstation of user keywords by creating
 ...                          a user keyword with a variable in its name and chainging keywords together.
 ...                          Also notice in this recipe that we need to specify namespace for our keywords
@@ -60,7 +60,7 @@ Run Remote ${Command} And Get ${File} Output
     ...                      for your project, you may choose to use this feature.
     ...                    
     ...                      To the point, this keyword runs the command and outputs to a file on the server, then downloads that file
-    ...                      and prints the content to console. Replace printing to cosole with whatever you actually need to do with
+    ...                      and returns the local file location so you can print to console or do whatever you need to do with
     ...                      the content, for example passing it to another keyword.
 
     SSH.Execute Command      ${Command}

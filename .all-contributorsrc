@@ -85,7 +85,9 @@
       "avatar_url": "https://avatars2.githubusercontent.com/u/1847952?v=4",
       "profile": "https://github.com/ericbjones",
       "contributions": [
-        "design"
+        "design",
+        "code",
+        "doc"
       ]
     }
   ],

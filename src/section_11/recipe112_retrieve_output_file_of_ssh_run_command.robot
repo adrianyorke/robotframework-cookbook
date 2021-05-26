@@ -16,10 +16,10 @@ Documentation                PROBLEM:
 ...                          $ pip install --upgrade robot framework-sshlibrary
 ...                          SEE ALSO:
 ...                          SSHLibrary documentation: http://robotframework.org/SSHLibrary/SSHLibrary.html
-                         
+
 Library                      SSHLibrary         WITH NAME    SSH
 Library                      OperatingSystem    WITH NAME    OS
-                         
+
 Suite Setup                  Open Connection And Log In
 Suite Teardown               SSH.Close All Connections
 Force Tags                   no-ci-testing
@@ -32,13 +32,12 @@ ${category}                  External Library: SSH
 *** Test Cases ***
 Count To 5000 On Remote and Print To Local Console
     [Documentation]          Run bash script to print line seperated numbers 0-5000 on remote server
-    ...                      to a file, then get that file and log to local console  
-                          
+    ...                      to a file, then get that file and log to local console
     ${count_file}            Set Variable      /tmp/count_file.txt
     ${count_command}         Set Variable      i=0; while [ $i -le 5000 ]; do echo line $i; i=$(($i+1)); done >/tmp/count_file.txt
-    ${result}                Run Remote ${count_command} And Get ${count_file} Output    
+    ${result}                Run Remote ${count_command} And Get ${count_file} Output
     ${result_read}           OS.Get File    ${result}
-    Log To Console           ${result_read}    
+    Log To Console           ${result_read}
 
 *** Keywords ***
 Open Connection And Log In
@@ -58,7 +57,7 @@ Run Remote ${Command} And Get ${File} Output
     ...                      the name defined, but with any string in place of the variables. It is one of the more extravigant
     ...                      feautures of robot and may feel too quirky to some python developers. But depending on style choices
     ...                      for your project, you may choose to use this feature.
-    ...                    
+    ...
     ...                      To the point, this keyword runs the command and outputs to a file on the server, then downloads that file
     ...                      and returns the local file location so you can print to console or do whatever you need to do with
     ...                      the content, for example passing it to another keyword.
@@ -68,7 +67,7 @@ Run Remote ${Command} And Get ${File} Output
 
     ${downloaded_file}       _Get Remote ${File}
     [Return]                 ${downloaded_file}
-    
+
 _Get Remote ${File}
     [Documentation]         Supporting Keyword, gets file from remote server and stores it to a temporary directory.
     ...                     Returns the downloaded file's path

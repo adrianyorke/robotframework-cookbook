@@ -1,14 +1,15 @@
 *** Settings ***
 Documentation    PROBLEM:
-...              You would like to test the native IF, ELSE and ELSE IF syntax which is new in
-...              Robot Framework 4.
+...              You would like to test the native IF, ELSE and ELSE IF syntax which was
+...              introduced in Robot Framework 4.
 ...              DISCUSSION:
 ...              Robot Framework 4 introduced native IF, ELSE and ELSE IF syntax.  Previously, it
-...              was necessary to use the Run Keyword If keyword which made test scripts more
+...              was necessary to use the 'Run Keyword If' keyword which made test scripts more
 ...              difficult to read and understand.
 ...              Run this recipe and closely examine the log.  Please note: you must use
 ...              Robot Framework 4 to run this recipe.  Notice the new column Skip in the
-...              Test Statistics table.  Also Pass/Fail/Skip column now includes Skip statistics.
+...              Test Statistics table in the log output.  Also Pass/Fail/Skip column now includes
+...              Skip statistics.
 ...              Observe the IF, ELSE and ELSE IF native commands.  Where a condition has not
 ...              been met, the command will be greyed out.  Otherwise the command will be green
 ...              to show the path taken by the logic.

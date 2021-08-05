@@ -19,7 +19,7 @@ ${category}       External Library: RequestsLibrary
 *** Test Cases ***
 Get Request
     Create Session    github    https://api.github.com
-    ${response} =    Get Request    github    /users/adrianyorke
+    ${response} =    GET On Session    github    /users/adrianyorke
     Log    ${response.json()}
     Should Be Equal As Strings    ${response.status_code}    200
     Dictionary Should Not Contain Value    ${response.json()}    The Black Knight

@@ -98,7 +98,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/ericbjones"><img src="https://avatars2.githubusercontent.com/u/1847952?v=4?s=100" width="100px;" alt=""/><br /><sub><b>ericbjones</b></sub></a><br /><a href="#design-ericbjones" title="Design">🎨</a> <a href="https://github.com/adrianyorke/robotframework-cookbook/commits?author=ericbjones" title="Code">💻</a> <a href="https://github.com/adrianyorke/robotframework-cookbook/commits?author=ericbjones" title="Documentation">📖</a></td>
-    <td align="center"><a href="https://emnaayadi.wordpress.com/"><img src="https://avatars.githubusercontent.com/u/6690738?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Emna Ayadi</b></sub></a><br /><a href="#userTesting-emna24" title="User Testing">📓</a></td>
+    <td align="center"><a href="https://emnaayadi.wordpress.com/"><img src="https://avatars.githubusercontent.com/u/6690738?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Emna Ayadi</b></sub></a><br /><a href="#userTesting-emna24" title="User Testing">📓</a> <a href="https://github.com/adrianyorke/robotframework-cookbook/commits?author=emna24" title="Code">💻</a></td>
   </tr>
 </table>
 

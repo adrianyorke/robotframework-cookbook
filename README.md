@@ -24,6 +24,7 @@ In the first part of the cookbook there are many simple recipes showing how to u
 * [GitHub (Documentation, Source Code & Issue Tracker)](https://github.com/robotframework/robotframework)
 * [Awesome Robot Framework](https://github.com/fkromer/awesome-robotframework)
 * [Robot Framework - Learn the basics](https://dev.szabolcstoth.eu/robotframework-basics/)
+* [Robot Framework Cheat Sheet and Quick Reference (credit: robocorp)](https://robocorp.com/docs/languages-and-frameworks/robot-framework/cheat-sheet)
 
 # Notes for contributors
 Contributions from the wider community are most welcome!  Contributions can be either single recipes or whole case studies.

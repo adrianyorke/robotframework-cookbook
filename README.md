@@ -29,7 +29,7 @@ In the first part of the cookbook there are many simple recipes showing how to u
 # Notes for contributors
 Contributions from the wider community are most welcome!  Contributions can be either single recipes or whole case studies.
 
-Please use `robot.tidy` to standardise the format of the scripts.
+We recommend using [Robotidy](https://robotidy.readthedocs.io/en/latest/) to help standardise the format of the Robot Framework code.
 
 We also recommend using the [Robot Framework Robocop](https://github.com/MarketSquare/robotframework-robocop) static analysis tool to check your scripts are clean before submission.
 Robocop can be installed using pip:

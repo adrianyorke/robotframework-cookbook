@@ -1,7 +1,7 @@
 # <img src="/img/logo_b+w_transparent.png" width="100"/><br>robotframework-cookbook
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-9-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-10-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 [![Actions Status](https://github.com/adrianyorke/robotframework-cookbook/workflows/Continuous%20integration/badge.svg)](https://github.com/adrianyorke/robotframework-cookbook/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -100,6 +100,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="https://github.com/ericbjones"><img src="https://avatars2.githubusercontent.com/u/1847952?v=4?s=100" width="100px;" alt=""/><br /><sub><b>ericbjones</b></sub></a><br /><a href="#design-ericbjones" title="Design">🎨</a> <a href="https://github.com/adrianyorke/robotframework-cookbook/commits?author=ericbjones" title="Code">💻</a> <a href="https://github.com/adrianyorke/robotframework-cookbook/commits?author=ericbjones" title="Documentation">📖</a></td>
     <td align="center"><a href="https://emnaayadi.wordpress.com/"><img src="https://avatars.githubusercontent.com/u/6690738?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Emna Ayadi</b></sub></a><br /><a href="#userTesting-emna24" title="User Testing">📓</a> <a href="https://github.com/adrianyorke/robotframework-cookbook/commits?author=emna24" title="Code">💻</a></td>
+    <td align="center"><a href="https://medium.com/@joonasvenlinen"><img src="https://avatars.githubusercontent.com/u/38143731?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Joonas Venäläinen</b></sub></a><br /><a href="https://github.com/adrianyorke/robotframework-cookbook/commits?author=joonvena" title="Code">💻</a></td>
   </tr>
 </table>
 

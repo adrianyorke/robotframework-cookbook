@@ -99,6 +99,15 @@
         "userTesting",
         "code"
       ]
+    },
+    {
+      "login": "joonvena",
+      "name": "Joonas Venäläinen",
+      "avatar_url": "https://avatars.githubusercontent.com/u/38143731?v=4",
+      "profile": "https://medium.com/@joonasvenlinen",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,

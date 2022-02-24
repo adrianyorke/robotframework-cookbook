@@ -6,43 +6,36 @@ from robocop.rules import RuleSeverity
 
 class RecipeChecker(VisitorChecker):
     rules = {
-        '5501': (
+        "5501": (
             "missing-mandatory-section",
             "Missing mandatory '%s' section",
-            RuleSeverity.ERROR
+            RuleSeverity.ERROR,
         ),
-        '5502': (
+        "5502": (
             "missing-documentation-in-settings",
             "Missing mandatory Documentation setting in *** Settings ***",
-            RuleSeverity.ERROR
+            RuleSeverity.ERROR,
         ),
-        '5503': (
+        "5503": (
             "missing-mandatory-field-in-doc",
             "Missing mandatory '%s' field in documentation",
-            RuleSeverity.ERROR
+            RuleSeverity.ERROR,
         ),
-        '5504': (
+        "5504": (
             "missing-mandatory-variable",
             "Missing mandatory '%s' variable in *** Variables *** section",
-            RuleSeverity.ERROR
-        )
+            RuleSeverity.ERROR,
+        ),
     }
 
     def __init__(self, *args):
         self.mandatory_sections = {
-            '*** Settings ***': SettingSection,
-            '*** Variables ***': VariableSection,
-            '*** Test Cases ***': TestCaseSection
+            "*** Settings ***": SettingSection,
+            "*** Variables ***": VariableSection,
+            "*** Test Cases ***": TestCaseSection,
         }
-        self.mandatory_variables = {
-            '${recipe}',
-            '${level}',
-            '${category}'
-        }
-        self.mandatory_doc_fields = {
-            'PROBLEM:',
-            'DISCUSSION:'
-        }
+        self.mandatory_variables = {"${recipe}", "${level}", "${category}"}
+        self.mandatory_doc_fields = {"PROBLEM:", "DISCUSSION:"}
         super().__init__(*args)
 
     def visit_File(self, node):  # noqa
@@ -51,7 +44,9 @@ class RecipeChecker(VisitorChecker):
                 if isinstance(section, section_type):
                     break
             else:
-                self.report("missing-mandatory-section", section_name, node=node, lineno=0)
+                self.report(
+                    "missing-mandatory-section", section_name, node=node, lineno=0
+                )
         super().visit_File(node)
 
     def visit_SettingSection(self, node):  # noqa

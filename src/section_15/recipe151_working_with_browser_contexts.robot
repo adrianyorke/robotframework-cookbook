@@ -11,14 +11,12 @@ Documentation    PROBLEM:
 ...              $ pip install -U robotframework-browser
 ...              $ rfbrowser init
 Library          Browser
-Force Tags       py3.7    py3.8
-
+Force Tags       py3.7    py3.8    py3.9
 
 *** Variables ***
 ${recipe}         Recipe 15.1 Working With Browser Contexts
 ${level}          Intermediate
 ${category}       External Library: Browser
-
 
 *** Test Cases ***
 Context with Geolocation set to Helsinki

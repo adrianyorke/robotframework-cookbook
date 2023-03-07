@@ -5,7 +5,7 @@ Documentation    PROBLEM:
 ...              Congratulations!  You have created your first Robot Framework script which outputs
 ...              a text message and a variable to the log and also the console.
 ...              This recipe only using keywords from BuiltIn standard library so there is no Library import.
-Force Tags       py3.6    py3.7    py3.8
+Force Tags       py3.7    py3.8    py3.9
 
 *** Variables ***
 ${recipe}         Recipe 1.1 Hello World Logging

@@ -20,19 +20,18 @@ ${category}       External Library: Browser
 
 *** Test Cases ***
 Context with Geolocation set to Helsinki
-    New Context        geolocation={'latitude': 60.1698, 'longitude': 24.9386}    permissions=['geolocation']
+    New Context        geolocation={'latitude': 60.1698, 'longitude': 24.9386}    permissions=['geolocation']    ignoreHTTPSErrors=True
     New Page           https://www.openstreetmap.org/
     Click              span.icon.geolocate
     Wait Until Network Is Idle
     Take Screenshot
 
 Context with Geolocation set to Sydney
-    New Context        geolocation={'latitude': -33.8675, 'longitude': 151.207}    permissions=['geolocation']
+    New Context        geolocation={'latitude': -33.8675, 'longitude': 151.207}    permissions=['geolocation']    ignoreHTTPSErrors=True
     New Page           https://www.openstreetmap.org/
     Click              span.icon.geolocate
     Wait Until Network Is Idle
     Take Screenshot
-
 
 *** Comments ***
 # TODO: There is a bug in Browser library which is causing CI problems - commenting out this test case

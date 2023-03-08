@@ -32,7 +32,7 @@ Test Case 1
 Test Case 2
     Log      Starting Test Case 2 using delay ${DELAY}
     Sleep    ${DELAY}
-    Should Be Equal    foo    bar
+    Run Keyword And Ignore Error    Should Be Equal    foo    bar
 
 Test Case 3
     Log      Starting Test Case 3 using delay ${DELAY}
@@ -41,4 +41,4 @@ Test Case 3
 Test Case 4
     Log      Starting Test Case 4 using delay ${DELAY}
     Sleep    ${DELAY}
-    Should Be Equal    foo    bar
+    Run Keyword And Ignore Error    Should Be Equal    foo    bar

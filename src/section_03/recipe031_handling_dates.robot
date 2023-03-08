@@ -1,15 +1,15 @@
 *** Settings ***
-Documentation     PROBLEM:
-...               You want to handle dates within a Robot Framework test case
-...               without using lower level Python code or develop a custom library.
-...               DISCUSSION:
-...               This recipe demonstrates:
-...               - using keywords from the DateTime library,
-...               - changing the default result_format and using timedelta
-...               instead of number or time string formats,
-...               - using extended variable syntax.
-Library           DateTime
-Force Tags        py3.6    py3.7    py3.8
+Documentation    PROBLEM:
+...              You want to handle dates within a Robot Framework test case
+...              without using lower level Python code or develop a custom library.
+...              DISCUSSION:
+...              This recipe demonstrates:
+...              - using keywords from the DateTime library,
+...              - changing the default result_format and using timedelta
+...              instead of number or time string formats,
+...              - using extended variable syntax.
+Library          DateTime
+Force Tags       py3.7    py3.8    py3.9
 
 *** Variables ***
 ${recipe}         Recipe 3.1 Handling Dates

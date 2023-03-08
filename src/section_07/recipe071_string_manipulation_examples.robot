@@ -1,18 +1,16 @@
 *** Settings ***
-Documentation     PROBLEM:
-...               You want to manipulate strings within a Robot Framework test case
-...               without using low-level Python code or developing a custom library.
-...               DISCUSSION:
-...               This recipe demonstrates using keywords from String standard library.
-Library           String
-Force Tags        py3.6    py3.7    py3.8
-
+Documentation    PROBLEM:
+...              You want to manipulate strings within a Robot Framework test case
+...              without using low-level Python code or developing a custom library.
+...              DISCUSSION:
+...              This recipe demonstrates using keywords from String standard library.
+Library          String
+Force Tags       py3.7    py3.8    py3.9
 
 *** Variables ***
 ${recipe}         Recipe 7.1 String Manipulation Examples
 ${level}          Beginner
 ${category}       Internal Library: String
-
 
 *** Test Cases ***
 Check Lower Case Keywords

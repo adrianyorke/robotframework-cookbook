@@ -11,30 +11,29 @@ Documentation    PROBLEM:
 ...              $ pip install -U robotframework-browser
 ...              $ rfbrowser init
 Library          Browser
-Force Tags       no-ci-testing
+Force Tags       py3.7    py3.8    py3.9
 
 *** Variables ***
 ${recipe}         Recipe 15.1 Working With Browser Contexts
 ${level}          Intermediate
 ${category}       External Library: Browser
+@{permissions}    geolocation
 
 *** Test Cases ***
 Context with Geolocation set to Helsinki
-    New Context        geolocation={'latitude': 60.1698, 'longitude': 24.9386}    permissions=['geolocation']    ignoreHTTPSErrors=True
+    New Context        geolocation={'latitude': 60.1698, 'longitude': 24.9386}    permissions=${permissions}    ignoreHTTPSErrors=True
     New Page           https://www.openstreetmap.org/
     Click              span.icon.geolocate
     Wait Until Network Is Idle
     Take Screenshot
 
 Context with Geolocation set to Sydney
-    New Context        geolocation={'latitude': -33.8675, 'longitude': 151.207}    permissions=['geolocation']    ignoreHTTPSErrors=True
+    New Context        geolocation={'latitude': -33.8675, 'longitude': 151.207}    permissions=${permissions}    ignoreHTTPSErrors=True
     New Page           https://www.openstreetmap.org/
     Click              span.icon.geolocate
     Wait Until Network Is Idle
     Take Screenshot
 
-*** Comments ***
-# TODO: There is a bug in Browser library which is causing CI problems - commenting out this test case
 Context with no Geolocation Permission
     New Context
     New Page           https://www.openstreetmap.org/

@@ -108,6 +108,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "olakowalczyk",
+      "name": "Aleksandra Kowalczyk",
+      "avatar_url": "https://avatars.githubusercontent.com/u/60587401?v=4",
+      "profile": "https://github.com/olakowalczyk",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
@@ -115,5 +124,6 @@
   "projectOwner": "adrianyorke",
   "repoType": "github",
   "repoHost": "https://github.com",
-  "skipCi": true
+  "skipCi": true,
+  "commitConvention": "angular"
 }

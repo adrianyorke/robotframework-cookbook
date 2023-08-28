@@ -13,7 +13,7 @@ Documentation    PROBLEM:
 ...              $ rfbrowser init
 Library          Collections
 Library          Browser
-Force Tags       py3.7    py3.8    py3.9
+Force Tags       py3.8    py3.9    py3.10
 
 *** Variables ***
 ${recipe}         Recipe 9.3 Working With Browser Library

@@ -117,6 +117,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "kiblik1",
+      "name": "Martin Škopek",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12598836?v=4",
+      "profile": "https://github.com/kiblik1",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
@@ -125,5 +134,6 @@
   "repoType": "github",
   "repoHost": "https://github.com",
   "skipCi": true,
-  "commitConvention": "angular"
+  "commitConvention": "angular",
+  "commitType": "docs"
 }

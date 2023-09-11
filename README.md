@@ -55,6 +55,7 @@ After confirming Robot Framework installation was a success, clone the Robot Fra
 Once the repository has been cloned, you can install relevant libraries by navigating to the tests folder and running:
 
 > pip install -r .\requirements-[version].txt
+
 # Table of contents
 1. Standard Library - [BuiltIn](https://robotframework.org/robotframework/latest/libraries/BuiltIn.html)<br>
    * [Recipe 1.1 - Hello World Logging](src/section_01/recipe011_hello_world_logging.robot)<br>

@@ -1,5 +1,4 @@
 # Contributing
-# Contributing
 
 Anyone is welcome to contribute by making a pull request
 - Find an [issue](https://github.com/adrianyorke/robotframework-cookbook/issues) to work on 

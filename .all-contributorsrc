@@ -136,6 +136,16 @@
         "doc",
         "maintenance"
       ]
+    },
+    {
+      "login": "jepoy92",
+      "name": "Jeff Choi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/65995065?v=4",
+      "profile": "https://jepoy92.github.io/webdev-portfolio/",
+      "contributions": [
+        "doc",
+        "maintenance"
+      ]
     }
   ],
   "contributorsPerLine": 7,

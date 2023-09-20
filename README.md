@@ -41,14 +41,14 @@ For larger submissions simply clone this repository, create a feature branch (or
 
 # Installation and Usage
 
-Python and Robot Framework must be installed prior to using [Robot Framework Robocop](https://github.com/MarketSquare/robotframework-robocop). Download [Python](https://www.python.org/downloads/) and add to [PATH](https://docs.python.org/3/using/windows.html#the-full-installer) during installation, then, use a command-line interpreter of your choice and run the following to install Robot Framework:
+Python and Robot Framework must be installed prior to using [Robot Framework Cookbook](https://github.com/adrianyorke/robotframework-cookbook). Download [Python](https://www.python.org/downloads/) and add to [PATH](https://docs.python.org/3/using/windows.html#the-full-installer) during installation, then, use a command-line interpreter of your choice and run the following to install Robot Framework:
 
 > $ pip install robotframework
 
 You can check if the installation was succesful by running the following command:
 > $ robot --version
 
-After confirming Robot Framework installation was a success, clone the [Robot Framework Robocop](https://github.com/MarketSquare/robotframework-robocop) repository by running the following command:
+After confirming Robot Framework installation was a success, clone the [Robot Framework Cookbook](https://github.com/adrianyorke/robotframework-cookbook) repository by running the following command:
 
 > $ git clone https://github.com/adrianyorke/robotframework-cookbook.git
 

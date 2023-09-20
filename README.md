@@ -39,22 +39,22 @@ Robocop can be installed using pip:
 
 For larger submissions simply clone this repository, create a feature branch (or work directly on master) and submit a pull request to merge your branch.  If you are not comfortable with Git workflow then simply post your submission on the [#cookbook](https://app.slack.com/client/T07PJQ9S7/CU5RQ87K3) Slack channel and I will help you publish your recipe or case study.
 
-# Installation and Useage
+# Installation and Usage
 
-Python and Robot Framework must be installed prior to using Robot Framework - Cookbook. Download [Python](https://www.python.org/downloads/) and add to [PATH](https://docs.python.org/3/using/windows.html#the-full-installer) during installation, then, use a command-line interpreter of your choice and run the following to install Robot Framework:
+Python and Robot Framework must be installed prior to using [Robot Framework Robocop](https://github.com/MarketSquare/robotframework-robocop). Download [Python](https://www.python.org/downloads/) and add to [PATH](https://docs.python.org/3/using/windows.html#the-full-installer) during installation, then, use a command-line interpreter of your choice and run the following to install Robot Framework:
 
-> $ pip install pip install robotframework
+> $ pip install robotframework
 
 You can check if the installation was succesful by running the following command:
 > $ robot --version
 
-After confirming Robot Framework installation was a success, clone the Robot Framework - Cookbook repistory by running the following command:
+After confirming Robot Framework installation was a success, clone the [Robot Framework Robocop](https://github.com/MarketSquare/robotframework-robocop) repository by running the following command:
 
 > $ git clone https://github.com/adrianyorke/robotframework-cookbook.git
 
 Once the repository has been cloned, you can install relevant libraries by navigating to the tests folder and running:
 
-> pip install -r .\requirements-[version].txt
+> $ pip install -r ./tests/requirements-[version].txt
 
 # Table of contents
 1. Standard Library - [BuiltIn](https://robotframework.org/robotframework/latest/libraries/BuiltIn.html)<br>

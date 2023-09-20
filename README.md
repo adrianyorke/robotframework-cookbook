@@ -1,7 +1,7 @@
 # <img src="/img/logo_b+w_transparent.png" width="100"/><br>robotframework-cookbook
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-13-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-14-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 [![Actions Status](https://github.com/adrianyorke/robotframework-cookbook/workflows/Continuous%20integration/badge.svg)](https://github.com/adrianyorke/robotframework-cookbook/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -122,6 +122,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/olakowalczyk"><img src="https://avatars.githubusercontent.com/u/60587401?v=4?s=100" width="100px;" alt="Aleksandra Kowalczyk"/><br /><sub><b>Aleksandra Kowalczyk</b></sub></a><br /><a href="https://github.com/adrianyorke/robotframework-cookbook/commits?author=olakowalczyk" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/kiblik1"><img src="https://avatars.githubusercontent.com/u/12598836?v=4?s=100" width="100px;" alt="Martin Škopek"/><br /><sub><b>Martin Škopek</b></sub></a><br /><a href="https://github.com/adrianyorke/robotframework-cookbook/commits?author=kiblik1" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/sarafurd"><img src="https://avatars.githubusercontent.com/u/67877801?v=4?s=100" width="100px;" alt="sarafurd"/><br /><sub><b>sarafurd</b></sub></a><br /><a href="https://github.com/adrianyorke/robotframework-cookbook/commits?author=sarafurd" title="Documentation">📖</a> <a href="#maintenance-sarafurd" title="Maintenance">🚧</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://jepoy92.github.io/webdev-portfolio/"><img src="https://avatars.githubusercontent.com/u/65995065?v=4?s=100" width="100px;" alt="Jeff Choi"/><br /><sub><b>Jeff Choi</b></sub></a><br /><a href="https://github.com/adrianyorke/robotframework-cookbook/commits?author=jepoy92" title="Documentation">📖</a> <a href="#maintenance-jepoy92" title="Maintenance">🚧</a></td>
     </tr>
   </tbody>
 </table>

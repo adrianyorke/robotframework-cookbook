@@ -15,7 +15,7 @@ If you need help writing Robot Framework scripts or wish to update older scripts
 
 In the first part of the cookbook there are many simple recipes showing how to use builtin keywords and additional keywords from both internal and external Robot Framework libraries.  Towards the back of the cookbook there are complete case studies demonstrating whole projects and test automation solutions.
 
-# Other useful resources
+## Other useful resources
 * [Robot Framework Organization](https://robotframework.org/)
 * [Beginners Guide to Robot Framework](https://github.com/robotframework/BeginnersGuide)
 * [Robot Framework Quick Start Guide](https://github.com/robotframework/QuickStartGuide/blob/master/QuickStart.rst)
@@ -26,7 +26,10 @@ In the first part of the cookbook there are many simple recipes showing how to u
 * [Robot Framework - Learn the basics](https://dev.szabolcstoth.eu/robotframework-basics/)
 * [Robot Framework Cheat Sheet and Quick Reference (credit: robocorp)](https://robocorp.com/docs/languages-and-frameworks/robot-framework/cheat-sheet)
 
-# Notes for contributors
+## Star History
+<img src="img/star-history-20231011.png" width="600"/>
+
+## Notes for contributors
 Contributions from the wider community are most welcome!  Contributions can be either single recipes or whole case studies.
 
 We recommend using [Robotidy](https://robotidy.readthedocs.io/en/latest/) to help standardise the format of the Robot Framework code.
@@ -39,7 +42,7 @@ Robocop can be installed using pip:
 
 For larger submissions simply clone this repository, create a feature branch (or work directly on master) and submit a pull request to merge your branch.  If you are not comfortable with Git workflow then simply post your submission on the [#cookbook](https://app.slack.com/client/T07PJQ9S7/CU5RQ87K3) Slack channel and I will help you publish your recipe or case study.
 
-# Installation and Usage
+## Installation and Usage
 
 Python and Robot Framework must be installed prior to using [Robot Framework Cookbook](https://github.com/adrianyorke/robotframework-cookbook). Download [Python](https://www.python.org/downloads/) and add to [PATH](https://docs.python.org/3/using/windows.html#the-full-installer) during installation, then, use a command-line interpreter of your choice and run the following to install Robot Framework:
 
@@ -56,7 +59,7 @@ Once the repository has been cloned, you can install relevant libraries by navig
 
 > $ pip install -r ./tests/requirements-[version].txt
 
-# Table of contents
+## Table of contents
 1. Standard Library - [BuiltIn](https://robotframework.org/robotframework/latest/libraries/BuiltIn.html)<br>
    * [Recipe 1.1 - Hello World Logging](src/section_01/recipe011_hello_world_logging.robot)<br>
    * [Recipe 1.2 - For Loop](src/section_01/recipe012_looping.robot)<br>

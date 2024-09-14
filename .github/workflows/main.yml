@@ -19,13 +19,13 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
       - name: Set up Python ${{ matrix.python-version }}
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v4
         with:
           python-version: ${{ matrix.python-version }}
       - name: Set up Node.js
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node-version }}
         if: matrix.python-version != 3.6
@@ -51,7 +51,7 @@ jobs:
           pabot --testlevelsplit --processes 4 --command python -m robot --end-command --include pabotANDpy${{ matrix.python-version }} --exclude casestudy --exclude no-ci-testing --outputdir recipe_tests_pabot src
         if: always()
       - name: Save test results
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: robot-tests-logs
           path: |

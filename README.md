@@ -27,7 +27,7 @@ In the first part of the cookbook there are many simple recipes showing how to u
 * [Robot Framework Cheat Sheet and Quick Reference (credit: robocorp)](https://robocorp.com/docs/languages-and-frameworks/robot-framework/cheat-sheet)
 
 ## Star History
-<img src="img/star-history-2024113.png"/>
+<img src="img/star-history-20240914.png"/>
 
 ## Notes for contributors
 Contributions from the wider community are most welcome!  Contributions can be either single recipes or whole case studies.

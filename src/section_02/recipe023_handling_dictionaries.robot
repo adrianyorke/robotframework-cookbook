@@ -10,7 +10,7 @@ Documentation    PROBLEM:
 ...              checking membership.
 ...              Recipe 041 demonstrates using list & dictionaries using only BuiltIn library keywords.
 Library          Collections
-Force Tags       py3.9    py3.10    py3.11
+Test Tags        py3.9    py3.10    py3.11
 
 *** Variables ***
 ${recipe}         Recipe 2.3 Handling Dictionaries

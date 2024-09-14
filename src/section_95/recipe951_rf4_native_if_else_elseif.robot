@@ -17,7 +17,7 @@ Documentation    PROBLEM:
 ...              Recipe 3.1 Handling Dates
 ...              https://github.com/robotframework/robotframework/issues/3074
 Library          DateTime
-Force Tags       py3.8    py3.9    py3.10
+Force Tags       py3.9    py3.10    py3.11
 
 *** Variables ***
 ${recipe}         Recipe 95.1 Robot Framework 4 Native IF, ELSE, ELSE IF Syntax

@@ -14,7 +14,7 @@ Documentation    PROBLEM:
 Library          OperatingSystem
 Library          String
 Library          DatabaseLibrary
-Force Tags       py3.8    py3.9    py3.10
+Force Tags       py3.9    py3.10    py3.11
 
 *** Variables ***
 ${recipe}        Recipe 10.2 Breaking Database View

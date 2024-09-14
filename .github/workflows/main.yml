@@ -53,7 +53,7 @@ jobs:
       - name: Save test results
         uses: actions/upload-artifact@v4
         with:
-          name: robot-tests-logs
+          name: robot-tests-logs-${{ strategy.job-index }}
           path: |
             recipe_tests
             recipe_tests_pabot

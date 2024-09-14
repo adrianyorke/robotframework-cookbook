@@ -10,7 +10,7 @@ Documentation    PROBLEM:
 Library          OperatingSystem
 Library          String
 Library          DatabaseLibrary
-Force Tags       py3.9    py3.10    py3.11
+Test Tags        py3.9    py3.10    py3.11
 
 *** Variables ***
 ${recipe}        Recipe 10.1 Working With Databases

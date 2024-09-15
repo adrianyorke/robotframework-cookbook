@@ -11,7 +11,7 @@ Documentation    PROBLEM:
 ...              $ pip install -U robotframework-browser
 ...              $ rfbrowser init
 Library          Browser
-Test Tags        py3.9    py3.10    py3.11
+Test Tags        py3.10    py3.11    py3.12
 
 *** Variables ***
 ${recipe}         Recipe 15.1 Working With Browser Contexts

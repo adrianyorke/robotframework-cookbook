@@ -5,7 +5,7 @@ Documentation    PROBLEM:
 ...              This recipe demonstrates list variables, FOR loop and how to import a library.
 ...              We choose ${TEMPDIR} here as it works on all platforms.
 Library          OperatingSystem
-Test Tags        py3.9    py3.10    py3.11
+Test Tags        py3.10    py3.11    py3.12
 
 *** Variables ***
 ${recipe}         Recipe 4.1 Working With File System

@@ -9,7 +9,7 @@ Documentation    PROBLEM:
 ...              instead of number or time string formats,
 ...              - using extended variable syntax.
 Library          DateTime
-Test Tags        py3.9    py3.10    py3.11
+Test Tags        py3.10    py3.11    py3.12
 
 *** Variables ***
 ${recipe}         Recipe 3.1 Handling Dates

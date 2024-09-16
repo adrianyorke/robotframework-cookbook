@@ -5,7 +5,7 @@ Documentation    PROBLEM:
 ...              DISCUSSION:
 ...              This recipe demonstrates using keywords from String standard library.
 Library          String
-Test Tags        py3.9    py3.10    py3.11
+Test Tags        py3.10    py3.11
 
 *** Variables ***
 ${recipe}         Recipe 7.1 String Manipulation Examples

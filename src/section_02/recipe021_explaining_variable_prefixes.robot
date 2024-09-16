@@ -17,7 +17,7 @@ Documentation    PROBLEM:
 ...              BuiltIn library also has keywords for creating lists and dictionaries, checking
 ...              length or count and checking membership or equality.
 Library          Collections
-Test Tags        py3.9    py3.10    py3.11
+Test Tags        py3.10    py3.11
 
 *** Variables ***
 ${recipe}         Recipe 2.1 Explaining Variable Prefixes

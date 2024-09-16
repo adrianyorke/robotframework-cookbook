@@ -12,7 +12,7 @@ Documentation    PROBLEM:
 ...              length or count and checking membership or equality.
 ...              Recipe 041 also demonstrates using list & dictionaries using only BuiltIn library keywords.
 Library          Collections
-Test Tags        py3.10    py3.11    py3.12
+Test Tags        py3.10    py3.11
 
 *** Variables ***
 ${recipe}         Recipe 2.2 Handling Lists

@@ -53,15 +53,15 @@ Insert Data Into Table - user
 Create User View - Filter First Name = Eben
     [Tags]    smoke
     ${sql} =    Set Variable    CREATE VIEW vw_User AS SELECT id, first_name, last_name FROM user WHERE first_name = 'Eben';
-    ${output} =    Execute SQL String    sqlString=${sql}
+    ${output} =    Execute SQL String    sql_string=${sql}
 
 Drop Table - user
     ${sql} =    Set Variable    DROP TABLE user;
-    ${output} =    Execute SQL String    sqlString=${sql}
+    ${output} =    Execute SQL String    sql_string=${sql}
 
 Verify Query - User View - expected to fail
     [Tags]    smoke
     ${sql} =    Catenate    SELECT *    FROM vw_User    LIMIT 1;
-    Run Keyword And Ignore Error    Execute SQL String    sqlString=${sql}
+    Run Keyword And Ignore Error    Execute SQL String    sql_string=${sql}
     ${expectederror} =    Set Variable    OperationalError: no such table: main.user
-    Run Keyword And Expect Error    ${expectederror}    Execute SQL String    sqlString=${sql}
+    Run Keyword And Expect Error    ${expectederror}    Execute SQL String    sql_string=${sql}

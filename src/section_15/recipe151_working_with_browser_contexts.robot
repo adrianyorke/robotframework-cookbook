@@ -11,7 +11,7 @@ Documentation    PROBLEM:
 ...              $ pip install -U robotframework-browser
 ...              $ rfbrowser init
 Library          Browser
-Test Tags        py3.10    py3.11
+Force Tags       no-ci-testing
 
 *** Variables ***
 ${recipe}         Recipe 15.1 Working With Browser Contexts

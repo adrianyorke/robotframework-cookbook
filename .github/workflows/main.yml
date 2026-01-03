@@ -39,7 +39,7 @@ jobs:
         if: matrix.python-version != 3.6
       - name: Run Robocop
         run:
-          robocop check --reports rules_by_id  --configure return_status:quality_gate:W=-1 --exclude missing-doc-* --ignore section_99\* --custom-rules tests/robocop_rules.py src
+          robocop check --reports rules_by_id --exclude missing-doc-* --ignore section_99\* --custom-rules tests/robocop_rules.py src
         if: always()
       - name: Run Robot tests
         run:

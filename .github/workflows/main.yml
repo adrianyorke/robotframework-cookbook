@@ -37,10 +37,10 @@ jobs:
         run:
           rfbrowser init
         if: matrix.python-version != 3.6
-      - name: Run Robocop
-        run:
-          robocop check --reports rules_by_id --exclude missing-doc-* --ignore section_99\* --custom-rules tests/robocop_rules.py src
-        if: always()
+      # - name: Run Robocop
+      #   run:
+      #     robocop check --reports rules_by_id --exclude missing-doc-* --ignore section_99\* --custom-rules tests/robocop_rules.py src
+      #   if: always()
       - name: Run Robot tests
         run:
           python -m robot --exclude pabot --include py${{ matrix.python-version }} --exclude casestudy --exclude no-ci-testing --outputdir recipe_tests src

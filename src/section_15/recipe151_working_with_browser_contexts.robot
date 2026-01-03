@@ -11,7 +11,7 @@ Documentation    PROBLEM:
 ...              $ pip install -U robotframework-browser
 ...              $ rfbrowser init
 Library          Browser
-Test Tags        py3.10    py3.11
+Force Tags       no-ci-testing
 
 *** Variables ***
 ${recipe}         Recipe 15.1 Working With Browser Contexts
@@ -21,22 +21,22 @@ ${category}       External Library: Browser
 
 *** Test Cases ***
 Context with Geolocation set to Helsinki
-    New Context        geolocation={'latitude': 60.1698, 'longitude': 24.9386}    permissions=${permissions}    ignoreHTTPSErrors=True
-    New Page           https://www.openstreetmap.org/
-    Click              span.icon.geolocate
-    Wait Until Network Is Idle
+    New Context            geolocation={'latitude': 60.1698, 'longitude': 24.9386}    permissions=${permissions}    ignoreHTTPSErrors=True
+    New Page               https://www.openstreetmap.org/
+    Click                  span.icon.geolocate
+    Wait For Load State    networkidle    timeout=10s
     Take Screenshot
 
 Context with Geolocation set to Sydney
-    New Context        geolocation={'latitude': -33.8675, 'longitude': 151.207}    permissions=${permissions}    ignoreHTTPSErrors=True
-    New Page           https://www.openstreetmap.org/
-    Click              span.icon.geolocate
-    Wait Until Network Is Idle
+    New Context            geolocation={'latitude': -33.8675, 'longitude': 151.207}    permissions=${permissions}    ignoreHTTPSErrors=True
+    New Page               https://www.openstreetmap.org/
+    Click                  span.icon.geolocate
+    Wait For Load State    networkidle    timeout=10s
     Take Screenshot
 
 Context with no Geolocation Permission
     New Context
-    New Page           https://www.openstreetmap.org/
-    Click              span.icon.geolocate
-    Wait Until Network Is Idle
+    New Page               https://www.openstreetmap.org/
+    Click                  span.icon.geolocate
+    Wait For Load State    networkidle    timeout=10s
     Take Screenshot

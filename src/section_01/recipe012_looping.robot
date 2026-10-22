@@ -3,9 +3,9 @@ Documentation    PROBLEM:
 ...              You want to implement basic FOR loop or WHILE loop logic.
 ...              DISCUSSION:
 ...              FOR loop syntax is available as part of the built-in standard library.
-...              There is no specific WHILE syntax but it can be simulated using the
-...              Exit For Loop If keyword as the first statement within a
-...              large iteration FOR loop.
+...              Robot Framework provides native WHILE syntax in current releases. For versions
+...              without it, a WHILE loop can be simulated using the Exit For Loop If keyword as
+...              the first statement within a bounded FOR loop.
 ...              No Operation keyword is used to "do nothing" although you may disagee.
 ...              This recipe only using keywords from BuiltIn standard library so there is no Library import.
 ...              NOTE: the old FOR syntax should no longer be used but you may still find it in old posts.

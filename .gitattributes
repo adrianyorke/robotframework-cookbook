@@ -1,0 +1,27 @@
+# Normalize line endings to LF in the repository.
+# Working-tree EOL is decided per platform (CRLF on Windows via core.autocrlf).
+* text=auto eol=lf
+
+# Explicitly mark common text types
+*.md      text
+*.robot   text
+*.resource text
+*.py      text
+*.txt     text
+*.yml     text
+*.yaml    text
+*.json    text
+*.txt     text
+*.cfg     text
+*.ini     text
+*.toml    text
+*.bat     text eol=crlf
+*.ps1     text eol=crlf
+
+# Binaries
+*.png     binary
+*.jpg     binary
+*.jpeg    binary
+*.gif     binary
+*.eps     binary
+*.pdf     binary

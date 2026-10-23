@@ -95,7 +95,7 @@ Once the repository has been cloned, you can install relevant libraries by navig
 1. External Library - [Robot Framework Browser library powered by Playwright.](https://github.com/MarketSquare/robotframework-browser)
    * [Recipe 15.1 - Working With Browser Contexts](src/section_15/recipe151_working_with_browser_contexts.robot)<br>
 1. Robot Framework 4
-   * [Recipe 95.1 - Robot Framework 4 Native IF, ELSE, ELSE IF Syntax](src/section_95/recipe951_rf4_native_if_else_elseif.robot)<br>
+   * [Recipe 16.1 - Robot Framework 4 - New Syntax](src/section_16/recipe161_rf4_new_syntax.robot)<br>
 1. Case Studies
    * [Case Study 01 - Regression Testing Gerald Ford International Airport (GFIA) Parking Lot Calculation Tool](src/section_99/casestudy_01/README.md)<br>
    * [Case Study 02 - Transcoding video library to a contemporary format suitable for all play back devices, e.g. mp4 or mkv](src/section_99/casestudy_02/README.md)<br>

@@ -20,7 +20,7 @@ Library          DateTime
 Test Tags        py3.10    py3.11    py3.12
 
 *** Variables ***
-${recipe}         Recipe 95.1 Robot Framework 4 Native IF, ELSE, ELSE IF Syntax
+${recipe}         Recipe 16.1 Robot Framework 4 - New Syntax
 ${level}          Beginner
 ${category}       Robot Framework 4
 ${answer}         42

@@ -1,22 +1,22 @@
 *** Settings ***
-Documentation    CONTEXT:
-...              You want to execute commands on a remote machine via SSH and get the output and return code.
-...              DISCUSSION:
-...              This recipe demonstrates using keywords from SSH external library.  This recipe could be used
-...              to implement "configuration management as code" and configure multiple remote servers.
-...              This recipe also demonstrates another method of extending Robot Framework by defining
-...              a user keyword which can be used in this test suite.
-...              A common mistake that beginners make is that they string together commands using Execute Command
-...              and don't realise that each command is executed separately.  This is demonstrated in the first
-...              test case as you will notice in the log that pwd does not return the temp directory.
-...              This recipe has the following external dependency:
-...              $ pip install --upgrade robotframework-sshlibrary
-...              SEE ALSO:
-...              SSHLibrary documentation: http://robotframework.org/SSHLibrary/SSHLibrary.html
-Library          SSHLibrary
-Suite Setup      Open Connection And Log In
-Suite Teardown   Close All Connections
-Force Tags       no-ci-testing
+Documentation     CONTEXT:
+...               You want to execute commands on a remote machine via SSH and get the output and return code.
+...               DISCUSSION:
+...               This recipe demonstrates using keywords from SSH external library.  This recipe could be used
+...               to implement "configuration management as code" and configure multiple remote servers.
+...               This recipe also demonstrates another method of extending Robot Framework by defining
+...               a user keyword which can be used in this test suite.
+...               A common mistake that beginners make is that they string together commands using Execute Command
+...               and don't realise that each command is executed separately.  This is demonstrated in the first
+...               test case as you will notice in the log that pwd does not return the temp directory.
+...               This recipe has the following external dependency:
+...               $ pip install --upgrade robotframework-sshlibrary
+...               SEE ALSO:
+...               SSHLibrary documentation: http://robotframework.org/SSHLibrary/SSHLibrary.html
+Library           SSHLibrary
+Suite Setup       Open Connection And Log In
+Suite Teardown    Close All Connections
+Force Tags        no-ci-testing
 
 *** Variables ***
 ${recipe}         Recipe 11.1 Working With SSH Library

@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation    PROBLEM:
+Documentation    CONTEXT:
 ...              You want to send a simple HTTP request using Requests library.
 ...              DISCUSSION:
 ...              This recipe demonstrates using keywords from Collections standard library.

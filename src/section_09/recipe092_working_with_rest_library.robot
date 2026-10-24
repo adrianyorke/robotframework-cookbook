@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation    PROBLEM:
+Documentation    CONTEXT:
 ...              You want to send a simple HTTP request using RESTinstance library.
 ...              DISCUSSION:
 ...              This recipe demonstrates installing and using an external library.

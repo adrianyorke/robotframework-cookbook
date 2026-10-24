@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation    PROBLEM:
+Documentation    CONTEXT:
 ...              You are confused by variable prefixes in Robot Framework and don't know which
 ...              one to use and when.
 ...              DISCUSSION:

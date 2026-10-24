@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation    PROBLEM:
+Documentation    CONTEXT:
 ...              You want to send a simple HTTP request using Browser library.
 ...              DISCUSSION:
 ...              Making a request from inside a page context allows use of page

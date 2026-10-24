@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation    PROBLEM:
+Documentation    CONTEXT:
 ...              You want to interact with a relational database using database library.
 ...              DISCUSSION:
 ...              Uses SQLite as it is available in all Python and Robot Framework installations.

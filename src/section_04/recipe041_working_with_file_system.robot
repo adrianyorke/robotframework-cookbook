@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation    PROBLEM:
+Documentation    CONTEXT:
 ...              You want to query the file system and list items, files and directories.
 ...              DISCUSSION:
 ...              This recipe demonstrates list variables, FOR loop and how to import a library.

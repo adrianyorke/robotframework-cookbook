@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation    PROBLEM:
+Documentation    CONTEXT:
 ...              You want to execute commands on a remote machine via SSH and get the output and return code.
 ...              DISCUSSION:
 ...              This recipe demonstrates using keywords from SSH external library.  This recipe could be used

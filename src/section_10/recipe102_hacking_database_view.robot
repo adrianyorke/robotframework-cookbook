@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation    PROBLEM:
+Documentation    CONTEXT:
 ...              You want to demonstrate how database views can be broken by deleting a base table
 ...              that is referenced by the view SELECT statement.
 ...              DISCUSSION:

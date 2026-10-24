@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation    PROBLEM:
+Documentation    CONTEXT:
 ...              You want to handle lists natively within Robot Framework scripts without needing to
 ...              use lower level Python code or develop a custom library.
 ...              DISCUSSION:

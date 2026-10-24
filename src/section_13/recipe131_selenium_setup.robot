@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation     PROBLEM:
+Documentation     CONTEXT:
 ...               You want to setup local environment where to test websites against multiple locally running browsers.
 ...               DISCUSSION:
 ...               This recipe demonstrates using keywords from SeleniumLibrary and SeleniumTestability plugin, how to setup

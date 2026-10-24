@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation    PROBLEM:
+Documentation    CONTEXT:
 ...              You want to manipulate strings within a Robot Framework test case
 ...              without using low-level Python code or developing a custom library.
 ...              DISCUSSION:

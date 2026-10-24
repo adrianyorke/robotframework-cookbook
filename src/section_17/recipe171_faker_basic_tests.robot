@@ -1,7 +1,7 @@
 *** Settings ***
 Documentation    CONTEXT:
 ...              You would like to use the Robot Framework Faker library (`FakerLibrary`)
-...              to generate test data.
+...              to generate synthetic test data.
 ...              DISCUSSION:
 ...              This recipe demonstrates how to generate random test data using the Robot
 ...              Framework Faker library.  A FOR loop is used to generate five 'people', each

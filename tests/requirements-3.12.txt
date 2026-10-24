@@ -1,3 +1,4 @@
+robotframework==7.5
 robotframework-robocop
 requests
 robotframework-requests

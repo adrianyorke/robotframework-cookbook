@@ -1,2 +1,0 @@
-robotframework==7.5
-robotframework-faker==6.0.0

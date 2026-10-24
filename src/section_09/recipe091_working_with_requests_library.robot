@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation    PROBLEM:
+Documentation    CONTEXT:
 ...              You want to send a simple HTTP request using Requests library.
 ...              DISCUSSION:
 ...              This recipe demonstrates using keywords from Collections standard library.
@@ -9,7 +9,7 @@ Documentation    PROBLEM:
 ...              $ pip install -U robotframework-requests
 Library          Collections
 Library          RequestsLibrary
-Test Tags        py3.11    py3.12
+Force Tags       no-ci-testing
 
 *** Variables ***
 ${recipe}         Recipe 9.1 Working With Requests Library

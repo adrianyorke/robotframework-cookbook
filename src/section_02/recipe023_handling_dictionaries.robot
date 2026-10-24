@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation    PROBLEM:
+Documentation    CONTEXT:
 ...              You want to handle a dictionary within a Robot Framework script without needing to develop
 ...              a custom library using Java or Python.
 ...              DISCUSSION:

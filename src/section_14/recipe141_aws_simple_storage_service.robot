@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation     PROBLEM:
+Documentation     CONTEXT:
 ...               You want to test the existence of a file in an AWS S3 bucket
 ...               without using lower level Python code or developing a custom library.
 ...               DISCUSSION:

@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation                PROBLEM:
+Documentation                CONTEXT:
 ...                          You need to execute a command on a remote machine via SSH then get its vary large text output, or some
 ...                          bianary artifact that the remote command creates using file transfer.
 ...                          DISCUSSION:

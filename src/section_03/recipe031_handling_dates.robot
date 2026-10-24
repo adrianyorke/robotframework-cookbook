@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation    PROBLEM:
+Documentation    CONTEXT:
 ...              You want to handle dates within a Robot Framework test case
 ...              without using lower level Python code or develop a custom library.
 ...              DISCUSSION:

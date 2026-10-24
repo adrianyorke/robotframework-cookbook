@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation    PROBLEM:
+Documentation    CONTEXT:
 ...              You want to simulate different geolocations in the same browser instance.
 ...              DISCUSSION:
 ...              This recipe demonstrates the usage of contexts with different geolocations.

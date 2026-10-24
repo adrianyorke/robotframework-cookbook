@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation    PROBLEM:
+Documentation    CONTEXT:
 ...              You want to implement basic FOR loop or WHILE loop logic.
 ...              DISCUSSION:
 ...              FOR loop syntax is available as part of the built-in standard library.

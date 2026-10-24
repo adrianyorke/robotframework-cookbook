@@ -10,3 +10,4 @@ robotframework-seleniumtestability
 webdrivermanager
 robotframework-aws
 robotframework-browser
+robotframework-faker

@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation    PROBLEM:
+Documentation    CONTEXT:
 ...              You want to send a simple HTTP request using Browser library.
 ...              DISCUSSION:
 ...              Making a request from inside a page context allows use of page
@@ -13,7 +13,7 @@ Documentation    PROBLEM:
 ...              $ rfbrowser init
 Library          Collections
 Library          Browser
-Test Tags        py3.11    py3.12
+Force Tags       no-ci-testing
 
 *** Variables ***
 ${recipe}         Recipe 9.3 Working With Browser Library

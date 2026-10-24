@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation    PROBLEM:
+Documentation    CONTEXT:
 ...              You would like to test the native IF, ELSE and ELSE IF syntax which was
 ...              introduced in Robot Framework 4.
 ...              DISCUSSION:

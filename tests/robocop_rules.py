@@ -35,7 +35,7 @@ class RecipeChecker(VisitorChecker):
             "*** Test Cases ***": TestCaseSection,
         }
         self.mandatory_variables = {"${recipe}", "${level}", "${category}"}
-        self.mandatory_doc_fields = {"PROBLEM:", "DISCUSSION:"}
+        self.mandatory_doc_fields = {"CONTEXT:", "DISCUSSION:"}
         super().__init__(*args)
 
     def visit_File(self, node):  # noqa

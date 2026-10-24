@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation    PROBLEM:
+Documentation    CONTEXT:
 ...              You want to reduce the overall test execution time by running all test cases
 ...              within a test suite in parallel using parallel executor (pabot).
 ...              DISCUSSION:

@@ -7,7 +7,7 @@ Documentation    CONTEXT:
 ...              $ pip install -U RESTinstance
 Library          Collections
 Library          REST    https://api.github.com
-Test Tags        py3.11    py3.12
+Force Tags       no-ci-testing
 
 *** Variables ***
 ${recipe}         Recipe 9.2 Working With REST Library

@@ -13,7 +13,7 @@ Documentation    CONTEXT:
 ...              $ rfbrowser init
 Library          Collections
 Library          Browser
-Test Tags        py3.11    py3.12
+Force Tags       no-ci-testing
 
 *** Variables ***
 ${recipe}         Recipe 9.3 Working With Browser Library

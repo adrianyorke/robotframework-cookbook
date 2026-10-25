@@ -97,6 +97,7 @@ Once the repository has been cloned, you can install relevant libraries by navig
 1. Robot Framework - Major Release Testing
    * [Recipe 16.1 - Robot Framework 4 - New Syntax](src/section_16/recipe161_rf4_new_syntax.robot)<br>
    * [Recipe 16.2 - Robot Framework 5 - New Syntax](src/section_16/recipe162_rf5_new_syntax.robot)<br>
+   * [Recipe 16.3 - Robot Framework 6 - New Syntax](src/section_16/recipe163_rf6_new_syntax.robot)<br>
 1. External Library - [Faker](https://github.com/MarketSquare/robotframework-faker)
    * [Recipe 17.1 - Basic Tests](src/section_17/recipe171_faker_basic_tests.robot)<br>
 1. Case Studies

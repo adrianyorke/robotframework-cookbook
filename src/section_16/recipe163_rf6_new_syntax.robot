@@ -1,3 +1,5 @@
+language: fi
+
 *** Settings ***
 Documentation    CONTEXT:
 ...              You would like to learn the new syntax features which were
@@ -17,6 +19,10 @@ Documentation    CONTEXT:
 ...              recipe to tag the Log Recipe keyword below.
 ...              This recipe demonstrates each feature with a small test case
 ...              that uses the Collections library and built-in keywords.
+...              - Robot Framework 6 supports localization.  The language
+...              of a suite can be changed with the language: fi syntax and
+...              this recipe uses the Finnish language to demonstrate
+...              localized Boolean values such as Tosi and Kyllä.
 ...              Run the recipe and closely examine the log to see the new
 ...              commands.
 ...              SEE ALSO:
@@ -49,6 +55,10 @@ Check Set To Dictionary And Get Dictionary Items
     Should Contain    ${items}    a
     C.Dictionary Should Contain Item    ${d}    a    1
     Log Recipe
+
+Check Localized Boolean
+    Should Be Equal    Tosi    ${True}    types=boolean
+    Should Be Equal    Ei    ${False}    types=boolean
 
 *** Keywords ***
 Log Recipe

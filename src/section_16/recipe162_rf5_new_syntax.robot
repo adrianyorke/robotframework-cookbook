@@ -21,7 +21,7 @@ Documentation    CONTEXT:
 ...              examine the log to see the new commands.
 ...              SEE ALSO:
 ...              Recipe 16.1 Robot Framework 4 - New Syntax
-...              https://github.com/adrianyorke/robotframework-cookbook
+...              src/section_16/recipe161_rf4_new_syntax.robot
 ...              Robot Framework 5 Release Notes
 ...              https://robotframework.org/robotframework/latest/RobotFramework-5-Release-Notes.html
 ...              Issue 61

@@ -75,9 +75,10 @@ Once the repository has been cloned, you can install relevant libraries by navig
 6. Standard Library - Remote
 7. Standard Library - [String](https://robotframework.org/robotframework/latest/libraries/String.html)
    * [Recipe 7.1 - String Manipulation Examples](src/section_07/recipe071_string_manipulation_examples.robot)<br>
-8. Working With Semi-Structured Data
+8. Working With Semi-Structured and Structured Data Files
    * [Recipe 8.1 - Working With JSON](src/section_08/recipe081_working_with_json.robot)<br>
    * [Recipe 8.2 - Working With YAML](src/section_08/recipe082_working_with_yaml.robot)<br>
+   * [Recipe 8.3 - Working With CSV](src/section_08/recipe083_working_with_csv.robot)<br>
 9. External Library - REST API
    * [Recipe 9.1 - Working With Requests Library](src/section_09/recipe091_working_with_requests_library.robot)<br>
    * [Recipe 9.2 - Working With RESTinstance Library](src/section_09/recipe092_working_with_rest_library.robot)<br>

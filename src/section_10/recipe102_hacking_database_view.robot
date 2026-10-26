@@ -1,26 +1,27 @@
 *** Settings ***
-Documentation    CONTEXT:
-...              You want to demonstrate how database views can be broken by deleting a base table
-...              that is referenced by the view SELECT statement.
-...              DISCUSSION:
-...              This recipe demonstrates creating a datase table and view, then breaking the view.
-...              We confirm the view is broken by attempting to SELECT data from it.
-...              This recipe also demonstrates "Run Keyword And Ignore Error" and
-...              "Run Keyword And Expect Error" keywords.
-...              This recipe has the following external dependencies:
-...              $ pip install -U robotframework-databaselibrary
-...              SEE ALSO:
-...              In the next recipe, we will create a script that checks all views are still working.
-Library          OperatingSystem
-Library          String
-Library          DatabaseLibrary
-Test Tags        py3.11    py3.12
+Documentation     CONTEXT:
+...               You want to demonstrate how database views can be broken by deleting a base table
+...               that is referenced by the view SELECT statement.
+...               DISCUSSION:
+...               This recipe demonstrates creating a datase table and view, then breaking the view.
+...               We confirm the view is broken by attempting to SELECT data from it.
+...               This recipe also demonstrates "Run Keyword And Ignore Error" and
+...               "Run Keyword And Expect Error" keywords.
+...               This recipe has the following external dependencies:
+...               $ pip install -U robotframework-databaselibrary
+...               SEE ALSO:
+...               In the next recipe, we will create a script that checks all views are still working.
+Library           OperatingSystem
+Library           String
+Library           DatabaseLibrary
+Test Tags         py3.11    py3.12
+Suite Teardown    Disconnect From All Databases
 
 *** Variables ***
-${recipe}        Recipe 10.2 Breaking Database View
-${level}         Advanced
-${category}      External Library: DatabaseLibrary
-${DBName}        my_db_test_102
+${recipe}         Recipe 10.2 Breaking Database View
+${level}          Advanced
+${category}       External Library: DatabaseLibrary
+${DBName}         my_db_test_102
 
 *** Test Cases ***
 Remove old DB if exists

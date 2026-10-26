@@ -63,47 +63,45 @@ Once the repository has been cloned, you can install relevant libraries by navig
 1. Standard Library - [BuiltIn](https://robotframework.org/robotframework/latest/libraries/BuiltIn.html)<br>
    * [Recipe 1.1 - Hello World Logging](src/section_01/recipe011_hello_world_logging.robot)<br>
    * [Recipe 1.2 - For Loop](src/section_01/recipe012_looping.robot)<br>
-2. Standard Library - [Collections](https://robotframework.org/robotframework/latest/libraries/Collections.html)
+1. Standard Library - [Collections](https://robotframework.org/robotframework/latest/libraries/Collections.html)
    * [Recipe 2.1 - Explaining Variable Prefixes](src/section_02/recipe021_explaining_variable_prefixes.robot)<br>
    * [Recipe 2.2 - Handling Lists](src/section_02/recipe022_handling_lists.robot)<br>
    * [Recipe 2.3 - Handling Dictionaries](src/section_02/recipe023_handling_dictionaries.robot)<br>
-3. Standard Library - [DateTime](https://robotframework.org/robotframework/latest/libraries/DateTime.html)
+1. Standard Library - [DateTime](https://robotframework.org/robotframework/latest/libraries/DateTime.html)
    * [Recipe 3.1 - Handling Dates](src/section_03/recipe031_handling_dates.robot)<br>
-4. Standard Library - OperatingSystem
+1. Standard Library - OperatingSystem
    * [Recipe 4.1 - Working With File System](src/section_04/recipe041_working_with_file_system.robot)<br>
-5. Standard Library - [Process](https://robotframework.org/robotframework/latest/libraries/Process.html)
-6. Standard Library - Remote
-7. Standard Library - [String](https://robotframework.org/robotframework/latest/libraries/String.html)
+1. Standard Library - [Process](https://robotframework.org/robotframework/latest/libraries/Process.html)
+1. Standard Library - Remote
+1. Standard Library - [String](https://robotframework.org/robotframework/latest/libraries/String.html)
    * [Recipe 7.1 - String Manipulation Examples](src/section_07/recipe071_string_manipulation_examples.robot)<br>
-8. Standard Library - [XML](https://robotframework.org/robotframework/latest/libraries/XML.html)
-   * [Recipe 8.1 - Working With JSON](src/section_08/recipe081_working_with_json.robot)<br>
-   * [Recipe 8.2 - Working With YAML](src/section_08/recipe082_working_with_yaml.robot)<br>
-9. External Library - REST API
+1. Standard Library - [XML](https://robotframework.org/robotframework/latest/libraries/XML.html)
+1. External Library - REST API
    * [Recipe 9.1 - Working With Requests Library](src/section_09/recipe091_working_with_requests_library.robot)<br>
    * [Recipe 9.2 - Working With RESTinstance Library](src/section_09/recipe092_working_with_rest_library.robot)<br>
    * [Recipe 9.3 - Working With Browser Library](src/section_09/recipe093_working_with_browser_library.robot)
-10. External Library - Databases
+1. External Library - Databases
    * [Recipe 10.1 - Working With Databases](src/section_10/recipe101_working_with_databases.robot)<br>
    * [Recipe 10.2 - Hacking Database View](src/section_10/recipe102_hacking_database_view.robot)<br>
-11. External Library - [SSH](https://github.com/robotframework/SSHLibrary)
+1. External Library - [SSH](https://github.com/robotframework/SSHLibrary)
    * [Recipe 11.1 - Working With SSH](src/section_11/recipe111_working_with_ssh_library.robot)<br>
    * [Recipe 11.2 - Retrieve Output from SSH Run Command](src/section_11/recipe112_retrieve_output_file_of_ssh_run_command.robot)<br>
-12. External Library - [Parallel executor for Robot Framework test cases (pabot)](https://github.com/mkorpela/pabot)<br>
+1. External Library - [Parallel executor for Robot Framework test cases (pabot)](https://github.com/mkorpela/pabot)<br>
    * [Recipe 12.1 - Running Tests in Parallel](src/section_12/recipe121_running_tests_in_parallel.robot)<br>
-13. External Library - [SeleniumLibrary](https://github.com/robotframework/seleniumlibrary) and [SeleniumTestability](https://github.com/rasjani/robotframework-seleniumtestability)
+1. External Library - [SeleniumLibrary](https://github.com/robotframework/seleniumlibrary) and [SeleniumTestability](https://github.com/rasjani/robotframework-seleniumtestability)
    * [Recipe 13.1 - SeleniumLibrary & SeleniumTestability setup](src/section_13/recipe131_selenium_setup.robot)<br>
-14. External Library - [AWSLibrary - for interacting with Amazon Web Services (AWS) Cloud Computing Services](https://github.com/teaglebuilt/robotframework-aws)
+1. External Library - [AWSLibrary - for interacting with Amazon Web Services (AWS) Cloud Computing Services](https://github.com/teaglebuilt/robotframework-aws)
    * [Recipe 14.1 - AWS Simple Storage Service (S3)](src/section_14/recipe141_aws_simple_storage_service.robot)<br>
-15. External Library - [Robot Framework Browser library powered by Playwright.](https://github.com/MarketSquare/robotframework-browser)
+1. External Library - [Robot Framework Browser library powered by Playwright.](https://github.com/MarketSquare/robotframework-browser)
    * [Recipe 15.1 - Working With Browser Contexts](src/section_15/recipe151_working_with_browser_contexts.robot)<br>
-16. Robot Framework - Exploring New Syntax Introduced by Significant Releases
+1. Robot Framework - Exploring New Syntax Introduced by Significant Releases
    * [Recipe 16.1 - Robot Framework 4 - New Syntax](src/section_16/recipe161_rf4_new_syntax.robot)<br>
    * [Recipe 16.2 - Robot Framework 5 - New Syntax](src/section_16/recipe162_rf5_new_syntax.robot)<br>
    * [Recipe 16.3 - Robot Framework 6 - New Syntax](src/section_16/recipe163_rf6_new_syntax.robot)<br>
    * [Recipe 16.4 - Robot Framework 7 - New Syntax](src/section_16/recipe164_rf7_new_syntax.robot)<br>
-17. External Library - [Faker](https://github.com/MarketSquare/robotframework-faker)
+1. External Library - [Faker](https://github.com/MarketSquare/robotframework-faker)
    * [Recipe 17.1 - Basic Tests](src/section_17/recipe171_faker_basic_tests.robot)<br>
-18. Case Studies
+1. Case Studies
    * [Case Study 01 - Regression Testing Gerald Ford International Airport (GFIA) Parking Lot Calculation Tool](src/section_99/casestudy_01/README.md)<br>
    * [Case Study 02 - Transcoding video library to a contemporary format suitable for all play back devices, e.g. mp4 or mkv](src/section_99/casestudy_02/README.md)<br>
 

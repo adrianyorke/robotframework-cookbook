@@ -27,10 +27,10 @@ Remove old DB if exists
     File Should Not Exist    ${TEMPDIR}/${DBName}.db
     Comment    Sleep    1s
 
-Connect To Database
+Connect
     [Tags]    smoke
     ${TEMPDIR} =    Replace String    ${TEMPDIR}    \\    \\\\
-    Connect To Database Using Custom Params    sqlite3    database="${TEMPDIR}/${DBName}.db", isolation_level=None
+    Connect To Database    sqlite3    database=${TEMPDIR}/${DBName}.db
 
 Create User Table
     [Tags]    smoke

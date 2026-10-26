@@ -1,22 +1,23 @@
 *** Settings ***
-Documentation    CONTEXT:
-...              You want to interact with a relational database using database library.
-...              DISCUSSION:
-...              Uses SQLite as it is available in all Python and Robot Framework installations.
-...              Demonstrates adding tags to test cases which can be used to include/exclude certain types of tests.
-...              Also demonstrates installing and using an external library.
-...              This recipe has the following external dependencies:
-...              $ pip install -U robotframework-databaselibrary
-Library          OperatingSystem
-Library          String
-Library          DatabaseLibrary
-Test Tags        py3.11    py3.12
+Documentation     CONTEXT:
+...               You want to interact with a relational database using database library.
+...               DISCUSSION:
+...               Uses SQLite as it is available in all Python and Robot Framework installations.
+...               Demonstrates adding tags to test cases which can be used to include/exclude certain types of tests.
+...               Also demonstrates installing and using an external library.
+...               This recipe has the following external dependencies:
+...               $ pip install -U robotframework-databaselibrary
+Library           OperatingSystem
+Library           String
+Library           DatabaseLibrary
+Test Tags         py3.11    py3.12
+Suite Teardown    Disconnect From All Databases
 
 *** Variables ***
-${recipe}        Recipe 10.1 Working With Databases
-${level}         Advanced
-${category}      External Library: DatabaseLibrary
-${DBName}        my_db_test_101
+${recipe}         Recipe 10.1 Working With Databases
+${level}          Advanced
+${category}       External Library: DatabaseLibrary
+${DBName}         my_db_test_101
 
 *** Test Cases ***
 Remove old DB if exists

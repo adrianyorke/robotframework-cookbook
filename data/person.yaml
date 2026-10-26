@@ -1,4 +1,5 @@
 # Person data used by the Working With JSON and Working With YAML recipes.
+# See recipe: src/section_08/recipe082_working_with_yaml.robot
 
 # Name of the person.
 name: Harry Potter

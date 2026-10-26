@@ -22,14 +22,14 @@ ${category}       Internal Library: BuiltIn
 
 *** Test Cases ***
 Load YAML Into Python Dictionary
-    ${data} =    Evaluate    yaml.safe_load(open('data/person.yaml').read())
-    Should Be Equal    ${data}[name]    Harry Potter
-    Should Be Equal    ${data}[city]    Little Whinging
+    ${data} =          Evaluate            yaml.safe_load(open('data/person.yaml').read())
+    Should Be Equal    ${data}[name]       Harry Potter
+    Should Be Equal    ${data}[city]       Little Whinging
     Should Be Equal    ${data}[country]    England
 
 Query YAML Content
     ${data} =    Evaluate    yaml.safe_load(open('data/person.yaml').read())
-    Dictionary Should Contain Key    ${data}    name
-    Dictionary Should Contain Value    ${data}    Little Whinging
+    Dictionary Should Contain Key          ${data}    name
+    Dictionary Should Contain Value        ${data}    Little Whinging
     Dictionary Should Not Contain Value    ${data}    Tampere
     Log Dictionary    ${data}

@@ -22,14 +22,14 @@ ${category}       Internal Library: BuiltIn
 
 *** Test Cases ***
 Load JSON Into Python Dictionary
-    ${data} =    Evaluate    json.load(open('data/person.json'))
-    Should Be Equal    ${data}[name]    James Bond
-    Should Be Equal    ${data}[city]    London
+    ${data} =          Evaluate            json.load(open('data/person.json'))
+    Should Be Equal    ${data}[name]       James Bond
+    Should Be Equal    ${data}[city]       London
     Should Be Equal    ${data}[country]    England
 
 Query JSON Content
     ${data} =    Evaluate    json.load(open('data/person.json'))
-    Dictionary Should Contain Key    ${data}    name
-    Dictionary Should Contain Value    ${data}    London
+    Dictionary Should Contain Key          ${data}    name
+    Dictionary Should Contain Value        ${data}    London
     Dictionary Should Not Contain Value    ${data}    Tampere
     Log Dictionary    ${data}

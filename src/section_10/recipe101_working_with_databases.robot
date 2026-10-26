@@ -51,4 +51,4 @@ Insert Data Into Table - user
 
 Verify Query - Row Count user Table
     [Tags]    smoke
-    Row Count Is Equal To X    SELECT * FROM user;    2
+    Check Row Count    SELECT * FROM user;    ==    2

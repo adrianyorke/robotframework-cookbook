@@ -14,8 +14,10 @@ Documentation    CONTEXT:
 ...              been met, the command will be greyed out.  Otherwise the command will be green
 ...              to show the path taken by the logic.
 ...              SEE ALSO:
-...              Recipe 3.1 Handling Dates
-...              https://github.com/robotframework/robotframework/issues/3074
+...              Robot Framework 4 Release Notes
+...              https://github.com/robotframework/robotframework/blob/master/doc/releasenotes/rf-4.0.rst
+...              Issue 51
+...              https://github.com/adrianyorke/robotframework-cookbook/issues/51
 Library          DateTime
 Test Tags        py3.11    py3.12
 

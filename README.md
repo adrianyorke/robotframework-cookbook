@@ -122,6 +122,7 @@ For more information see the [Robot Framework User Guide](https://robotframework
 4. Standard Library - OperatingSystem
    * [Recipe 4.1 - Working With File System](src/section_04/recipe041_working_with_file_system.robot)<br>
 5. Standard Library - [Process](https://robotframework.org/robotframework/latest/libraries/Process.html)
+   * [Recipe 5.1 - Working With Process Library](src/section_05/recipe051_working_with_process_library.robot)<br>
 6. Standard Library - Remote
 7. Standard Library - [String](https://robotframework.org/robotframework/latest/libraries/String.html)
    * [Recipe 7.1 - String Manipulation Examples](src/section_07/recipe071_string_manipulation_examples.robot)<br>

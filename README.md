@@ -119,11 +119,12 @@ For more information see the [Robot Framework User Guide](https://robotframework
    * [Recipe 2.3 - Handling Dictionaries](src/section_02/recipe023_handling_dictionaries.robot)<br>
 3. Standard Library - [DateTime](https://robotframework.org/robotframework/latest/libraries/DateTime.html)
    * [Recipe 3.1 - Handling Dates](src/section_03/recipe031_handling_dates.robot)<br>
-4. Standard Library - OperatingSystem
+4. Standard Library - [OperatingSystem](https://robotframework.org/robotframework/latest/libraries/OperatingSystem.html)
    * [Recipe 4.1 - Working With File System](src/section_04/recipe041_working_with_file_system.robot)<br>
 5. Standard Library - [Process](https://robotframework.org/robotframework/latest/libraries/Process.html)
    * [Recipe 5.1 - Working With Process Library](src/section_05/recipe051_working_with_process_library.robot)<br>
-6. Standard Library - Remote
+6. Standard Library - [Remote Library](https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html#remote-library-interface)
+   * [Recipe 6.1 - Working With Remote Library](src/section_06/recipe061_working_with_remote_library.robot)<br>
 7. Standard Library - [String](https://robotframework.org/robotframework/latest/libraries/String.html)
    * [Recipe 7.1 - String Manipulation Examples](src/section_07/recipe071_string_manipulation_examples.robot)<br>
 8. Working With Semi-Structured and Structured Data Files
@@ -154,7 +155,7 @@ For more information see the [Robot Framework User Guide](https://robotframework
    * [Recipe 16.3 - Robot Framework 6 - New Syntax](src/section_16/recipe163_rf6_new_syntax.robot)<br>
    * [Recipe 16.4 - Robot Framework 7 - New Syntax](src/section_16/recipe164_rf7_new_syntax.robot)<br>
 17. External Library - [Faker](https://github.com/MarketSquare/robotframework-faker)
-   * [Recipe 17.1 - Basic Tests](src/section_17/recipe171_faker_basic_tests.robot)<br>
+   * [Recipe 17.1 - Faker Basic Tests](src/section_17/recipe171_faker_basic_tests.robot)<br>
 18. Case Studies
    * [Case Study 01 - Regression Testing Gerald Ford International Airport (GFIA) Parking Lot Calculation Tool](src/section_99/casestudy_01/README.md)<br>
    * [Case Study 02 - Transcoding video library to a contemporary format suitable for all play back devices, e.g. mp4 or mkv](src/section_99/casestudy_02/README.md)<br>

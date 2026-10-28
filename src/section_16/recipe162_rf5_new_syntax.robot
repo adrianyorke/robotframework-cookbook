@@ -24,7 +24,7 @@ Documentation    CONTEXT:
 ...              src/section_16/recipe161_rf4_new_syntax.robot
 ...              Robot Framework 5 Release Notes
 ...              https://github.com/robotframework/robotframework/blob/master/doc/releasenotes/rf-5.0.rst
-...              Issue 61
+...              Related Issue(s):
 ...              https://github.com/adrianyorke/robotframework-cookbook/issues/61
 Test Tags        py3.11    py3.12
 

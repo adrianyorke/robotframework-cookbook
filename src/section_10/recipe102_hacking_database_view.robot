@@ -10,6 +10,7 @@ Documentation     CONTEXT:
 ...               This recipe has the following external dependencies:
 ...               $ pip install -U robotframework-databaselibrary
 ...               SEE ALSO:
+...               https://pypi.org/project/robotframework-databaselibrary/
 ...               In the next recipe, we will create a script that checks all views are still working.
 Library           OperatingSystem
 Library           String

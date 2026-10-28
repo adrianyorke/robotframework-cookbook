@@ -11,6 +11,7 @@ Documentation    CONTEXT:
 ...              This recipe has the following external dependencies:
 ...              $ pip install -U robotframework-faker
 ...              SEE ALSO:
+...              Related Issue(s):
 ...              https://github.com/adrianyorke/robotframework-cookbook/issues/72
 Test Tags        py3.11    py3.12
 Library          FakerLibrary

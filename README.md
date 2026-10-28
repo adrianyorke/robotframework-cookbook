@@ -110,7 +110,7 @@ Metadata    cookbook:robotframework-cookbook
 For more information see the [Robot Framework User Guide](https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html).
 
 ## Table of contents
-1. Standard Library - [BuiltIn](https://robotframework.org/robotframework/latest/libraries/BuiltIn.html)<br>
+1. Standard Library - [BuiltIn](https://robotframework.org/robotframework/latest/libraries/BuiltIn.html)
    * [Recipe 1.1 - Hello World Logging](src/section_01/recipe011_hello_world_logging.robot)<br>
    * [Recipe 1.2 - For Loop](src/section_01/recipe012_looping.robot)<br>
 2. Standard Library - [Collections](https://robotframework.org/robotframework/latest/libraries/Collections.html)
@@ -134,14 +134,14 @@ For more information see the [Robot Framework User Guide](https://robotframework
 9. External Library - REST API
    * [Recipe 9.1 - Working With Requests Library](src/section_09/recipe091_working_with_requests_library.robot)<br>
    * [Recipe 9.2 - Working With RESTinstance Library](src/section_09/recipe092_working_with_rest_library.robot)<br>
-   * [Recipe 9.3 - Working With Browser Library](src/section_09/recipe093_working_with_browser_library.robot)
-10. External Library - Databases
+   * [Recipe 9.3 - Working With Browser Library](src/section_09/recipe093_working_with_browser_library.robot)<br>
+10. External Library - [Database Library](https://pypi.org/project/robotframework-databaselibrary/)
    * [Recipe 10.1 - Working With Databases](src/section_10/recipe101_working_with_databases.robot)<br>
    * [Recipe 10.2 - Hacking Database View](src/section_10/recipe102_hacking_database_view.robot)<br>
 11. External Library - [SSH](https://github.com/robotframework/SSHLibrary)
    * [Recipe 11.1 - Working With SSH](src/section_11/recipe111_working_with_ssh_library.robot)<br>
    * [Recipe 11.2 - Retrieve Output from SSH Run Command](src/section_11/recipe112_retrieve_output_file_of_ssh_run_command.robot)<br>
-12. External Library - [Parallel executor for Robot Framework test cases (pabot)](https://github.com/mkorpela/pabot)<br>
+12. External Library - [Parallel executor for Robot Framework test cases (pabot)](https://github.com/mkorpela/pabot)
    * [Recipe 12.1 - Running Tests in Parallel](src/section_12/recipe121_running_tests_in_parallel.robot)<br>
 13. External Library - [SeleniumLibrary](https://github.com/robotframework/seleniumlibrary) and [SeleniumTestability](https://github.com/rasjani/robotframework-seleniumtestability)
    * [Recipe 13.1 - SeleniumLibrary & SeleniumTestability setup](src/section_13/recipe131_selenium_setup.robot)<br>

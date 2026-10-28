@@ -7,6 +7,8 @@ Documentation     CONTEXT:
 ...               Also demonstrates installing and using an external library.
 ...               This recipe has the following external dependencies:
 ...               $ pip install -U robotframework-databaselibrary
+...               SEE ALSO:
+...               https://pypi.org/project/robotframework-databaselibrary/
 Library           OperatingSystem
 Library           String
 Library           DatabaseLibrary

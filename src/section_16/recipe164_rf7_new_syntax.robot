@@ -23,7 +23,7 @@ Documentation    CONTEXT:
 ...              src/section_16/recipe163_rf6_new_syntax.robot
 ...              Robot Framework 7 Release Notes
 ...              https://github.com/robotframework/robotframework/blob/master/doc/releasenotes/rf-7.0.rst
-...              Issue 133
+...              Related Issue(s):
 ...              https://github.com/adrianyorke/robotframework-cookbook/issues/133
 Test Tags        py3.11    py3.12    regression
 Keyword Tags     rf7

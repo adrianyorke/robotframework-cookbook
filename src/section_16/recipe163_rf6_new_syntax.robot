@@ -30,7 +30,7 @@ Documentation    CONTEXT:
 ...              src/section_16/recipe162_rf5_new_syntax.robot
 ...              Robot Framework 6 Release Notes
 ...              https://github.com/robotframework/robotframework/blob/master/doc/releasenotes/rf-6.0.rst
-...              Issue 71
+...              Related Issue(s):
 ...              https://github.com/adrianyorke/robotframework-cookbook/issues/71
 Test Tags        py3.11    py3.12
 Keyword Tags     rf6

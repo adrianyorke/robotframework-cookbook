@@ -16,7 +16,7 @@ Documentation    CONTEXT:
 ...              SEE ALSO:
 ...              Robot Framework 4 Release Notes
 ...              https://github.com/robotframework/robotframework/blob/master/doc/releasenotes/rf-4.0.rst
-...              Issue 51
+...              Related Issue(s):
 ...              https://github.com/adrianyorke/robotframework-cookbook/issues/51
 Library          DateTime
 Test Tags        py3.11    py3.12

@@ -3,7 +3,7 @@ Documentation     A test suite with test cases for valet parking.
 Suite Setup       Open ParkCalc
 Suite Teardown    Close Browser
 Test Setup        Input Parking Lot    Valet Parking
-Force Tags        KDT
+Test Tags         KDT
 Resource          resource.resource
 
 *** Test Cases ***

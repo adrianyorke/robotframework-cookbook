@@ -3,7 +3,7 @@ Documentation     A test suite with tests for economy parking.
 Suite Setup       Open ParkCalc
 Suite Teardown    Close Browser
 Test Setup        Input Parking Lot    Economy Parking
-Force Tags        KDT
+Test Tags         KDT
 Resource          resource.resource
 
 *** Test Cases ***

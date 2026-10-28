@@ -2,7 +2,7 @@
 Documentation     A test suite with functional tests for ParkCalc in a keyword-driven format.
 Suite Setup       Open ParkCalc
 Suite Teardown    Close Browser
-Force Tags        BDD
+Test Tags         BDD
 Resource          resource.resource
 
 *** Test Cases ***

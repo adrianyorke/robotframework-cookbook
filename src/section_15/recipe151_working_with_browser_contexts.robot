@@ -11,7 +11,7 @@ Documentation    CONTEXT:
 ...              $ pip install -U robotframework-browser
 ...              $ rfbrowser init
 Library          Browser
-Force Tags       no-ci-testing
+Test Tags        no-ci-testing
 
 *** Variables ***
 ${recipe}         Recipe 15.1 Working With Browser Contexts

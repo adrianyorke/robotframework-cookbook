@@ -13,7 +13,7 @@ Documentation    CONTEXT:
 ...              $ rfbrowser init
 Library          Collections
 Library          Browser
-Force Tags       no-ci-testing
+Test Tags        no-ci-testing
 
 *** Variables ***
 ${recipe}         Recipe 9.3 Working With Browser Library

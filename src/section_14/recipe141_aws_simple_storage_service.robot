@@ -14,7 +14,7 @@ Documentation     CONTEXT:
 ...               AWS_SECRET_ACCESS_KEY
 Suite Teardown    Delete All Sessions
 Library           AWSLibrary
-Force Tags        no-ci-testing
+Test Tags         no-ci-testing
 
 *** Variables ***
 ${recipe}         Recipe 14.1 AWS Simple Storage Service

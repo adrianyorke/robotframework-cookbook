@@ -22,7 +22,7 @@ Library           OperatingSystem    WITH NAME    OS
 
 Suite Setup       Open Connection And Log In
 Suite Teardown    SSH.Close All Connections
-Force Tags        no-ci-testing
+Test Tags         no-ci-testing
 
 *** Variables ***
 ${recipe}         Recipe 11.2 Retrieve Output File Of SSH Run Command

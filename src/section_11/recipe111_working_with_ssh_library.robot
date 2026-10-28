@@ -16,7 +16,7 @@ Documentation     CONTEXT:
 Library           SSHLibrary
 Suite Setup       Open Connection And Log In
 Suite Teardown    Close All Connections
-Force Tags        no-ci-testing
+Test Tags         no-ci-testing
 
 *** Variables ***
 ${recipe}         Recipe 11.1 Working With SSH Library

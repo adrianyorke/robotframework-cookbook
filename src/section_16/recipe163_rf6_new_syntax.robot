@@ -12,7 +12,7 @@ Documentation    CONTEXT:
 ...              - AS is the new way to import a library with an alias.
 ...              # Deprecated in RF 6.0:    Import Library    Collections    WITH NAME    C
 ...              Import Library    Collections    AS    C
-...              - The Force Tags setting has been renamed to Test Tags.
+...              - The Test Tags setting was introduced in Robot Framework 6.
 ...              This recipe uses Test Tags for the py3.11 and py3.12 tags.
 ...              - Keyword Tags is a new setting which tags all keywords in
 ...              the suite file or a resource file.  It is used in this

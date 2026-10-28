@@ -3,7 +3,7 @@ Documentation     A test suite with tests for long-term (Surface) parking.
 Suite Setup       Open ParkCalc
 Suite Teardown    Close Browser
 Test Setup        Input Parking Lot    Long-Term Surface Parking
-Force Tags        KDT
+Test Tags         KDT
 Resource          resource.resource
 
 *** Test Cases ***

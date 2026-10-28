@@ -2,7 +2,7 @@
 Documentation     A test suite with functional tests for ParkCalc in a data-driven format.
 Suite Setup       Open Park Calc Page
 Suite Teardown    Close Browser
-Force Tags        DDT
+Test Tags         DDT
 Resource          resource.resource
 
 *** Variables ***

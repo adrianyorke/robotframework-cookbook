@@ -23,7 +23,7 @@ Library           Collections
 Test Template     Click And Wait
 Suite Setup       Configure SeleniumTestability
 Test Teardown     Close All Browsers
-Force Tags        no-ci-testing
+Test Tags         no-ci-testing
 
 *** Variables ***
 ${recipe}         Recipe 13.1 Selenium Setup

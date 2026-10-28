@@ -3,7 +3,7 @@ Documentation     A test suite with functional tests for ParkCalc in a keyword-d
 Suite Setup       Open ParkCalc
 Suite Teardown    Close Browser
 Test Setup        Input Parking Lot    Short-Term Parking
-Force Tags        KDT
+Test Tags         KDT
 Resource          resource.resource
 
 *** Test Cases ***

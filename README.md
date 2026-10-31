@@ -131,6 +131,7 @@ For more information see the [Robot Framework User Guide](https://robotframework
    * [Recipe 8.1 - Working With JSON](src/section_08/recipe081_working_with_json.robot)<br>
    * [Recipe 8.2 - Working With YAML](src/section_08/recipe082_working_with_yaml.robot)<br>
    * [Recipe 8.3 - Working With CSV](src/section_08/recipe083_working_with_csv.robot)<br>
+   * [Recipe 8.4 - Working With XML](src/section_08/recipe084_working_with_xml.robot)<br>
 9. External Library - REST API
    * [Recipe 9.1 - Working With Requests Library](src/section_09/recipe091_working_with_requests_library.robot)<br>
    * [Recipe 9.2 - Working With RESTinstance Library](src/section_09/recipe092_working_with_rest_library.robot)<br>

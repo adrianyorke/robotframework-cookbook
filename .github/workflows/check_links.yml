@@ -1,16 +1,16 @@
-name: Links
+name: Check Links
 
 on:
   workflow_dispatch:
 
 jobs:
   check-links:
-    name: Check all links in text files
+    name: Check links in text files
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Check all links in text files
+      - name: Check links in text files using lychee
         uses: lycheeverse/lychee-action@v2
         with:
           # lychee skips hidden files/dirs (e.g. .all-contributorsrc, .github) by default,

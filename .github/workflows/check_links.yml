@@ -1,0 +1,20 @@
+name: Links
+
+on:
+  workflow_dispatch:
+
+jobs:
+  check-links:
+    name: Check all links in text files
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Check all links in text files
+        uses: lycheeverse/lychee-action@v2
+        with:
+          # lychee skips hidden files/dirs (e.g. .all-contributorsrc, .github) by default,
+          # which satisfies the requirement to ignore files starting with a dot.
+          # --exclude-loopback/--exclude-private avoid false failures on local URLs.
+          # Exit code 0 means all links are valid; exit code 2 means broken links were found.
+          args: --verbose --no-progress --exclude-loopback --exclude-private .

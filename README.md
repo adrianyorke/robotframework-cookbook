@@ -42,7 +42,7 @@ Robocop can be installed using pip:
 
 [Issues](https://github.com/adrianyorke/robotframework-cookbook/issues) are welcome and you can use them to post ideas for new recipes or report bugs and other observations for exisiting recipes. All contributions, human and AI, must be linked to a relevant [Issue](https://github.com/adrianyorke/robotframework-cookbook/issues).
 
-For larger submissions simply clone this repository, create a feature branch (or work directly on master) and submit a pull request to merge your branch.  If you are not comfortable with Git workflow then simply post your submission on the [#cookbook](https://app.slack.com/client/T07PJQ9S7/CU5RQ87K3) Slack channel and I will help you publish your recipe or case study.
+For larger submissions simply clone this repository, create a feature branch (or work directly on master) and submit a pull request to merge your branch. If you are not comfortable with Git workflow then simply contact the maintainer of this project via email at [adrianyorke@gmail.com](mailto:adrianyorke@gmail.com) and I will help you publish your recipe or case study.
 
 ## Installation and Usage
 

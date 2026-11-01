@@ -1,3 +1,13 @@
+# .lycheeignore
+#
+# Lychee reads this file from the project root and excludes the URLs listed
+# below from being checked. Every non-empty line that does not start with `#`
+# is treated as a regular expression for the URL (or e-mail address) to skip.
+#
+# See the "Permanently Excluding Links" section for more information:
+# https://lychee.cli.rs/recipes/excluding-links/#permanently-excluding-links
+
+https://github.com/adrianyorke/robotframework-cookbook/stargazers
 http://szabolcstoth.eu/
 https://github.com/tuxmux28
 https://medium.com/@joonasvenlinen

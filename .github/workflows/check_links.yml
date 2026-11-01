@@ -1,10 +1,7 @@
 name: Links
 
 on:
-  push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
+  workflow_dispatch:
 
 jobs:
   check-links:

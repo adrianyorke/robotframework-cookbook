@@ -32,13 +32,15 @@ In the first part of the cookbook there are many simple recipes showing how to u
 ## Notes for contributors
 Contributions from the wider community are most welcome!  Contributions can be either single recipes or whole case studies.
 
+We welcome pull requests from both human and AI contributors.  AI generated pull requests are welcome, but AI slop is not, so please make sure you follow the instructions and test all changes locally before submitting.
+
 We recommend using [Robotidy](https://robotidy.readthedocs.io/en/latest/) to help standardise the format of the Robot Framework code.
 
 We also recommend using the [Robot Framework Robocop](https://github.com/MarketSquare/robotframework-robocop) static analysis tool to check your scripts are clean before submission.
 Robocop can be installed using pip:
 > $ python -m pip install -U robotframework-robocop
 
-[Issues](https://github.com/adrianyorke/robotframework-cookbook/issues) are welcome and you can use them to post ideas for new recipes or report bugs and other observations for exisiting recipes.
+[Issues](https://github.com/adrianyorke/robotframework-cookbook/issues) are welcome and you can use them to post ideas for new recipes or report bugs and other observations for exisiting recipes. All contributions, human and AI, must be linked to a relevant [Issue](https://github.com/adrianyorke/robotframework-cookbook/issues).
 
 For larger submissions simply clone this repository, create a feature branch (or work directly on master) and submit a pull request to merge your branch.  If you are not comfortable with Git workflow then simply post your submission on the [#cookbook](https://app.slack.com/client/T07PJQ9S7/CU5RQ87K3) Slack channel and I will help you publish your recipe or case study.
 

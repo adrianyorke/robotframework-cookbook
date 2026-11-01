@@ -8,7 +8,7 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-16-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 [![Actions Status](https://github.com/adrianyorke/robotframework-cookbook/workflows/Continuous%20integration/badge.svg)](https://github.com/adrianyorke/robotframework-cookbook/actions)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/license/MIT)
 [![code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/adrianyorke)
 [![GitHub last commit](https://img.shields.io/github/last-commit/adrianyorke/robotframework-cookbook.svg)](https://github.com/adrianyorke/robotframework-cookbook/commits)
@@ -73,7 +73,7 @@ robot --version
 After confirming Robot Framework installation was a success, clone the [Robot Framework Cookbook](https://github.com/adrianyorke/robotframework-cookbook) repository by running the following command:
 
 ```bash
-git clone https://github.com/adrianyorke/robotframework-cookbook.git
+git clone https://github.com/adrianyorke/robotframework-cookbook
 ```
 
 Once the repository has been cloned, you can install relevant libraries by navigating to the tests folder and running:
@@ -162,14 +162,14 @@ For more information see the [Robot Framework User Guide](https://robotframework
 10. External Library - [Database Library](https://pypi.org/project/robotframework-databaselibrary/)
     * [Recipe 10.1 - Working With Databases](src/section_10/recipe101_working_with_databases.robot)
     * [Recipe 10.2 - Hacking Database View](src/section_10/recipe102_hacking_database_view.robot)
-11. External Library - [SSH](https://github.com/robotframework/SSHLibrary)
+11. External Library - [SSH](https://github.com/MarketSquare/SSHLibrary)
     * [Recipe 11.1 - Working With SSH](src/section_11/recipe111_working_with_ssh_library.robot)
     * [Recipe 11.2 - Retrieve Output from SSH Run Command](src/section_11/recipe112_retrieve_output_file_of_ssh_run_command.robot)
 12. External Library - [Parallel executor for Robot Framework test cases (pabot)](https://github.com/mkorpela/pabot)
     * [Recipe 12.1 - Running Tests in Parallel](src/section_12/recipe121_running_tests_in_parallel.robot)
 13. External Library - [SeleniumLibrary](https://github.com/robotframework/seleniumlibrary) and [SeleniumTestability](https://github.com/rasjani/robotframework-seleniumtestability)
     * [Recipe 13.1 - SeleniumLibrary & SeleniumTestability setup](src/section_13/recipe131_selenium_setup.robot)
-14. External Library - [AWSLibrary - for interacting with Amazon Web Services (AWS) Cloud Computing Services](https://github.com/teaglebuilt/robotframework-aws)
+14. External Library - [AWSLibrary - for interacting with Amazon Web Services (AWS) Cloud Computing Services](https://github.com/MarketSquare/robotframework-aws)
     * [Recipe 14.1 - AWS Simple Storage Service (S3)](src/section_14/recipe141_aws_simple_storage_service.robot)
 15. External Library - [Robot Framework Browser library powered by Playwright.](https://github.com/MarketSquare/robotframework-browser)
     * [Recipe 15.1 - Working With Browser Contexts](src/section_15/recipe151_working_with_browser_contexts.robot)
@@ -186,7 +186,7 @@ For more information see the [Robot Framework User Guide](https://robotframework
 
 ## Contributors ✨
 
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/en/reference/emoji-key)):
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/en/reference/emoji-key/)):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
@@ -195,8 +195,8 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/e
   <tbody>
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/adrianyorke"><img src="https://avatars1.githubusercontent.com/u/30093433?v=4?s=100" width="100px;" alt="Adrian Yorke"/><br /><sub><b>Adrian Yorke</b></sub></a><br /><a href="https://github.com/adrianyorke/robotframework-cookbook/commits?author=adrianyorke" title="Code">💻</a> <a href="https://github.com/adrianyorke/robotframework-cookbook/commits?author=adrianyorke" title="Documentation">📖</a> <a href="#maintenance-adrianyorke" title="Maintenance">🚧</a> <a href="https://github.com/adrianyorke/robotframework-cookbook/pulls?q=is%3Apr+reviewed-by%3Aadrianyorke" title="Reviewed Pull Requests">👀</a></td>
-      <td align="center" valign="top" width="14.28%"><a href="http://www.tompurl.com"><img src="https://avatars1.githubusercontent.com/u/588713?v=4?s=100" width="100px;" alt="Tom Purl"/><br /><sub><b>Tom Purl</b></sub></a><br /><a href="https://github.com/adrianyorke/robotframework-cookbook/commits?author=tompurl" title="Code">💻</a> <a href="https://github.com/adrianyorke/robotframework-cookbook/commits?author=tompurl" title="Documentation">📖</a></td>
-      <td align="center" valign="top" width="14.28%"><a href="http://szabolcstoth.eu"><img src="https://avatars3.githubusercontent.com/u/1639751?v=4?s=100" width="100px;" alt="Szabolcs Tóth"/><br /><sub><b>Szabolcs Tóth</b></sub></a><br /><a href="https://github.com/adrianyorke/robotframework-cookbook/commits?author=szabolcstoth" title="Code">💻</a> <a href="https://github.com/adrianyorke/robotframework-cookbook/commits?author=szabolcstoth" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://blog.tompurl.com/"><img src="https://avatars1.githubusercontent.com/u/588713?v=4?s=100" width="100px;" alt="Tom Purl"/><br /><sub><b>Tom Purl</b></sub></a><br /><a href="https://github.com/adrianyorke/robotframework-cookbook/commits?author=tompurl" title="Code">💻</a> <a href="https://github.com/adrianyorke/robotframework-cookbook/commits?author=tompurl" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://szabolcstoth.eu/"><img src="https://avatars3.githubusercontent.com/u/1639751?v=4?s=100" width="100px;" alt="Szabolcs Tóth"/><br /><sub><b>Szabolcs Tóth</b></sub></a><br /><a href="https://github.com/adrianyorke/robotframework-cookbook/commits?author=szabolcstoth" title="Code">💻</a> <a href="https://github.com/adrianyorke/robotframework-cookbook/commits?author=szabolcstoth" title="Documentation">📖</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://rasjani.github.io"><img src="https://avatars3.githubusercontent.com/u/27887?v=4?s=100" width="100px;" alt="Jani Mikkonen"/><br /><sub><b>Jani Mikkonen</b></sub></a><br /><a href="https://github.com/adrianyorke/robotframework-cookbook/commits?author=rasjani" title="Code">💻</a> <a href="https://github.com/adrianyorke/robotframework-cookbook/commits?author=rasjani" title="Documentation">📖</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/bhirsz"><img src="https://avatars3.githubusercontent.com/u/8532066?v=4?s=100" width="100px;" alt="Bartłomiej Hirsz"/><br /><sub><b>Bartłomiej Hirsz</b></sub></a><br /><a href="https://github.com/adrianyorke/robotframework-cookbook/commits?author=bhirsz" title="Code">💻</a> <a href="https://github.com/adrianyorke/robotframework-cookbook/commits?author=bhirsz" title="Documentation">📖</a> <a href="#maintenance-bhirsz" title="Maintenance">🚧</a> <a href="https://github.com/adrianyorke/robotframework-cookbook/pulls?q=is%3Apr+reviewed-by%3Abhirsz" title="Reviewed Pull Requests">👀</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/tuxmux28"><img src="https://avatars1.githubusercontent.com/u/2794048?v=4?s=100" width="100px;" alt="Christoph"/><br /><sub><b>Christoph</b></sub></a><br /><a href="https://github.com/adrianyorke/robotframework-cookbook/commits?author=tuxmux28" title="Code">💻</a> <a href="https://github.com/adrianyorke/robotframework-cookbook/commits?author=tuxmux28" title="Documentation">📖</a></td>
@@ -223,4 +223,4 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/e
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+This project follows the [all-contributors](https://github.com/all-contributors/allcontributors.org) specification. Contributions of any kind welcome!

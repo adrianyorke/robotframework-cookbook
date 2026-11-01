@@ -9,7 +9,7 @@ refactor and develop keyword-based tests with Robot Framework.
 > Note: It is expected that some of test suites will fail.  As an exercise, you should investigate
 > the failing tests and try to determine why they are failing.
 
-The resource files in this project all default to firefox browser.  If you prefer to use Chrome then edit the variables section and [download the relevant chromedriver](https://chromedriver.chromium.org/downloads):
+The resource files in this project all default to firefox browser.  If you prefer to use Chrome then edit the variables section and [download the relevant chromedriver](https://developer.chrome.com/docs/chromedriver/downloads):
 ```
 *** Variables ***
 ${BROWSER}        chrome
@@ -30,7 +30,7 @@ for your automated tests.
 
 ### Parking Rates
 As an oracle for your automated, use the rates mentioned on the [official
-website](https://www.grr.org/parking-rates)
+website](https://www.grr.org/parking-services)
 
 ## 3. Sample solutions for different testing approaches:
 * [Behavior-Driven Development (BDD)](ParkCalc/BDD) (Given-When-Then format)

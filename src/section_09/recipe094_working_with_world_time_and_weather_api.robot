@@ -23,14 +23,14 @@ ${category}       External Library: RequestsLibrary
 
 *** Test Cases ***
 Get Index
-    Create Session    worldtimeweather    https://worldtimeweather.com/api/v1
+    Create Session    worldtimeweather    https://worldtimeweather.com/api/v1    verify=True
     ${response} =    GET On Session    worldtimeweather    /index.json
     Should Be Equal As Strings    ${response.status_code}    200
     ${version} =    Evaluate    $response.json()['version']
     Should Be Equal    ${version}    v1
 
 Get City
-    Create Session    worldtimeweather    https://worldtimeweather.com/api/v1
+    Create Session    worldtimeweather    https://worldtimeweather.com/api/v1    verify=True
     ${response} =    GET On Session    worldtimeweather    /city/helsinki.json
     Should Be Equal As Strings    ${response.status_code}    200
     ${time} =    Evaluate    $response.json()['time']
@@ -40,7 +40,7 @@ Get City
     Dictionary Should Contain Key    ${weather}    temperature_c
 
 Get Cities
-    Create Session    worldtimeweather    https://worldtimeweather.com/api/v1
+    Create Session    worldtimeweather    https://worldtimeweather.com/api/v1    verify=True
     ${response} =    GET On Session    worldtimeweather    /cities.json
     Should Be Equal As Strings    ${response.status_code}    200
     ${cities} =    Evaluate    $response.json()['data']
@@ -49,7 +49,7 @@ Get Cities
     Should Be Equal    ${slug}    helsinki
 
 Get Timezones
-    Create Session    worldtimeweather    https://worldtimeweather.com/api/v1
+    Create Session    worldtimeweather    https://worldtimeweather.com/api/v1    verify=True
     ${response} =    GET On Session    worldtimeweather    /timezones.json
     Should Be Equal As Strings    ${response.status_code}    200
     ${timezones} =    Evaluate    $response.json()['data']

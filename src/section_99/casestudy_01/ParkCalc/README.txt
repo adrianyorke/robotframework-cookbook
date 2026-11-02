@@ -1,5 +1,5 @@
-Contents of https://github.com/mgaertne/ParkCalc.git
-Found from http://www.shino.de/2010/07/06/parkcalc-automation-templates-for-data-driven-tests/
+Contents of https://github.com/mgaertne/ParkCalc
+Found from https://www.shino.de/2010/07/06/parkcalc-automation-templates-for-data-driven-tests/
 Adapted by Hélio Guilherme on August 2016
 -----
 Original README file below:

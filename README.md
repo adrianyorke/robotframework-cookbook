@@ -42,9 +42,7 @@ Contributions from the wider community are most welcome! Contributions can be ei
 
 We welcome pull requests from both human and AI contributors. AI generated pull requests are welcome, but AI slop is not, so please make sure you follow the instructions and test all changes locally before submitting.
 
-We recommend using [Robotidy](https://robotidy.readthedocs.io/en/latest/) to help standardise the format of the Robot Framework code.
-
-We also recommend using the [Robot Framework Robocop](https://github.com/MarketSquare/robotframework-robocop) static analysis tool to check your scripts are clean before submission.
+We recommend using [Robocop](https://github.com/MarketSquare/robotframework-robocop) (Robotidy is integrated into Robocop as of 6.0) to standardise Robot Framework code and check that scripts are clean before submission.
 
 Robocop can be installed using pip:
 

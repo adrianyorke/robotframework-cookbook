@@ -14,7 +14,7 @@ Documentation    CONTEXT:
 ...              https://github.com/adrianyorke/robotframework-cookbook/issues/188
 Library          Collections
 Library          RequestsLibrary
-Test Tags        no-ci-testing
+Test Tags        py3.11    py3.12
 
 *** Variables ***
 ${recipe}         Recipe 9.4 Working With World Time And Weather API

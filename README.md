@@ -157,6 +157,7 @@ For more information see the [Robot Framework User Guide](https://robotframework
    * [Recipe 9.1 - Working With Requests Library](src/section_09/recipe091_working_with_requests_library.robot)
    * [Recipe 9.2 - Working With RESTinstance Library](src/section_09/recipe092_working_with_rest_library.robot)
    * [Recipe 9.3 - Working With Browser Library](src/section_09/recipe093_working_with_browser_library.robot)
+   * [Recipe 9.4 - Working With World Time And Weather API](src/section_09/recipe094_working_with_world_time_and_weather_api.robot)
 10. External Library - [Database Library](https://pypi.org/project/robotframework-databaselibrary/)
     * [Recipe 10.1 - Working With Databases](src/section_10/recipe101_working_with_databases.robot)
     * [Recipe 10.2 - Hacking Database View](src/section_10/recipe102_hacking_database_view.robot)

@@ -179,9 +179,11 @@ For more information see the [Robot Framework User Guide](https://robotframework
     * [Recipe 16.4 - Robot Framework 7 - New Syntax](src/section_16/recipe164_rf7_new_syntax.robot)
 17. External Library - [Faker](https://github.com/MarketSquare/robotframework-faker)
     * [Recipe 17.1 - Faker Basic Tests](src/section_17/recipe171_faker_basic_tests.robot)
-18. Case Studies
-    * [Case Study 01 - Regression Testing Gerald Ford International Airport (GFIA) Parking Lot Calculation Tool](src/section_99/casestudy_01/README.md)
-    * [Case Study 02 - Transcoding video library to a contemporary format suitable for all play back devices, e.g. mp4 or mkv](src/section_99/casestudy_02/README.md)
+18. Working With Resource Files
+    * [Recipe 18.1 - Working With Resource Files](src/section_18/recipe181_working_with_resource_files.robot)
+19. Case Studies
+    * [Case Study 01 - Regression Testing Gerald Ford International Airport (GFIA) Parking Lot Calculation Tool](src/section_19/casestudy_01/README.md)
+    * [Case Study 02 - Transcoding video library to a contemporary format suitable for all play back devices, e.g. mp4 or mkv](src/section_19/casestudy_02/README.md)
 
 ## Contributors ✨
 

@@ -14,24 +14,25 @@ Documentation    CONTEXT:
 ...              these in your test cases without needing to create lower level library keywords
 ...              using Java or Python.
 ...              SEE ALSO:
+...              Resource files documentation: https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html#resource-files
 ...              BuiltIn library also has keywords for creating lists and dictionaries, checking
 ...              length or count and checking membership or equality.
 Library          Collections
-Resource          resource.resource
+Resource         resource.resource
 Test Tags        py3.11    py3.12
 
 *** Variables ***
-${recipe}         Recipe 18.1 Working With Resource Files
-${level}          Beginner
-${category}       Internal Library: Collections
+${recipe}        Recipe 18.1 Working With Resource Files
+${level}         Intermediate
+${category}      Internal Library: Collections
 
 *** Test Cases ***
 Lists Lists Lists
-   ${list} =    Create List    a    b    c
+   ${list} =          Create List    a    b    c
    @{also_list} =     Set Variable   a   b   c
-   Eat One List      ${also_list}
-   Eat Many Values   @{list}
-   Eat Many Values   d   e   @{also_list}
-   ${a} =    Create List    a
-   @{bc} =    Set Variable    b    c
-   Log ABC    ${a}    @{bc}
+   Eat One List       ${also_list}
+   Eat Many Values    @{list}
+   Eat Many Values    d   e   @{also_list}
+   ${a} =             Create List    a
+   @{bc} =            Set Variable    b    c
+   Log ABC            ${a}    @{bc}

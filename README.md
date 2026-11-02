@@ -5,7 +5,7 @@
 # Robot Framework Cookbook
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-16-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-17-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 [![Actions Status](https://github.com/adrianyorke/robotframework-cookbook/workflows/Continuous%20integration/badge.svg)](https://github.com/adrianyorke/robotframework-cookbook/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/license/MIT)
@@ -214,6 +214,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/e
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/ChinoUkaegbu"><img src="https://avatars.githubusercontent.com/u/77782533?v=4?s=100" width="100px;" alt="ChinoUkaegbu"/><br /><sub><b>ChinoUkaegbu</b></sub></a><br /><a href="https://github.com/adrianyorke/robotframework-cookbook/commits?author=ChinoUkaegbu" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/dajiaohuang"><img src="https://avatars.githubusercontent.com/u/108231307?v=4?s=100" width="100px;" alt="Wu Shuwen"/><br /><sub><b>Wu Shuwen</b></sub></a><br /><a href="#maintenance-dajiaohuang" title="Maintenance">🚧</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/ShahadatTest"><img src="https://avatars.githubusercontent.com/u/179203101?v=4?s=100" width="100px;" alt="ShahadatTest"/><br /><sub><b>ShahadatTest</b></sub></a><br /><a href="https://github.com/adrianyorke/robotframework-cookbook/commits?author=ShahadatTest" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>

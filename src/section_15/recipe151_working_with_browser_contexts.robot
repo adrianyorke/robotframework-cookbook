@@ -23,20 +23,20 @@ ${category}       External Library: Browser
 Context with Geolocation set to Helsinki
     New Context            geolocation={'latitude': 60.1698, 'longitude': 24.9386}    permissions=${permissions}    ignoreHTTPSErrors=True
     New Page               https://www.openstreetmap.org/
+    Wait For Load State    networkidle    timeout=10s
     Click                  span.icon.geolocate
-    Wait For Load State    domcontentloaded    timeout=10s
     Take Screenshot
 
 Context with Geolocation set to Sydney
     New Context            geolocation={'latitude': -33.8675, 'longitude': 151.207}    permissions=${permissions}    ignoreHTTPSErrors=True
     New Page               https://www.openstreetmap.org/
+    Wait For Load State    networkidle    timeout=10s
     Click                  span.icon.geolocate
-    Wait For Load State    domcontentloaded    timeout=10s
     Take Screenshot
 
 Context with no Geolocation Permission
     New Context
     New Page               https://www.openstreetmap.org/
+    Wait For Load State    networkidle    timeout=10s
     Click                  span.icon.geolocate
-    Wait For Load State    domcontentloaded    timeout=10s
     Take Screenshot

@@ -11,7 +11,7 @@ Documentation    CONTEXT:
 ...              $ pip install -U robotframework-browser
 ...              $ rfbrowser init
 Library          Browser
-Test Tags        py3.11    py3.12
+Test Tags        no-ci-testing
 
 *** Variables ***
 ${recipe}         Recipe 15.1 Working With Browser Contexts

@@ -10,5 +10,5 @@ robotframework-seleniumlibrary
 robotframework-seleniumtestability
 webdriver-manager
 robotframework-aws
-robotframework-browser
+robotframework-browser==20.6.0
 robotframework-faker

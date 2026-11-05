@@ -11,32 +11,30 @@ Documentation    CONTEXT:
 ...              $ pip install -U robotframework-browser
 ...              $ rfbrowser init
 Library          Browser
-Test Tags        no-ci-testing
+Test Tags        py3.11    py3.12
 
 *** Variables ***
 ${recipe}         Recipe 15.1 Working With Browser Contexts
 ${level}          Intermediate
 ${category}       External Library: Browser
 @{permissions}    geolocation
+${geolocate}      div.control-locate a
 
 *** Test Cases ***
 Context with Geolocation set to Helsinki
-    New Context            geolocation={'latitude': 60.1698, 'longitude': 24.9386}    permissions=${permissions}    ignoreHTTPSErrors=True
-    New Page               https://www.openstreetmap.org/
-    Click                  span.icon.geolocate
-    Wait For Load State    networkidle    timeout=10s
+    New Context    geolocation={'latitude': 60.1698, 'longitude': 24.9386}    permissions=${permissions}    ignoreHTTPSErrors=True
+    New Page       https://www.openstreetmap.org/
+    Click          ${geolocate}
     Take Screenshot
 
 Context with Geolocation set to Sydney
-    New Context            geolocation={'latitude': -33.8675, 'longitude': 151.207}    permissions=${permissions}    ignoreHTTPSErrors=True
-    New Page               https://www.openstreetmap.org/
-    Click                  span.icon.geolocate
-    Wait For Load State    networkidle    timeout=10s
+    New Context    geolocation={'latitude': -33.8675, 'longitude': 151.207}    permissions=${permissions}    ignoreHTTPSErrors=True
+    New Page       https://www.openstreetmap.org/
+    Click          ${geolocate}
     Take Screenshot
 
 Context with no Geolocation Permission
     New Context
-    New Page               https://www.openstreetmap.org/
-    Click                  span.icon.geolocate
-    Wait For Load State    networkidle    timeout=10s
+    New Page       https://www.openstreetmap.org/
+    Click          ${geolocate}
     Take Screenshot
